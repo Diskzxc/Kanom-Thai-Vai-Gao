@@ -1,0 +1,245 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Kodchasan', sans-serif;
+    overflow-y: hidden;
+}
+.menu{
+    position: fixed;
+    right: 1vw;
+    top: 2vw;
+    width: 3vw;
+    z-index: 100;
+}
+.menu:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out; 
+}
+.top_container {
+    width: 100vw;
+    height: 100%;
+    background-color: #b7d9db;
+}
+.middle_container {
+    background-color: #f3f3e5; 
+    width: 100vw; 
+    text-align: center; 
+    height: 250vw;
+}
+.buttom_container{
+    background-color: white; 
+    width: 100vw; 
+    height: 100vw;
+    position: relative;
+
+}
+.box1 {
+    width: 100vw;
+    height: 100%;
+    color: #548a71;
+    position: relative;
+}
+.open_text {
+    top: 7vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.logo {
+    position: absolute;
+    width: 8vw;
+    top: 5%;
+    left: 4vw;
+}
+.shelf{
+    text-align: center;
+}
+.tong{
+    position: absolute;
+    z-index: 2;
+    top : 46.8%;
+    left: 46.8%;
+}
+
+.tong:hover {
+    cursor: pointer;
+}
+.start_btn:hover{
+    cursor: pointer;
+}
+.text_box {
+    position: absolute;
+}
+
+h1 {
+    font-size: 1.35vw;
+}
+
+.show {
+    animation-fill-mode: forwards;
+    animation-name: show_text;
+    animation-duration: 6s;
+    opacity: 0;
+}
+
+#text1 {
+    animation-delay: 1s;
+}
+
+#text2 {
+    animation-delay: 6s;
+}
+
+#text3 {
+    animation-delay: 11s;
+}
+
+#text4 {
+    animation-delay: 16s;
+}
+
+#text5 {
+    animation-delay: 20s;
+}
+
+#text6 {
+    animation-delay: 23s;
+    animation-duration: 4s;
+}
+
+@keyframes show_text {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    70% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.scroll {
+    width: 6%;
+    position: absolute;
+    top: 20%;
+    left: 47.5%;
+    opacity: 0;
+    animation-name: show_scroll;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 26s;
+}
+
+@keyframes show_scroll {
+    0% {opacity: 0; transform: translateY(0%);}
+    100% {opacity: 1; transform: translateY(10%);}
+}
+@keyframes fly {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(12.5%);}
+    100% {transform: translateY(0%);}
+}
+@keyframes dukdik {
+    0% {transform: rotateZ(0deg);}
+    25% {transform: rotateZ(5deg);}
+    50% {transform: rotateZ(10deg);}
+    75% {transform: rotateZ(5deg);}
+    100% {transform: rotateZ(0deg);}
+}
+
+.scroll:hover {
+    cursor: pointer;
+}
+.star{
+    animation-name: fly;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;    
+}
+.star2{
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;    
+}
+.logo_big{
+    animation-name: dukdik;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;    
+}
+.box2{
+    position: relative;
+    background-image: url("https://cdn.discordapp.com/attachments/1031106164836020260/1031122400886136882/Line_Bg_Repeat_pattern.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 70%;
+    height: 100%;
+    color: #548a71;
+}
+
+.box3{
+    width: 100vw;
+    height: 100%;
+    color: #ffffff;
+    position: relative;
+}
+.phase1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.phase2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/** Footer **/
+    .footer_style {
+    color: rgb(69, 125, 98);
+    background-color: rgb(148, 234, 234);
+    height: 7.5vw;
+    width: 100vw;
+    position: relative;
+}
+
+.footer_tbox {
+    position: absolute;
+    top: 2vw;
+    left: 18vw;
+    font-size: 1vw;
+}
+
+.logo_footer {
+    width: 5vw;
+    position: absolute;
+}
+.angel{
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+.tong_bot{
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+.mirror_left{
+    animation-name: fly;
+    animation-duration: 7s;
+    animation-iteration-count: infinite; 
+}
+.mirror_right{
+    animation-name: fly;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; 
+}
+.mirror_star{
+    animation-name: fly;
+    animation-duration: 7s;
+    animation-iteration-count: infinite; 
+}
+.mirror_back{
+    animation-name: fly;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+}

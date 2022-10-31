@@ -1,0 +1,174 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #a7ebe7;
+    color: rgb(69, 125, 98);
+    overflow-x: hidden;
+}
+
+.el_pos {
+    position: absolute;
+}
+
+/** Block ที่ 1 **/
+
+.top_container {
+    width: 100vw;
+    height: 390vw;
+}
+
+.block1 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+
+.t_font {
+    font-size: 1.3vw;
+}
+
+.text_box0 {
+    left: 28%;
+    top: 288vw;
+}
+
+.text5 {
+    font-size: 1.8vw;
+    left: 39.5%;
+    top: 294.5vw;
+}
+
+.text_box1 {
+    left: 40%;
+    top: 105vw;
+}
+
+.text4 {
+    text-align: center;
+    font-size: 1.8vw;
+    left: 45.5%;
+    top: 106.5vw;
+}
+
+.text_box2 {
+    left: 53%;
+    top: 65vw;
+}
+
+.text3 {
+    left: 55%;
+    top: 66.8vw;
+}
+
+.text_box3 {
+    left: 31.5%;
+    top: 36vw;
+}
+
+.text2 {
+    left: 33.5%;
+    top: 37vw;
+}
+
+.text_box4 {
+    left: 24%;
+    top: 25vw;
+}
+
+.text1 {
+    left: 26%;
+    top: 26vw;
+}
+
+.text_box5 {
+    left: 28%;
+    top: 15vw;
+}
+
+.text0 {
+    left: 30%;
+    top: 16vw;
+}
+
+.prop0 {
+    left: -12%;
+    top: 28vw;
+}
+
+.prop1 {
+    left: -5%;
+    top: 75vw;
+}
+
+.prop2 {
+    left: 48%;
+    top: 30vw;
+}
+
+.prop3 {
+    left: 21%;
+    top: 63vw;
+}
+
+.prop4 {
+    left: 19%;
+    top: 95vw;
+}
+
+.prop5 {
+    left: -1%;
+    top: 133vw;
+}
+
+.prop6 {
+    left: 16%;
+    top: 195.5vw;
+}
+
+.text6 {
+    text-align: center;
+    font-size: 1.3vw;
+    color: white;
+    left: 32%;
+    top: 210vw;
+}
+
+.prop7 {
+    left: -5%;
+    top: 242vw;
+}
+
+.prop8 {
+    left: -11%;
+    bottom: 0vw;
+}
+
+.text7 {
+    text-align: center;
+    font-size: 1.8vw;
+    left: 34.5%;
+    bottom: 48vw;
+}
+
+/** Footer **/
+.footer_style {
+    color: rgb(69, 125, 98);
+    background-color: rgb(148, 234, 234);
+    bottom: 0vw;
+    height: 7.5vw;
+    width: 100vw;
+    position: relative;
+}
+
+.footer_tbox {
+    position: absolute;
+    top: 2vw;
+    left: 18vw;
+    font-size: 1vw;
+}
+
+.logo_footer {
+    width: 5vw;
+    position: absolute;
+}
