@@ -1,25 +1,5 @@
 <style>
     
-    /** Footer **/
-        .footer_style {
-        color: rgb(69, 125, 98);
-        background-color: rgb(148, 234, 234);
-        height: 7.5vw;
-        width: 100vw;
-        position: relative;
-    }
-
-    .footer_tbox {
-        position: absolute;
-        top: 2vw;
-        left: 18vw;
-        font-size: 1vw;
-    }
-
-    .logo_footer {
-        width: 5vw;
-        position: absolute;
-    }
    
     /* CSS ช่วง 1 */
     .top_container {
