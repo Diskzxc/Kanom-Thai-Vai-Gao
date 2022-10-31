@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1031106164836020260/1031122404606492752/Asset_31.png">
+    <title>ขนมไทยวัยเก๋า</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.13"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="EatFourCup_styles.css">
+
+<style>
+    body {
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+        font-family: 'Kodchasan', sans-serif;
+        overflow-y: auto;
+    }
+    .menu{
+        position: fixed;
+        right: 1vw;
+        top: 2vw;
+        width: 3vw;
+        z-index: 100;
+    }
+    .menu:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .2s ease-in-out; 
+    }
+</style>
+<body>
+    <!-- Cover Sukothai-->
+    <div class="container top_container">
+        <div class="row cover_sukothai">
+             <img class="bg_cover"  src="img/EatFourCup/pc/png/bg_cover@2x.png">
+             <div class="kratongwrap_cover">
+                 <img class="kratong_cover"  src="img/EatFourCup/pc/png/กระทง@2x.png">
+             </div>
+             <img class="tongyord_cover"  src="img/EatFourCup/pc/png/น้องบนปกสุโขทัย@2x.png">
+             <img class="star_cover_1"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
+             <img class="star_cover_2"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
+             <img class="star_cover_3"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
+             <img class="title_logo_cover"  src="img/EatFourCup/pc/png/ยุดสุโขทัย desktop@2x.png">
+        </div>
+    </div>
+    <!-- 4Cup Intro -->
+    <div class="container middle_container">
+        <div class="row fourcup_intro">
+            <img class="bg_intro"  src="img/EatFourCup/pc/png/เส้นพาดสีชมพู@2x.png">
+            <div data-aos="zoom-in" class="title_intro" style="">
+                <h1 class="title_word_intro">ขนมกินสี่ถ้วย</h1>
+            </div>
+            <img class="logo_intro"  src="img/EatFourCup/pc/png/4ถ้วยบนใบตอง@2x.png">
+            <h1 data-aos="zoom-in" class="text1_word_intro">การกินสี่ถ้วยยังเป็นพิธีกรรมแต่งงานที่มีอยู่ใน<br>แผ่นดินพระร่วงที่มีการสืบทอดการกินสี่ถ้วยมา<br>ตั้งแต่ยุคสุโขทัย ซึ่งในปัจจุบันมีเช่นกันแต่พบได้<br>น้อยมาก ส่วนมากพบบริเวณโดยรอบสุโขทัย อย่าง<br> จังหวัดเพชรบุรี จังหวัดอุตรดิตถ์เป็นต้น
+            </h1>
+            <h1 data-aos="zoom-in" class="text2_word_intro">เมื่อครั้งสมัยสุโขทัยผู้คนในแผ่นดินเดิม ก่อนที่จะ<br>มีการนับถือพระพุทธศาสนา มีความเชื่อเกี่ยวกับ<br>ประเพณีการแต่งงาน คือ การเลี้ยงผีบรรพบุรุษ<br>ของ 2 ตระกูลด้วยของเซ่นไหว้ 4 เตียบ เพื่อให้เป็น<br>ทองแผ่นเดียวกันโดยสมบูรณ์เรียกประเพณีนี้ว่า<br>"กินสี่ถ้วย.
+            </h1>
+            <img data-aos="zoom-in" class="image1_intro"  src="img/EatFourCup/pc/png/ภาพประกอบคน_1@2x.png">
+            <img data-aos="fade-left" class="ghost1_intro"  src="img/EatFourCup/pc/png/ผีฟ้า@2x.png">
+            <img data-aos="fade-right" class="ghost2_intro"  src="img/EatFourCup/pc/png/ผีชมพู@2x.png">
+            <img class="grass_up_intro"  src="img/EatFourCup/pc/png/หญ้า4ส่วน-บน@2x.png">
+            <img class="home_intro"  src="img/EatFourCup/pc/png/เรือนไทย@2x.png">
+            <img class="flower_intro flower1"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower2"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower3"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower4"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower5"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower6"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower7"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="flower_intro flower8"  src="img/EatFourCup/pc/png/ดอกไม้_01@2x.png">
+            <img class="yellow_flower"  src="img/EatFourCup/pc/png/ดอกไม้@2x.png">
+        </div>
+    </div>
+
+    <!-- 4Cup Culture -->
+    <div class="container middle2_container">
+        <div class="row fourcup_phase2">
+            <img class="grass_down_intro"  src="img/EatFourCup/pc/png/หญ้า4ส่วน-ล่าง@2x.png">
+            <img class="curtain_culture"  src="img/EatFourCup/pc/png/ม่านชมพู@2x.png">
+            <img class="floor1_culture"  src="img/EatFourCup/pc/png/แถบแดงเหลือง@2x.png">
+            <img class="floor2_culture"  src="img/EatFourCup/pc/png/แถบเขียวขาว@2x.png">
+            <img class="flower_culture"  src="img/EatFourCup/pc/png/ดอกไม้_02@2x.png">
+            <img data-aos="fade-left" class="textbox_title_cover" src="img/EatFourCup/pc/png/ช่องข้อความ_01.png">
+            <h1 data-aos="fade-left" class="text_title_cover">ประเพณีแต่โบราณ</h1>
+            <h1 data-aos="zoom-in" class="text1_culture">"พิธีไหว้บรรพบุรุษ"</h1>
+            <h1 data-aos="zoom-in" class="text2_culture">โบราณมีความเชื่อว่า ที่อยู่อาศัยนั้นมีผีบ้าน<br>ผีเรือน อีกทั้งเชื่อว่าบรรพบุรุษอันได้แก่ ปู่ย่าตายาย<br>ยังคอยคุ้มครองดูแลถ้าจะทำการใด ๆ จะต้องบอก<br>กล่าวเป็นการขอขมาลาโทษหรือให้รับรู้ว่ามีบุคคลอื่น<br>มาเป็นเขย มาเป็นสะใภ้ จึงจัดพิธีไหว้ผีโดยนำสิ่งของ<br>มาเส้นบวงสรวง ได้แก่ กินสี่ถ้วยนั่นเอง
+            </h1>
+            <img class="image1_culture" src="img/EatFourCup/pc/png/ถาดสองชั้น@2x.png">
+            
+        
+        </div>
+    </div>
+
+     <!-- 4Cup Ingredient + Cut Scene -->
+    <div class="container middle3_container">
+        <div class="row fourcup_ingre">
+            <img class="fivecup_ingre"  src="img/EatFourCup/pc/png/5ถ้วย@2x.png">
+            <img data-aos="fade-down" class="textbox1_ingre"  src="img/EatFourCup/pc/png/ช่องข้อความ_02.png">
+            <h1 data-aos="fade-down" class="text1_ingre">ตามความเชื่อที่ว่าเลี้ยงผีต้องใช้ 4<br>ถ้วย ดังนั้นการจัดสำรับ อาหาร<br>จึงทำเป็น 5 ถ้วยเพื่อให้คนกิน
+            </h1>
+            <img class="cloud1_ingre"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
+            <img class="cloud2_ingre"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
+            <img class="cloud3_ingre"  src="img/EatFourCup/pc/png/เมฆ_02@2x.png">
+            <img class="star1_ingre"  src="img/EatFourCup/pc/png/ดาว_01@2x.png">
+            <img class="star2_ingre"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="star3_ingre"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="star4_ingre"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="tong_ingre"  src="img/EatFourCup/pc/png/น้องทองหยอด@2x.png">
+            <img data-aos="fade-right" class="textbox2_ingre"  src="img/EatFourCup/pc/png/ช่องข้อความ_03.png">
+            <h1 data-aos="fade-right" class="text2_ingre">โห ถ้วยเยอะจัง
+            </h1>
+            <img class="babin_ingre"  src="img/EatFourCup/pc/png/นางฟ้าบ้าบิ่น@2x.png">
+            <img data-aos="fade-left" class="textbox3_ingre"  src="img/EatFourCup/pc/png/ช่องข้อความ_03.png">
+            <h1 data-aos="fade-left" class="text3_ingre">ความหมายก็ต่างกันนะ
+            </h1>
+            <div class="grass_ingre" style=""> </div>
+            <img data-aos="zoom-in" class="logo_ingre"  src="img/EatFourCup/pc/png/set สี่ถ้วย@2x.png">
+            <img data-aos="zoom-in" class="title_textbox_ingre"  src="img/EatFourCup/pc/png/ช่องข้อความ-04.png">
+            <h1 data-aos="zoom-in" class="title_text_ingre">วัตถุดิบ
+            </h1>
+            <h1 data-aos="zoom-in" class="ing1_ingre">มะลิลอย
+            </h1>
+            <h1 data-aos="zoom-in" class="ing1_small">ข้าวตอก
+            </h1>
+            <h1 data-aos="zoom-in" class="ing2_ingre">นกปล่อย
+            </h1>
+            <h1 data-aos="zoom-in" class="ing2_small">ลอดช่อง
+            </h1>
+            <h1 data-aos="zoom-in" class="ing3_ingre">ไข่กบ
+            </h1>
+            <h1 data-aos="zoom-in" class="ing3_small">เม็ดแมงลัก
+            </h1>
+            <h1 data-aos="zoom-in" class="ing4_ingre">ข้าวตื้อ
+            </h1>
+            <h1 data-aos="zoom-in" class="ing4_small">ข้าวเหนียวดำ
+            </h1>
+        </div>
+    </div>
+   <!-- 4Cup Forget -->
+    <div class="container middle4_container">
+        <div class="row fourcup_forget">
+            <img class="cloud1_forget"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
+            <img class="cloud2_forget"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
+            <img class="cloud3_forget"  src="img/EatFourCup/pc/png/เมฆ_02@2x.png">
+            <img class="tong_forget"  src="img/EatFourCup/pc/png/น้องทองหยอด@2x.png">
+            <img data-aos="fade-right" class="textbox1_forget"  src="img/EatFourCup/pc/png/ช่องข้อความ_03.png">
+            <h1 data-aos="fade-right" class="text1_forget">ว้าวววววววววววว
+            </h1>
+            <img class="babin_forget"  src="img/EatFourCup/pc/png/นางฟ้าบ้าบิ่น@2x.png">
+            <img data-aos="fade-left" class="textbox2_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 data-aos="fade-left"  class="text2_forget" >มะลิลอยหมายถึงความรักเบ่งบาน
+            </h1>
+            <img data-aos="fade-left" data-aos-delay="1500" class="textbox4_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 data-aos="fade-left" data-aos-delay="1500" class="text4_forget">ไข่กบหมายถึงมีลูกเต็มบ้าน<br>มีหลานเต็มเมือง
+            </h1>
+            <img data-aos="fade-left" data-aos-delay="3000" class="textbox3_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 data-aos="fade-left" data-aos-delay="3000" class="text3_forget">นกปล่อยหมายถึงความรักยืนยาว<br>อ้ายตื้อหมายถึงรักแน่นเหนียว
+            </h1>
+            
+            <img class="star1_forget"  src="img/EatFourCup/pc/png/ดาว_01@2x.png">
+            <img class="star2_forget"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="star3_forget"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="star4_forget"  src="img/EatFourCup/pc/png/ดาว_02@2x.png">
+            <img class="logo_forget"  src="img/EatFourCup/pc/png/สี่ถ้วยเลือนราง@2x.png">
+            <h1 data-aos="fade-right"  class="text5_forget">ทำไมถึง<br>เริ่มเลือนลาง
+            </h1>
+            <h1 data-aos="fade-right" class="text6_forget">ด้วยยุคสมัยที่มีการแต่งงานเน้น<br>ประเพณีแบบชาติตะวันตกมากขึ้น<br>อีกทั้งการทำขนมนั้นมักมาคู่กับ<br>การเตรียมเครื่องเซ่นชนิดอื่น<br>การเตรียมการจึงยิ่งทวีความยาก
+            </h1>
+        </div>
+    </div>
+    <!-- Door -->
+    <div class="container bottom_container">
+        <div class="row door_mirror">
+           <img class="mirrorbreak_door"  src="img/EatFourCup/pc/png/รอยแยกสีขาว@2x.png">
+           <img class="mirrorback_door"  src="img/EatFourCup/pc/png/เศษกระจก@2x.png">
+           <h1 data-aos="fade-right"  class="title_door">มุ่งสู่อดีต ฉากกถัดไปกันเลย!
+            </h1>
+            <img class="door_all door1" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_01@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_01@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_01@2x.png">
+            <img class="door_all door2" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_02@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูเลข 2-Desktop.png';"  src="img/EatFourCup/pc/png/ประตูเลข 2-Desktop.png">
+            <img class="door_all door3" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_03@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_03@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_03@2x.png">
+            <img class="door_all door4" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_04@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_04@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_04@2x.png">
+            <img class="door_all door5" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_05@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_05@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_05@2x.png">
+        </div>
+    </div>
+
+    <footer class="footer_style item-justify-center"> 
+        <img class="logo_footer" style="top: 1.5vw; left: 4.5vw; width: 4.5%;"
+            src="https://cdn.discordapp.com/attachments/1031106164836020260/1031486980225249290/logo__12x.png">
+        <img class="logo_footer" style="top: 1.75vw; left: 10vw;"
+            src="https://cdn.discordapp.com/attachments/1031106164836020260/1031486981068304404/logo_IT2x.png">
+        <div class="footer_tbox">
+
+
+            เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์หลักสูจรนิเทศศิลป์คณะสถาปัตยกรรมศาสตร์<br> และ
+            การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ<br>
+            สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2021
+        </div>
+    </footer> 
+    <img class="menu" src="https://cdn.discordapp.com/attachments/1031106164836020260/1031488558361477140/HAM2x.png">
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
