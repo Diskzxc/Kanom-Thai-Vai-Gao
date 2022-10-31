@@ -181,7 +181,48 @@ body {
     color: #6c90c4;
     position: relative;
 }
-
+.pot_pad{
+    animation-name: pot_open;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pot_open{
+    50% {transform: translateY(15vw);}
+}
+@keyframes ship_go{
+    50% {transform: translateX(-55vw);}
+}
+@keyframes large_tan{
+    50% {transform: scale(1.25);}
+}
+.ship{
+    animation-name: ship_go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes crab_go{
+    50% {transform: translateX(-2vw);}
+}
+.crab{
+    animation-name: crab_go;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.tan_mini{
+    animation-name: dukdik;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.fly_tan{
+    animation-name: flydown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.big_tan{
+    animation-name: large_tan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 /* ข้อความบน */
 .open_text {
     top: 7.5vw;
