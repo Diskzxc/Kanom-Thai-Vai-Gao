@@ -6,12 +6,12 @@ body {
 
 .content1 {
     color: #7698c8;
-    width: 100%;
+    width: 100vw;
     justify-self: center;
 }
 
 .content2 {
-    width: 100%;
+    width: 100vw;
     justify-self: center;
 }
 
@@ -54,14 +54,14 @@ body {
 }
 
 .bulann_head {
-    width: 100%;
+    width: 100vw;
     position: relative;
     height: 20vw;
 }
 
 #img_head {
     position: absolute;
-    width: 100%;
+    width: 100vw;
 }
 
 #typo_head {
