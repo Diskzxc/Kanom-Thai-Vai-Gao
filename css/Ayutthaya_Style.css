@@ -1,0 +1,108 @@
+.menu {
+    position: fixed;
+    right: 1vw;
+    top: 2vw;
+    width: 3vw;
+    z-index: 100;
+}
+
+.menu:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+/**CSS พระพาย**/
+
+.top_title {
+    width: 100vw;
+    height: 161vw;
+    color: #447e66;
+}
+
+.bg_prapai {
+    background-image: url("img/Prapai/PC/2x/พื้นหลังพระพาย@2x.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: 105vw;
+    text-align: center;
+    position: relative;
+}
+
+.point_bg_yellow {
+    position: absolute;
+    height: 42.5vw;
+
+}
+
+.ayuthaya {
+    position: absolute;
+    height: 5%;
+    top: 5%;
+    left: 4vw;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+}
+
+.yellow_could {
+    position: relative;
+    top: 13vw;
+    left: 10v;
+}
+
+.info_prapai {
+    font-size: 1.15vw;
+    text-align: left;
+    left: 41.5vw;
+}
+.info_prapai_center {
+    font-size: 1.15vw;
+}
+.ingredient_container{
+    width: 100vw; 
+    height: 250vw;
+    position: relative;
+    background-color: #f3f3e5;
+    text-align: center;
+    z-index: -1;
+}
+.box_ing{
+    position: absolute;
+    text-align: center;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    top: 20vw;
+    position: relative;
+  }
+  .grid-item {
+    font-size: 1vw;
+    text-align: center;
+    color: #468066;
+  }
+.textp_pos{
+    position: absolute;
+    color: #468066;
+    font-size: 1.25vw;
+}
+.bottomp_container{
+    width: 100vw; 
+    height: 90vw;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+}
