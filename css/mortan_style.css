@@ -1,0 +1,59 @@
+/* css หม้อตาล */
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+}
+
+.top_container {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    top: 1.2vw;
+}
+
+.middle_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 207vw;
+    background-color: #ffe9b8;
+}
+
+.box1 {
+    width: 100vw;
+    height: 100%;
+    color: #6c90c4;
+    position: relative;
+}
+
+/* ข้อความบน */
+.open_text {
+    top: 1.6vw;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.text_box {
+    position: absolute;
+}
+
+h1 {
+    font-size: 1.35vw;
+}
+
+h2 {
+    font-size: 1.05vw;
+}
+
+.text_color1 {
+    color: #488167;
+}
+
+.text_color2 {
+    color: #97a0ef;
+}
