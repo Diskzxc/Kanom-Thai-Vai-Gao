@@ -31,8 +31,8 @@ body {
 
 /* ข้อความบน */
 .open_text {
-    top: 1.6vw;
-    position: relative;
+    top: 5vw;
+    position: absolute;
     width: 100%;
     text-align: center;
     font-size: 1.7vw;

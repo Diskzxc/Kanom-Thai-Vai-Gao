@@ -106,3 +106,156 @@ body {
     font-family: 'Kodchasan', sans-serif;
     background-color: #f3f3e5;
 }
+.top_container {
+    width: 100vw;
+    height: 350vw;
+    position: relative;
+    top: 1.2vw;
+}
+
+.middle_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 207vw;
+    background-color: #ffe9b8;
+}
+
+.box1 {
+    width: 100vw;
+    height: 100%;
+    color: #6c90c4;
+    position: relative;
+}
+
+/* ข้อความบน */
+.open_text {
+    top: 7.5vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.text_box {
+    position: absolute;
+}
+
+h1 {
+    font-size: 1.35vw;
+}
+
+h2 {
+    font-size: 1.05vw;
+}
+
+.text_color1 {
+    color: #488167;
+}
+
+.text_color2 {
+    color: #97a0ef;
+}
+.line {
+    position: absolute;
+    top: -5%;
+}
+    /* CSS ช่วง 6 จบ */
+    .bottom_container {
+        background-color: #f3f3e5; 
+        width: 100vw; 
+        bottom: 0vw;
+        text-align: center; 
+        height: 32.5vw;
+    }
+
+    .door_mirror{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        color: #488167;
+
+    }
+    .mirrorbreak_door{
+        width:100%; 
+        position: absolute;
+        top: 0vw; 
+        left:0vw;
+        z-index: 3;
+        
+    }
+    .mirrorback_door{
+        width:50%; 
+        position: absolute;
+        top: 10vw; 
+        left:25vw;
+        z-index: 3;
+        animation-name: mirrorback_fly;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        
+    }
+    .title_door{
+        font-size: 1.5vw;
+        position: absolute;
+        top: 10vw; 
+        left:40vw;
+        text-align: left; 
+        z-index: 3;
+        color: #7194c5;
+    }
+    .door1{
+        width:5%; 
+        position: absolute;
+        top: 17.5vw; 
+        left:31vw;
+        z-index: 3;
+        
+    }
+    .door2{
+        width:5%; 
+        position: absolute;
+        top: 17.5vw; 
+        left:38.5vw;
+        z-index: 3;
+        
+    }
+    .door3{
+        width:5%; 
+        position: absolute;
+        top: 17.5vw; 
+        left:46vw;
+        z-index: 3;
+        
+    }
+    .door4{
+        width:5%; 
+        position: absolute;
+        top: 17.5vw; 
+        left:53.5vw;
+        z-index: 3;
+        
+    }
+    .door5{
+        width:5%; 
+        position: absolute;
+        top: 17.5vw; 
+        left:61vw;
+        z-index: 3;
+        
+    }
+    @keyframes door_anime{
+        0% {transform:scale(1.00);}
+        100% {transform:scale(1.25);}
+    }
+    .door_all:hover{
+        animation-name: door_anime;
+        animation-duration: 1s;
+        transition-timing-function: ease-in-out;
+        border-radius: 50%;
+        transform:scale(1.25);
+        cursor: pointer;
+    }
+    @keyframes mirrorback_fly{
+        50%{transform: translateY(2vw);}
+    }
