@@ -47,10 +47,15 @@ body {
 }
 
 .bulann_box6 {
-    background-color: white;
-    height: 60vw;
+    height: 100vw;
     position: relative;
     justify-content: center;
+}
+
+.bulann_box7 {
+    background-image: url(/img/bulann/pc/png/asset_39.png);
+    height: 50vw;
+    position: relative;
 }
 
 .bulann_head {
@@ -238,6 +243,34 @@ body {
     top: 10.5vw;
 }
 
+#bulann_text10 {
+    font-size: 1.25vw;
+    position: absolute;
+    text-align: center;
+    left: 38vw;
+    top: 3vw;
+}
+
+#bulann_text11 {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 1vw;
+}
+
+#bulann_text12 {
+    font-size: 1.25vw;
+    text-rendering: 10vw;
+    line-height: 3vw;
+}
+
+#bulann_text13 {
+    color: #95a4e9;
+    font-size: 1.5vw;
+    text-rendering: 10vw;
+    line-height: 3vw;
+    text-align: center;
+}
+
 #bulann_asset19 {
     position: absolute;
     width: 30%;
@@ -318,6 +351,11 @@ body {
     width: 14%;
     top: 9vw;
     left: 55vw;
+}
+
+#textbox9 {
+    position: absolute;
+    left: 30%;
 }
 
 .staple1 {
@@ -466,4 +504,300 @@ body {
 
 #stable_cloud3 {
     width: 40vw;
+}
+
+.people1 {
+    position: absolute;
+    width: 100vw;
+    left: 25vw;
+    animation-name: people_updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+.people2 {
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    animation-name: people_animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+.people3 {
+    position: absolute;
+    width: 50vw;
+    left: 27vw;
+}
+
+.people4 {
+    position: absolute;
+    text-align: center;
+    top: 70vw;
+}
+
+.people0 {
+    position: absolute;
+    width: 70vw;
+}
+
+#img_people1 {
+    position: absolute;
+    width: 50vw;
+    top: 14vw;
+}
+
+#img_people2 {
+    position: absolute;
+    width: 18vw;
+    top: 29vw;
+    left: 20vw;
+}
+
+#img_people3 {
+    position: absolute;
+    width: 10vw;
+    top: 41vw;
+    left: 15vw;
+}
+
+#img_people4 {
+    position: absolute;
+    top: 41vw;
+    left: 10vw;
+}
+
+@keyframes people_updown {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(3vw);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes people_animate {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(3vw);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.story_text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 20vw;
+}
+
+.story_title {
+    z-index: 100;
+    position: absolute;
+    top: 95vw;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+
+#storytitle_text {
+    color: white;
+    font-size: 1.25vw;
+    line-height: 2vw;
+    width: 20vw;
+    top: 2.5vw;
+    position: absolute;
+    text-align: center;
+}
+
+#storytitle_img0 {
+    position: absolute;
+    width: 10vw;
+    left: 57vw;
+    animation-name: title_rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+#storytitle_img1 {
+    position: absolute;
+    width: 20vw;
+    top: 1vw;
+}
+
+#storytitle_img2 {
+    position: absolute;
+    width: 3vw;
+    top: 10vw;
+    animation-name: arrow_updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+#storytitle_img3 {
+    position: absolute;
+    width: 3vw;
+    top: 10vw;
+    left: 30vw;
+    animation-name: title_rotate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+#storytitle_img4 {
+    position: absolute;
+    width: 3vw;
+    top: 10vw;
+    left: 30vw;
+    animation-name: title_rotate3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+}
+
+@keyframes arrow_updown {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(2vw);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes title_rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes title_rotate2 {
+    0% {
+        transform: rotateZ(0deg);
+        left: 30vw;
+    }
+    50% {
+        transform: rotateZ(360deg);
+        left: 40vw;
+    }
+    100% {
+        transform: rotateZ(0deg);
+        left: 30vw;
+    }
+}
+
+@keyframes title_rotate3 {
+    0% {
+        transform: rotateZ(0deg);
+        top: 5;
+        left: 70vw;
+    }
+    50% {
+        transform: rotateZ(-360deg);
+        left: 60vw;
+    }
+    100% {
+        transform: rotateZ(0deg);
+        left: 70vw;
+    }
+}
+
+#game_img {
+    position: absolute;
+    width: 20vw;
+    left: 60vw;
+    top: 15vw;
+}
+
+#game_img2 {
+    position: absolute;
+    width: 13vw;
+    left: 50vw;
+    top: 20vw;
+}
+
+#game_img3 {
+    position: absolute;
+    width: 4vw;
+    left: 60vw;
+    top: 8vw;
+    animation-name: star_game;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+#game_img4 {
+    position: absolute;
+    width: 4vw;
+    left: 70vw;
+    top: 8vw;
+    animation-name: star_game2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+.bulanngame {
+    position: absolute;
+    animation-name: game;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes game {
+    0% {
+        transform: translateX(0vw);
+    }
+    50% {
+        transform: translateX(20vw);
+    }
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes star_game {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes star_game2 {
+    0% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(0.5);
+    }
 }
