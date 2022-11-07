@@ -58,6 +58,12 @@ body {
     position: relative;
 }
 
+.bulann_box8 {
+    background-color: red;
+    height: 50vw;
+    position: relative;
+}
+
 .bulann_head {
     width: 100vw;
     position: relative;
@@ -800,4 +806,9 @@ body {
     100% {
         transform: scale(0.5);
     }
+}
+
+#last_img1 {
+    position: absolute;
+    width: 80vw;
 }
