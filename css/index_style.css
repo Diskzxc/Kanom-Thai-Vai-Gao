@@ -164,7 +164,14 @@ h1 {
     75% {transform: rotateZ(5deg);}
     100% {transform: rotateZ(0deg);}
 }
-
+@keyframes roll {
+    0% {transform: translateX(0) translateY(0) rotateZ(0deg);}
+    100% {transform:translateX(2vw) translateY(15vw)rotateZ(720deg);}
+}
+@keyframes rolldown {
+    0% {transform: translateX(0) translateY(0)}
+    100% {transform:translateX(-2vw) translateY(15vw)}
+}
 .scroll:hover {
     cursor: pointer;
 }
@@ -238,9 +245,7 @@ h1 {
     animation-iteration-count: infinite; 
 }
 .tong_bot{
-    animation-name: fly;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; 
+    animation : fly 5s infinite;
 }
 .mirror_long{
     width:80%; top:92.5vw;left:10%;

@@ -120,7 +120,7 @@
 
 
                 
-                <img class="tong_bot" src="img/open/pc/png/Asset_32.png"  width="8%" style="position: absolute; top: 51.25vw; left: 40vw;">
+                <img id="tong_bot" class="tong_bot" src="img/open/pc/png/Asset_32.png"  width="8%" style="position: absolute; top: 51.25vw; left: 40vw;">
 
                 <div data-aos="zoom-in" data-aos-delay="1000">
                     <svg id="text13" class="text_box" width="25%"style="top:31vw; left:70vw;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487.48 169.6"><defs><style>.cls-2{fill:#59b4b7;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="ปุ่มกดเริ่ม"><polygon class="cls-2" points="171.22 0 85.05 6.69 9.21 62.3 0 131.58 100.67 145.92 349.65 120.62 370.45 141.2 392.03 169.6 382.6 110.08 487.48 98.59 482.09 14.97 171.22 0"/></g></g></svg>
@@ -135,7 +135,7 @@
                 <img class="mirror_left"  src="img/open/pc/png/กระจกหน้าซ้าย_1.png" width="28%" style="position: absolute; left: 13vw; top: 21.5vw;">
                 <img class="mirror_right"  src="img/open/pc/png/กระจกหน้าขวา_1.png" width="28%" style="position: absolute; left: 58vw; top: 24vw;">
 
-                <img class = "angel"src="img/open/pc/png/Asset_31.png" width="25%" style="position: absolute; top: 43.75vw; left: 45vw;">
+                <img id="babin" class = "angel"src="img/open/pc/png/Asset_31.png" width="25%" style="position: absolute; top: 43.75vw; left: 45vw;">
                 <div data-aos="zoom-in" data-aos-delay="">
                     <svg id="text12" class="text_box" width="25%"style="top:35.25vw; left:38vw;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.97 205.12"><defs><style>.cls-2{fill:#59b4b7;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="ปุ่มกดเริ่ม"><polygon class="cls-2" points="150.21 1.73 75.84 26.89 0 82.51 46.73 187.35 319.1 195.99 369.66 165.93 406.89 205.12 402.49 167.69 460.97 118.42 421.8 0 150.21 1.73"/></g></g></svg>
                     <h1 id="text12" class="" style="position: absolute; top: 36.5vw; left: 42%; text-align: center; transform: rotateZ(-8deg); font-size: 1.35vw;">สวัสดีฉันนางฟ้าขนมบ้าบิ่น<br>ที่แมสแบบไม่ลืมหูลืมตา<br>วันนี้ฉันจะพาไปย้อนอดีต</h1>
@@ -149,10 +149,10 @@
                     <h1 id="text16" class="" style="position: absolute; top: 50.5vw; left: 34.5%; text-align: center; transform: rotateZ(-27deg); font-size: 1.3vw;">โอ๊ะ!</h1>
                 </div>
                 
-                <a href="EatFourCup.html" style="color: white;"><div class="start_btn">
+                <div class="start_btn" onclick="roll_back()">
                     <img id="text17" src="img/open/pc/png/2x/Start_our_journey@2x.png" width="35%"style="position: absolute; top: 68.5vw; left: 33vw;"> 
                     <h1 id="text17" class="" style="position: absolute; top: 67.75vw; left: 38%; text-align: center; font-size: 2.25vw;">START OUR JOURNEY !</h1>
-                </div></a>
+                </div>
 
                 
             </div>
@@ -173,6 +173,7 @@
     </footer> 
     <a href="index.html"><img class="menu" src="img/forall/pc/png/HAM@2x.png"></a>
     <script>
+
       AOS.init();
        window.onbeforeunload = function () {
         window.scrollTo(0,0);
@@ -184,6 +185,16 @@
             top: rect.top + window.scrollY
         };
         }
+        function roll_back() {
+          var img_tong = document.getElementById("tong_bot");
+          var img_babin = document.getElementById("babin");
+          img_tong.style.animation = "roll 1s"
+          img_babin.style.animation = "rolldown 1s"
+          setTimeout(function () {
+            window.location.href = "EatFourCup.html"; 
+            }, 1000);
+        }
+
         setInterval(function(){ 
             if (getOffset(tongyod).top >= getOffset(tong_phase2).top){
                 var img_tong = document.getElementById("tongyod");
