@@ -52,6 +52,15 @@ body {
     text-align: center;
     font-size: 1.5vw;
 }
+.scroll_down{
+    top: 13.25vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    visibility: hidden;
+}
 .logo {
     position: absolute;
     width: 8vw;
@@ -129,28 +138,257 @@ h1 {
     animation-duration: 4s;
 }
 
-@keyframes show_text {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    70% {opacity: 1;}
-    100% {opacity: 0;}
+@keyframes pop_text {
+    0% {transform: scale(0);}
+    70% {transform: scale(1.1);}
+    100% {transform: scale(1);}
 }
+@keyframes pop_down_text {
+    0% {transform: scale(1);}
+    100% {transform: scale(0);}
+}
+@keyframes pop_text1 {
+    0% {transform: scale(0) rotateZ(5deg);}
+    70% {transform: scale(1.1) rotateZ(5deg);}
+    100% {transform: scale(1) rotateZ(5deg);}
+}
+@keyframes pop_down_text1 {
+    0% {transform: scale(1) rotateZ(5deg);}
+    100% {transform: scale(0) rotateZ(5deg);}
+}
+@keyframes pop_text2 {
+    0% {transform: scale(0) rotateZ(-20deg);}
+    70% {transform: scale(1.1) rotateZ(-20deg);}
+    100% {transform: scale(1) rotateZ(-20deg);}
+}
+@keyframes pop_down_text2 {
+    0% {transform: scale(1) rotateZ(-20deg);}
+    100% {transform: scale(0) rotateZ(-20deg);}
+}
+@keyframes pop_text3 {
+    0% {transform: scale(0);}
+    70% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+@keyframes pop_down_text3 {
+    0% {transform: scale(1);}
+    100% {transform: scale(0);}
+}
+@keyframes pop_text4 {
+    0% {transform: scale(0) rotateZ(2deg);}
+    70% {transform: scale(1.1) rotateZ(2deg);}
+    100% {transform: scale(1) rotateZ(2deg);}
+}
+@keyframes pop_down_text4 {
+    0% {transform: scale(1) rotateZ(2deg);}
+    100% {transform: scale(0) rotateZ(2deg);}
+}
+@keyframes pop_text5 {
+    0% {transform: scale(0) rotateZ(10deg);}
+    70% {transform: scale(1.1) rotateZ(10deg);}
+    100% {transform: scale(1) rotateZ(10deg);}
+}
+@keyframes pop_down_text5 {
+    0% {transform: scale(1) rotateZ(10deg);}
+    100% {transform: scale(0) rotateZ(10deg);}
+}
+@keyframes pop_text6 {
+    0% {transform: scale(0) rotateZ(-20deg);}
+    70% {transform: scale(1.1) rotateZ(-20deg);}
+    100% {transform: scale(1) rotateZ(-20deg);}
+}
+@keyframes pop_down_text6 {
+    0% {transform: scale(1) rotateZ(-20deg);}
+    100% {transform: scale(0) rotateZ(-20deg);}
+}
+@keyframes pop_text_bot1 {
+    0% {transform: scale(0) rotateZ(-8deg);}
+    70% {transform: scale(1.1) rotateZ(-8deg);}
+    100% {transform: scale(1) rotateZ(-8deg);}
+}
+@keyframes pop_down_text_bot1 {
+    0% {transform: scale(1) rotateZ(-8deg);}
+    100% {transform: scale(0) rotateZ(-8deg);}
+}
+@keyframes pop_text_bot2 {
+    0% {transform: scale(0) rotateZ(-4deg);}
+    70% {transform: scale(1.1) rotateZ(-4deg);}
+    100% {transform: scale(1) rotateZ(-4deg);}
+}
+@keyframes pop_down_text_bot2 {
+    0% {transform: scale(1) rotateZ(-4deg);}
+    100% {transform: scale(0) rotateZ(-4deg);}
+}
+.chat_1 {
+    animation: pop_text 1s 1;
 
-.scroll {
-    width: 6%;
+}
+.chat_2 {
+    animation: ;
+    visibility: hidden;
+    }
+.chat_3 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_4 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_5 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_6 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_text_1 {
+    animation: pop_text1 1s 1;
+}
+.chat_text_2 {
+    animation: ;
+    visibility: hidden;
+
+}
+.chat_text_3 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_text_4 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_text_5 {
+    animation: ;
+    visibility: hidden;
+}
+.chat_text_6 {
+    animation: ;
+    visibility: hidden;
+}
+.next {
+    width: 2.5vw;
     position: absolute;
-    top: 20%;
-    left: 47.5%;
+    top: 13.5vw;
+    left: 60%;
     opacity: 0;
     animation-name: show_scroll;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-delay: 26s;
 }
+.back {
+    width: 2.5vw;
+    position: absolute;
+    top: 13.5vw;
+    left: 37.5%;
+    opacity: 0;
+    animation-name: show_scroll2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.next:hover{
+    cursor: pointer;
+}
+.back:hover{
+    cursor: pointer;
+}
+.chat_bottom_1{
+    position: absolute;
+    top:35.25vw; 
+    left:38vw;
+    width: 25%;
 
+}
+.chat_bottom_text_1{
+    position: absolute; 
+    top: 36.5vw; 
+    left: 42%; text-align: center; 
+    transform: rotateZ(-8deg); 
+    font-size: 1.35vw;
+}
+.chat_bottom_2{
+    position: absolute;
+    top:37vw; 
+    left:38.5vw;
+    width: 25%;
+    visibility: hidden;
+
+}
+.chat_bottom_text_2{
+    position: absolute; 
+    top: 37.5vw; 
+    left: 42%; text-align: center; 
+    transform: rotateZ(-4deg); 
+    font-size: 1.3vw;
+    visibility: hidden;
+
+}
+.chat_bottom_3{
+    position: absolute;
+    top:37vw; 
+    left:38.5vw;
+    width: 25%;
+    visibility: hidden;
+
+}
+.chat_bottom_text_3{
+    position: absolute; 
+    top: 38vw; 
+    left: 42.5%; text-align: center; 
+    transform: rotateZ(-4deg); 
+    font-size: 1.3vw;
+    visibility: hidden;
+
+}
+.chat_bottom_4{
+    position: absolute;
+    top:35.25vw; 
+    left:38vw;
+    width: 25%;
+    visibility: hidden;
+}
+.chat_bottom_text_4{
+    position: absolute; 
+    top: 36.5vw; 
+    left: 42%; text-align: center; 
+    transform: rotateZ(-8deg); 
+    font-size: 1.35vw;
+    visibility: hidden;
+}
+.next_bot {
+    width: 2.5vw;
+    position: absolute;
+    top: 40vw;
+    left: 64%;
+    opacity: 0;
+    animation-name: show_scroll;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.back_bot {
+    width: 2.5vw;
+    position: absolute;
+    top: 40vw;
+    left: 35%;
+    opacity: 0;
+    animation-name: show_scroll2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.next_bot:hover{
+    cursor: pointer;
+}
+.back_bot:hover{
+    cursor: pointer;
+}
 @keyframes show_scroll {
     0% {opacity: 0; transform: translateY(0%);}
     100% {opacity: 1; transform: translateY(10%);}
+}
+@keyframes show_scroll2 {
+    0% {opacity: 0; transform: translateY(0%) rotateY(180deg);}
+    100% {opacity: 1; transform: translateY(10%)rotateY(180deg); }
 }
 @keyframes fly {
     0% {transform: translateY(0%);}
