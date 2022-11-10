@@ -10,6 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/index_javascript.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.6.1.js"
   integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
@@ -23,6 +24,7 @@
 <body>
     
     <!-- ช่วงร้านบน-->
+    <img class="speed" style=""  src="img/open/pc/png/เส้น_speed.png">
     <div class="container top_container">
         <div class="row box1">
             <div id="scroll" class="scroll show_scroll">
@@ -52,8 +54,7 @@
                 <svg id="text6" class="text_box show" style="top: 59.5%; left: 31.8%; width: 15%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.96 170.42"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_65" data-name="Layer 65"><polygon class="cls-1" points="258.6 20.81 297.96 0 273.07 35.52 278.28 76.73 79.06 170.42 0 149.12 12.84 93.9 226.79 20.81 258.6 20.81"/></g></g></svg>
                 <h1 id="text6" class="show" style="position: absolute; top: 64.5%; left: 34.3%; text-align: center; transform: rotateZ(-20deg);">ต้องอยากย้อนสิ!</h1>
             </div>
-
-            <img class="tong" width="7.5%" src="img/open/pc/png/2x/head_ทองหยอด@2x.png">
+            <img id="tongyod" class="tong" width="7.5%" src="img/open/pc/png/2x/head_ทองหยอด@2x.png">
             <div class="logo">
                 <img width="100%" height="100%" src="img/open/pc/png/Title.png">
             </div>
@@ -73,9 +74,7 @@
                     <h1 id="text7" class="" style="position: absolute; top: 0.75vw; left: 72.8%; color: white; text-align: center; transform: rotateZ(-5deg);">งั้นเริ่มเลย</h1>
                 </div>
 
-                 <img data-aos="zoom-in" class="text_box" style="width:2%; top:7.5vw; left:49.5%"  src="img/open/pc/png/เส้น_speed.png">
-
-                 <img data-aos="zoom-in" class="text_box" style="width:7.5%; top:20vw;left:46.8%;"  src="img/open/pc/png/ทองหยอด_L8.png">
+                 <img id="tong_phase1" data-aos="zoom-in" class="text_box" style="width:7.5%; top:20vw;left:46.8%; opacity: 0;"  src="img/open/pc/png/ทองหยอด_L8.png">
 
                  <div data-aos="fade-right" style="position:relative; top:17vw;">
                     <svg id="text8" class="text_box" style="top: 1%; left: 26%; width: 21.5%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392.79 102.04"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_65" data-name="Layer 65"><polygon class="cls-1" points="325.59 39.74 392.79 36.94 373.06 52.51 364.67 102.04 65.13 97.39 0 36.51 72.29 0 296.88 26.06 325.59 39.74"/></g></g></svg>
@@ -86,37 +85,34 @@
                  <img data-aos="zoom-in" class="text_box star" style="width:10%; top:42.5vw;left:27.5%; transform: rotateZ(-60deg);" src="img/open/pc/png/ดาว_typo.png">
                  <img data-aos="zoom-in" class="text_box star" style="width:10%; top:42.5vw;left:66.8%; transform: rotateZ(0deg);" src="img/open/pc/png/ดาว_typo.png">
 
-                <img data-aos="zoom-in" class="text_box" style="width:2%; top:80vw; left:49.5%"  src="img/open/pc/png/เส้น_speed.png">
 
-                <img data-aos="zoom-in" class="text_box" style="width:7.5%; top:92.5vw;left:46.8%;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
+                <img id="tong_phase2" data-aos="zoom-in" class="text_box" style="width:7.5%; top:92.5vw;left:46.8vw; opacity: 0;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
             <div data-aos="fade-right" style="position:relative; top:92.5vw;">
                 <svg id="text9" class="text_box" style="top: 1%; left: 26%; width: 21.5%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392.79 102.04"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_65" data-name="Layer 65"><polygon class="cls-1" points="325.59 39.74 392.79 36.94 373.06 52.51 364.67 102.04 65.13 97.39 0 36.51 72.29 0 296.88 26.06 325.59 39.74"/></g></g></svg>
                 <h1 id="text9" class="" style="position: absolute; top: 1.25vw; left: 30%; text-align: center; transform: rotateZ(5deg); font-size: 1.5vw;">ขึ้นอินโทรงี้เลยเหรอ</h1>
             </div>
             <img  data-aos="zoom-in" class="text_box star2" style="width:60%; top:50vw;left:17.8%;"  src="img/open/pc/png/dow_4.png">
-            <img  class="text_box" style="width:80%; top:92.5vw;left:10%;"  src="img/open/pc/png/2x/กระจกยาว_1@2x.png">
+            <img  class="mirror_long" style=""  src="img/open/pc/png/2x/กระจกยาว_1@2x.png">
             <img  data-aos="zoom-in" class="text_box star2" style="width:78%; top:105vw;left:14%;"  src="img/open/pc/png//BG_ดาวช่วง_conver.png">
             <img  data-aos="fade-left" data-aos-duration="4000" class="text_box" style="width:22.5%; top:121.8vw;left:52.5%;"  src="img/open/pc/png/บ้าบิ่นตรงเส้นๆ_1.png">
-            <img data-aos="zoom-in" class="text_box" style="width:2%; top:150vw; left:49.5%"  src="img/open/pc/png/เส้น_speed.png">
-            <img data-aos="zoom-in" class="text_box" style="width:7.5%; top:162.5vw;left:46.8%;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
+            <img data-aos="zoom-in" class="text_box" style="width:7.5%; top:162.5vw;left:46.8%; opacity: 0;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
             <div data-aos="fade-right" style="position:relative; top:162.25vw;">
                 <svg id="text10" class="text_box" style="top: 1%; left: 21.5%; width: 25.8%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480.81 119.33"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_65" data-name="Layer 65"><polygon class="cls-1" points="325.59 39.74 392.79 36.94 480.81 84.59 425.26 119.33 65.13 97.39 0 36.51 72.29 0 296.88 26.06 325.59 39.74"/></g></g></svg>
                 <h1 id="text10" class="" style="position: absolute; top: 1.25vw; left: 25%; text-align: center; transform: rotateZ(5deg); font-size: 1.5vw;">โอ้มายก็อดอยู่ดี ๆ ก็มีนางฟ้า</h1>
             </div>
             <img  data-aos="zoom-in" class="text_box star2" style="width:78%; top:150vw;left:7.8%;"  src="img/open/pc/png/dow_3.png">
-            <img data-aos="zoom-in" class="text_box" style="width:2%; top:212.5vw; left:49.5%"  src="img/open/pc/png/เส้น_speed.png">
-            <img data-aos="zoom-in" class="text_box" style="width:7.5%; top:225vw;left:46.8%;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
+            <img id="tong_phase3" data-aos="zoom-in" class="text_box" style="width:7.5%; opacity: 0; top:225vw;left:46.8%;"  src="img/open/pc/png/ทองหยอด_L9-10-11.png">
             <div data-aos="fade-right" style="position:relative; top:225vw;">
                 <svg id="text11" class="text_box" style="top: 1%; left: 27.5%; width: 20%;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392.79 102.04"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_65" data-name="Layer 65"><polygon class="cls-1" points="325.59 39.74 392.79 36.94 373.06 52.51 364.67 102.04 65.13 97.39 0 36.51 72.29 0 296.88 26.06 325.59 39.74"/></g></g></svg>
                 <h1 id="text11" class="" style="position: absolute; top: 1vw; left: 30%; text-align: center; transform: rotateZ(5deg); font-size: 1.5vw;">ไม่น้าาาาาาาร่วงแล้วว</h1>
             </div>
-            <img class="text_box" style="width:33.5%; top:217.8vw;right:0%; z-index: 3;"  src="img/open/pc/png/ที่กั้น_filp_เอา.png">
-            <img class="text_box" style="width:33.5%; top:217.8vw;left:0%; transform:rotateY(180deg); z-index: 3;"  src="img/open/pc/png/ที่กั้น_filp_เอา.png">
+            <img class="text_box" style="width:33.5%; top:217.8vw;right:0%; z-index: 5;"  src="img/open/pc/png/ที่กั้น_filp_เอา.png">
+            <img class="text_box" style="width:33.5%; top:217.8vw;left:0%; transform:rotateY(180deg); z-index: 5;"  src="img/open/pc/png/ที่กั้น_filp_เอา.png">
 
         </div>
         
     </div>
-        <div class="contianer buttom_container">
+        <div class="contianer bottom_container">
             <div class="row box3">                
                 <img src="img/open/pc/png/2x/ประตูมิติ_1@2x.png" width="88%" style="position: absolute; left: 7vw; top: 57vw;">
                 <img class="mirror_back" src="img/open/pc/png/กระจกหลัง_1.png" width="90%" style=" position: absolute; left: 5vw; top: 10vw;">
@@ -178,21 +174,36 @@
     <a href="index.html"><img class="menu" src="img/forall/pc/png/HAM@2x.png"></a>
     <script>
       AOS.init();
-      window.onbeforeunload = function () {
+       window.onbeforeunload = function () {
         window.scrollTo(0,0);
       };
-       $(function(){
-          setTimeout(function(){
-            $('body')
-            .css({
-              'overflow-y': 'auto'
-            })
-            .animate({
-              scrollTop: $('.top_container').offset().top
-            }, 28000);
-          }, 28000);
-        });
-       
+       function getOffset(el) {
+          const rect = el.getBoundingClientRect();
+          return {
+            left: rect.left + window.scrollX,
+            top: rect.top + window.scrollY
+        };
+        }
+        setInterval(function(){ 
+            if (getOffset(tongyod).top >= getOffset(tong_phase2).top){
+                var img_tong = document.getElementById("tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L9-10-11.png';  
+            }
+            else if (getOffset(tongyod).top >= getOffset(tong_phase2).top){
+                var img_tong = document.getElementById("tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L9-10-11.png';  
+            }else if (getOffset(tongyod).top >= getOffset(tong_phase1).top){
+                var img_tong = document.getElementById("tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L8.png';
+
+            }else{
+                var img_tong = document.getElementById("tongyod");
+                img_tong.src = 'img/open/pc/png/2x/head_ทองหยอด@2x.png';
+            }
+
+        }, 1);
+        
+        
     </script>
 </body>
 </html>
