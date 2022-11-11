@@ -1,0 +1,451 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+/** mobile style **/
+
+.mob_body {
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 360px;
+    max-width: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.mob_text {
+    font-size: 3.2vw;
+}
+
+.mob_block1 {
+    height: 115vw;
+    position: relative;
+    background-image: url("../img/open/mobile/png/head@2x.png");
+    background-size: 100%;
+    color: #548a71;
+}
+
+.mob_head_text {
+    text-align: center;
+    font-size: 4.5vw;
+    left: 12vw;
+    top: 15vw;
+}
+
+.mob_L1 {
+    width: 35%;
+    left: 53vw;
+    top: 60vw;
+}
+
+.mob_in_L1 {
+    left: 55.5vw;
+    top: 61vw;
+    transform: rotateZ(4deg);
+}
+
+.mob_L2 {
+    width: 37%;
+    left: 9vw;
+    top: 69.5vw;
+}
+
+.mob_in_L2 {
+    text-align: center;
+    left: 13.5vw;
+    top: 72vw;
+    transform: rotateZ(-18deg);
+}
+
+.mob_L3 {
+    width: 40%;
+    left: 52vw;
+    top: 78vw;
+}
+
+.mob_in_L3 {
+    text-align: center;
+    left: 55vw;
+    top: 78vw;
+}
+
+.mob_L4 {
+    width: 37%;
+    left: 12vw;
+    top: 57vw;
+}
+
+.mob_in_L4 {
+    text-align: center;
+    left: 17.5vw;
+    top: 56.5vw;
+}
+
+.mob_L5 {
+    width: 37%;
+    right: 10vw;
+    bottom: 1.5vw;
+}
+
+.mob_in_L5 {
+    text-align: center;
+    color: white;
+    right: 14vw;
+    bottom: 1.2vw;
+    transform: rotateZ(-3deg);
+}
+
+.mob_L6 {
+    width: 30%;
+    left: 16vw;
+    bottom: 15vw;
+}
+
+.mob_in_L6 {
+    text-align: center;
+    left: 18.5vw;
+    bottom: 18vw;
+    transform: rotateZ(-22deg);
+}
+
+.mob_el1 {
+    width: 13%;
+    left: 44.8vw;
+    bottom: 34.5vw;
+}
+
+.el_pos {
+    position: absolute;
+}
+
+.mob_bg1 {
+    top: -15.5vw;
+}
+
+.mob_block2 {
+    position: relative;
+    background-color: #f3f4e6;
+    background-image: url("../img/open/mobile/png/เส้นเรียงๆ@2x.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 75%;
+    height: 230vh;
+    color: #548a71;
+}
+
+.mob_L7 {
+    width: 30%;
+    right: 10vw;
+    top: 5vw;
+}
+
+.mob_in_L7 {
+    text-align: center;
+    color: white;
+    right: 17vw;
+    top: 5vw;
+    transform: rotateZ(-5deg);
+}
+
+.mob_L8 {
+    width: 40%;
+    left: 5vw;
+    top: 47vw;
+}
+
+.mob_in_L8 {
+    text-align: center;
+    left: 9vw;
+    top: 48vw;
+    transform: rotateZ(3deg);
+}
+
+.mob_L9 {
+    width: 40%;
+    left: 5vw;
+    top: 188vw;
+}
+
+.mob_in_L9 {
+    text-align: center;
+    left: 11vw;
+    top: 189vw;
+    transform: rotateZ(3deg);
+}
+
+.mob_L10 {
+    width: 48%;
+    left: 0;
+    top: 293vw;
+}
+
+.mob_in_L10 {
+    text-align: center;
+    left: 5vw;
+    top: 295vw;
+    transform: rotateZ(4.5deg);
+}
+
+.mob_L11 {
+    width: 35%;
+    left: 10vw;
+    top: 382vw;
+}
+
+.mob_in_L11 {
+    text-align: center;
+    left: 19vw;
+    top: 382vw;
+    transform: rotateZ(3deg);
+}
+
+.mob_title_text {
+    text-align: center;
+    font-size: 5vw;
+    left: 22vw;
+    top: 100vw;
+}
+
+.mob_el2 {
+    width: 5%;
+    left: 49.5vw;
+    top: 15vw;
+}
+
+.mob_el3 {
+    width: 13%;
+    left: 44.8vw;
+    top: 44.5vw;
+}
+
+.mob_el4 {
+    width: 60%;
+    left: 20vw;
+    top: 75vw;
+}
+
+.mob_el5 {
+    width: 25%;
+    right: -5vw;
+    top: 78vw;
+    transform: rotateZ(-25deg);
+}
+
+.mob_el6 {
+    width: 25%;
+    left: -8vw;
+    top: 80vw;
+    transform: rotateZ(155deg);
+}
+
+.mob_el7 {
+    width: 5%;
+    left: 49.5vw;
+    top: 157vw;
+}
+
+.mob_el8 {
+    width: 13%;
+    left: 45vw;
+    top: 186.5vw;
+}
+
+.mob_el9 {
+    width: 80%;
+    left: 10vw;
+    top: 170vw;
+}
+
+.mob_el10 {
+    width: 40%;
+    left: 52.5vw;
+    top: 230vw;
+}
+
+.mob_el11 {
+    width: 5%;
+    left: 49.5vw;
+    top: 265vw;
+}
+
+.mob_el12 {
+    width: 13%;
+    left: 45vw;
+    top: 294.5vw;
+}
+
+.mob_el13 {
+    width: 5%;
+    left: 49.5vw;
+    top: 350vw;
+}
+
+.mob_el14 {
+    width: 13%;
+    left: 44.8vw;
+    top: 379.5vw;
+}
+
+.mob_el15 {
+    width: 35%;
+    bottom: -4vw;
+    right: 0;
+}
+
+.mob_el16 {
+    width: 35%;
+    bottom: -4vw;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.mob_block3 {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.mob_L12 {
+    width: 48%;
+    left: 22vw;
+    top: 60vw;
+}
+
+.mob_in_L12 {
+    text-align: center;
+    color: white;
+    left: 26.5vw;
+    top: 61vw;
+    transform: rotateZ(-3deg);
+}
+
+.mob_L13 {
+    visibility: hidden;
+    width: 48%;
+    left: 23.5vw;
+    top: 62.5vw;
+}
+
+.mob_in_L13 {
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    left: 23.5vw;
+    top: 62.5vw;
+    transform: rotateZ(-4deg);
+}
+
+.mob_L14 {
+    visibility: hidden;
+    width: 48%;
+    left: 23.5vw;
+    top: 62.5vw;
+}
+
+.mob_in_L14 {
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    left: 28.5vw;
+    top: 62.5vw;
+    transform: rotateZ(-4deg);
+}
+
+.mob_L15 {
+    visibility: hidden;
+    width: 50%;
+    left: 23.5vw;
+    top: 62.5vw;
+}
+
+.mob_in_L15 {
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    left: 29vw;
+    top: 63vw;
+    transform: rotateZ(-4deg);
+}
+
+.mob_L16 {
+    visibility: hidden;
+    width: 12%;
+    left: 18.5vw;
+    top: 94vw;
+}
+
+.mob_in_L16 {
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    left: 21.8vw;
+    top: 95vw;
+}
+
+.mob_el18 {
+    left: -10vw;
+    bottom: 0vw;
+    width: 120vw;
+}
+
+.mob_el17 {
+    width: 100%;
+    top: 10vw;
+}
+
+.mob_el19 {
+    width: 55%;
+    left: -20vw;
+    top: 25vw;
+}
+
+.mob_el20 {
+    width: 80%;
+    left: 10vw;
+    top: 30vw;
+}
+
+.mob_el21 {
+    width: 15%;
+    left: 30vw;
+    top: 105vw;
+}
+
+.mob_el22 {
+    width: 50%;
+    left: 33vw;
+    top: 86vw;
+}
+
+.mob_el23 {
+    width: 40%;
+    right: -10vw;
+    top: 18vw;
+}
+
+.mob_el24 {
+    width: 60%;
+    transform: rotateZ(10deg) rotateY(180deg);
+    left: 20vw;
+    bottom: 10vw;
+}
+
+.mob_el25 {
+    width: 58%;
+    left: 22vw;
+    bottom: 20vw;
+}
+
+.mob_start_text {
+    font-size: 5vw;
+    left: 27.5vw;
+    bottom: 17.5vw;
+}
+
+.mob_start_bot {
+    color: white;
+}
