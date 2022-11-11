@@ -27,25 +27,25 @@
     .kratong_cover{
         width:50%; 
         position: absolute;
-        top:-12.5vw; 
-        left:5%;
-        animation-name: kratong_xaxis;
-        animation-duration: 30s;
+        top:17.5vw; 
+        left:-50%;
+        animation-name: kratong_float;
+        animation-duration: 35s;
         animation-iteration-count: infinite;
         transition-timing-function: linear;
     }
-    .kratongwrap_cover{
-        animation-name: kratong_yaxis;
-        animation-duration: 2.5s;
-        animation-iteration-count: infinite;
-        transition-timing-function: ease-in-out;
+    .wateryord_cover{
+        width:5.6%; 
+        position: absolute;
+        top:23.59vw; 
+        left:31.93%;
     }
     .tongyord_cover{
         width:5.5%; 
         position: absolute;
-        top:19vw; 
-        left:37%;
-        animation-name: swim;
+        top:22vw; 
+        left:32%;
+        animation-name: tong_swim;
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
@@ -78,15 +78,19 @@
         animation-iteration-count: infinite;
     }
 
-    @keyframes kratong_xaxis {
-        50% {transform: translateX(40vw);}
-    }
-    @keyframes kratong_yaxis {
-        50% {transform: translateY(2vw);}
+    @keyframes kratong_float {
+        0% {transform: translateX(0vw);}
+        100% {transform: translateX(150vw);}
+
     }
     @keyframes swim {
         0% {transform: translateY(0%);}
         50% {transform: translateY(1vw);}
+        100% {transform: translateY(0%);}
+    }
+    @keyframes tong_swim {
+        0% {transform: translateY(0%);}
+        50% {transform: translateY(-3.5vw);}
         100% {transform: translateY(0%);}
     }
 
@@ -605,6 +609,14 @@
         0% {transform:translateX(0);}
         100% {transform:translateX(-100vw);}
     }
+    @keyframes show_scroll {
+    0% {opacity: 0; transform: translateY(0%);}
+    100% {opacity: 1; transform: translateY(10%);}
+}
+    @keyframes show_scroll2 {
+        0% {opacity: 0; transform: translateY(0%) rotateY(180deg);}
+        100% {opacity: 1; transform: translateY(10%)rotateY(180deg); }
+    }
     /* CSS ช่วง 5 */
     .middle4_container {
         background-color: #72cc62; 
@@ -691,6 +703,32 @@
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
+    .next {
+        width: 2.5vw;
+        position: absolute;
+        top: 23.5vw;
+        left: 86%;
+        opacity: 0;
+        animation-name: show_scroll;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .back {
+        width: 2.5vw;
+        position: absolute;
+        top: 23.5vw;
+        left: 63.5%;
+        opacity: 0;
+        animation-name: show_scroll2;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .next:hover{
+        cursor: pointer;
+    }
+    .back:hover{
+        cursor: pointer;
+    }
     .textbox1_forget{
         width:12.5%; 
         position: absolute;
@@ -736,14 +774,17 @@
         top: 22.5vw; 
         left:67.5vw;
         z-index: 2;
+        visibility: hidden;
     }
     .text3_forget{
         font-size: 1vw;
         position: absolute;
-        top: 23.5vw; 
+        top: 24vw; 
         left:68.5vw;
         text-align: center; 
         z-index: 2;
+        visibility: hidden;
+
     }
     .textbox4_forget{
         width:17.5%; 
@@ -751,6 +792,8 @@
         top: 22.5vw; 
         left:67.5vw;
         z-index: 2;
+        visibility: hidden;
+
     }
     .text4_forget{
         font-size: 1vw;
@@ -759,6 +802,36 @@
         left:69.5vw;
         text-align: center; 
         z-index: 2;
+        visibility: hidden;
+
+    }
+    .textbox7_forget{
+        width:17.5%; 
+        position: absolute;
+        top: 22.5vw; 
+        left:67.5vw;
+        z-index: 2;
+        visibility: hidden;
+    }
+    .text7_forget{
+        font-size: 1vw;
+        position: absolute;
+        top: 24vw; 
+        left:68.75vw;
+        text-align: center; 
+        z-index: 2;
+        visibility: hidden;
+
+    }
+    @keyframes pop_text {
+    0% {transform: scale(0);}
+    70% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+    }
+
+    @keyframes pop_down_text {
+        0% {transform: scale(1);}
+        100% {transform: scale(0);}
     }
     .logo_forget{
         width:30%; 
