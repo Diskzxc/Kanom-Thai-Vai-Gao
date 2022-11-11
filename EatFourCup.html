@@ -68,10 +68,9 @@
     <div class="container top_container">
         <div class="row cover_sukothai">
              <img class="bg_cover"  src="img/EatFourCup/pc/png/bg_cover@2x.png">
-             <div class="kratongwrap_cover">
-                 <img class="kratong_cover"  src="img/EatFourCup/pc/png/กระทง@2x.png">
-             </div>
+            <img class="kratong_cover"  src="img/EatFourCup/pc/png/กระทง@2x.png">
              <img class="tongyord_cover"  src="img/EatFourCup/pc/png/น้องบนปกสุโขทัย@2x.png">
+             <img class="wateryord_cover"  src="img/EatFourCup/pc/png/Water_yord.png">
              <img class="star_cover_1"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
              <img class="star_cover_2"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
              <img class="star_cover_3"  src="img/EatFourCup/pc/png/ดาว_1@2x.png">
@@ -174,6 +173,12 @@
    <!-- 4Cup Forget -->
     <div class="container middle4_container">
         <div class="row fourcup_forget">
+            <div class="next" onclick="next()">
+                <img width="100%" src="img/EatFourCup/pc/png/play2.png">
+            </div>
+            <div class="back" onclick="back()">
+                <img width="100%" src="img/EatFourCup/pc/png/play2.png">
+            </div>
             <img class="cloud1_forget"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
             <img class="cloud2_forget"  src="img/EatFourCup/pc/png/เมฆ_01@2x.png">
             <img class="cloud3_forget"  src="img/EatFourCup/pc/png/เมฆ_02@2x.png">
@@ -182,14 +187,17 @@
             <h1 data-aos="fade-right" class="text1_forget">ว้าวววววววววววว
             </h1>
             <img class="babin_forget"  src="img/EatFourCup/pc/png/นางฟ้าบ้าบิ่น@2x.png">
-            <img data-aos="fade-left" class="textbox2_forget"  src="img/EatFourCup/pc/png/L4.png">
-            <h1 data-aos="fade-left"  class="text2_forget" >มะลิลอยหมายถึงความรักเบ่งบาน
+            <img id="textbox2_forget" data-aos="fade-left" class="textbox2_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 id="text2_forget" data-aos="fade-left"  class="text2_forget" >มะลิลอยหมายถึงความรักเบ่งบาน
             </h1>
-            <img data-aos="fade-left" data-aos-delay="1500" class="textbox4_forget"  src="img/EatFourCup/pc/png/L4.png">
-            <h1 data-aos="fade-left" data-aos-delay="1500" class="text4_forget">ไข่กบหมายถึงมีลูกเต็มบ้าน<br>มีหลานเต็มเมือง
+            <img id="textbox4_forget" data-aos="fade-left" class="textbox4_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 id="text4_forget" data-aos="fade-left"class="text4_forget">ไข่กบหมายถึงมีลูกเต็มบ้าน<br>มีหลานเต็มเมือง
             </h1>
-            <img data-aos="fade-left" data-aos-delay="3000" class="textbox3_forget"  src="img/EatFourCup/pc/png/L4.png">
-            <h1 data-aos="fade-left" data-aos-delay="3000" class="text3_forget">นกปล่อยหมายถึงความรักยืนยาว<br>อ้ายตื้อหมายถึงรักแน่นเหนียว
+            <img id="textbox3_forget" data-aos="fade-left" class="textbox3_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 id="text3_forget" data-aos="fade-left"class="text3_forget">นกปล่อยหมายถึงความรักยืนยาว
+            </h1>
+            <img id="textbox7_forget" data-aos="fade-left" class="textbox7_forget"  src="img/EatFourCup/pc/png/L4.png">
+            <h1 id="text7_forget" data-aos="fade-left"class="text7_forget">อ้ายตื้อหมายถึงรักแน่นเหนียว
             </h1>
             
             <img class="star1_forget"  src="img/EatFourCup/pc/png/ดาว_01@2x.png">
@@ -232,6 +240,107 @@
     <a href="index.html"><img class="menu" src="img/forall/pc/png/HAM@2x.png"></a>
     <script>
       AOS.init();
+      var state = 1;
+      function next() {
+        var chat_1 = document.getElementById("textbox2_forget");
+          var chat_2 = document.getElementById("textbox4_forget");
+          var chat_3 = document.getElementById("textbox3_forget");
+          var chat_4 = document.getElementById("textbox7_forget");
+          var chat_text_1 = document.getElementById("text2_forget");
+          var chat_text_2 = document.getElementById("text4_forget");
+          var chat_text_3 = document.getElementById("text3_forget");
+          var chat_text_4 = document.getElementById("text7_forget");
+          if (state == 1){
+                chat_2.style.visibility = "visible" ;
+                chat_2.style.animation = "pop_text 1s 1";
+                chat_text_2.style.visibility = "visible";
+                chat_text_2.style.animation = "pop_text 1s 1";
+                chat_1.style.animation = "pop_down_text 1s 1";
+                chat_text_1.style.animation = "pop_down_text 1s 1";
+                state = 2;
+                setTimeout(function () {
+                    chat_1.style.visibility = "hidden" ;
+                    chat_text_1.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state == 2){
+                chat_3.style.visibility = "visible" ;
+                chat_3.style.animation = "pop_text 1s 1";
+                chat_text_3.style.visibility = "visible";
+                chat_text_3.style.animation = "pop_text 1s 1";
+                chat_2.style.animation = "pop_down_text 1s 1";
+                chat_text_2.style.animation = "pop_down_text 1s 1";
+                state = 3;
+                setTimeout(function () {
+                    chat_2.style.visibility = "hidden" ;
+                    chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state == 3){
+                chat_4.style.visibility = "visible" ;
+                chat_4.style.animation = "pop_text 1s 1";
+                chat_text_4.style.visibility = "visible";
+                chat_text_4.style.animation = "pop_text 1s 1";
+                chat_3.style.animation = "pop_down_text 1s 1";
+                chat_text_3.style.animation = "pop_down_text 1s 1";
+                state = 4;
+                setTimeout(function () {
+                    chat_3.style.visibility = "hidden" ;
+                    chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            
+        }
+        function back() {
+        var chat_1 = document.getElementById("textbox2_forget");
+          var chat_2 = document.getElementById("textbox4_forget");
+          var chat_3 = document.getElementById("textbox3_forget");
+          var chat_4 = document.getElementById("textbox7_forget");
+          var chat_text_1 = document.getElementById("text2_forget");
+          var chat_text_2 = document.getElementById("text4_forget");
+          var chat_text_3 = document.getElementById("text3_forget");
+          var chat_text_4 = document.getElementById("text7_forget");
+          if (state == 4){
+                chat_3.style.visibility = "visible" ;
+                chat_3.style.animation = "pop_text 1s 1";
+                chat_text_3.style.visibility = "visible";
+                chat_text_3.style.animation = "pop_text 1s 1";
+                chat_4.style.animation = "pop_down_text 1s 1";
+                chat_text_4.style.animation = "pop_down_text 1s 1";
+                state = 3;
+                setTimeout(function () {
+                    chat_4.style.visibility = "hidden" ;
+                    chat_text_4.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state == 3){
+                chat_2.style.visibility = "visible" ;
+                chat_2.style.animation = "pop_text 1s 1";
+                chat_text_2.style.visibility = "visible";
+                chat_text_2.style.animation = "pop_text 1s 1";
+                chat_3.style.animation = "pop_down_text 1s 1";
+                chat_text_3.style.animation = "pop_down_text 1s 1";
+                state = 2;
+                setTimeout(function () {
+                    chat_3.style.visibility = "hidden" ;
+                    chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state == 2){
+                chat_1.style.visibility = "visible" ;
+                chat_1.style.animation = "pop_text 1s 1";
+                chat_text_1.style.visibility = "visible";
+                chat_text_1.style.animation = "pop_text 1s 1";
+                chat_2.style.animation = "pop_down_text 1s 1";
+                chat_text_2.style.animation = "pop_down_text 1s 1";
+                state = 1;
+                setTimeout(function () {
+                    chat_2.style.visibility = "hidden" ;
+                    chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+            
+        }
     </script>
 </body>
 </html>
