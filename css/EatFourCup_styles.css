@@ -134,6 +134,7 @@
         animation-name: spin;
         animation-duration: 30s;
         animation-iteration-count: infinite;
+        animation-timing-function: linear;
         z-index: 2;
     }
     .text1_word_intro{
@@ -219,6 +220,7 @@
         animation-name: flower_orbit;
         animation-duration: 15s;
         animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
     .flower_intro{
         width:8%; 
