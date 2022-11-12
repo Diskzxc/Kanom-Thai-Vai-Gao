@@ -15,3 +15,11 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+.mob_menu{
+    position: fixed;
+    right: 1vw;
+    top: 2vw;
+    width: 6vw;
+    z-index: 100;
+}

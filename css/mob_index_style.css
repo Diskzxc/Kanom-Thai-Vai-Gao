@@ -16,6 +16,15 @@ body {
     overflow-y: auto;
 }
 
+.mob_menu{
+    position: fixed;
+    right: 1vw;
+    top: 2vw;
+    width: 6vw;
+    z-index: 100;
+}
+
+
 .mob_text {
     font-size: 3.2vw;
 }
