@@ -13,6 +13,12 @@
 }
 
 /**CSS พระพาย**/
+.water_head{
+    position: absolute;
+    top : 46.5vw;
+    left: 0;
+    width: 100vw;
+}
 .boat_cover{
     position: absolute; left: 32.5vw; top:-25vw;
     animation-name: boat_xaxis;
@@ -73,7 +79,18 @@
     height: 161vw;
     color: #447e66;
 }
-
+.baitong{
+    width : 40%;
+    position: absolute; 
+    left: 30vw; 
+    top: 99vw;
+}
+.baitong1{
+    position: fixed; 
+    top: 30vw; 
+    left: 30.5%;
+    width: 40%;
+}
 .bg_prapai {
     background-image: url("../img/Prapai/PC/2x/พื้นหลังพระพาย@2x.png");
     width: 100%;
@@ -194,6 +211,12 @@ body {
 }
 @keyframes large_tan{
     50% {transform: scale(1.25);}
+}
+@keyframes flower_spin{
+    100% {transform: rotateZ(360deg);}
+}
+.flower{
+    animation : flower_spin 1s linear infinite;
 }
 .ship{
     animation-name: ship_go;

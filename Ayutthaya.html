@@ -47,13 +47,13 @@
 <body>
     <!-- พระพาย -->
     <div class="container top_title">
-        <div class="row">
+        <div class="row into_row">
             <img  src="img/Prapai/PC/2x/head_bg@2x.png" width="100%">
             <img  src="img/Prapai/PC/2x/Font_title@2x.png" width="50%" style="position: absolute; top:14vw; left:26vw;">   
             <div class="boat_wrap">
                 <img class="boat_cover" src="img/Prapai/PC/2x/เรือ_head@2x.png" width="35%">  
             </div>         
-             
+            <img class="water_head"  src="img/Prapai/PC/2x/water_head.png">
             <img class="babin_cover" src="img/Prapai/PC/2x/บ้าบิ่น_head@2x.png" width="17%">   
         </div>
         <div class="row bg_prapai">
@@ -96,7 +96,7 @@
                 ชาววิเสทซึ่งมักคุ้นกับพระพิทักษ์ราชกิจ<br>
                 มาเพื่อใข้ในพิธีแต่งงานโดยเฉพาะ
             </div>
-            <img src="img/Prapai/PC/2x/ใบตองรองควาามเชื่อ@2x.png" width="40%" style="position: absolute; left: 31vw; top: 99vw;">
+            <img class="baitong" id="baitong" src="img/Prapai/PC/2x/ใบตองรองควาามเชื่อ@2x.png">
             <img src="img/Prapai/PC/2x/ความเชื่อพระพาย@2x.png" width="28%"
                 style="position: absolute; left: 36.5vw; top: 80vw;">
             <img src="img/Prapai/PC/2x/เม็ดซ้าย@2x.png" width="38%" style="position: absolute; left: 0vw; top: 80vw;">
@@ -117,6 +117,7 @@
     </div>
     <div class="container ingredient_container">
         <div class="row">
+            <img class="baitong1" id="baitong1"  src="img/Prapai/PC/2x/ใบตองปกติ@2x.png">
             <div data-aos="zoom-in" class="text" style="color: #7294c2; top: 15vw; font-size: 1.5vw;">
                 วัตถุดิบ
             </div>
@@ -124,14 +125,13 @@
         <img src="img/forall/pc/png/พื้นหลังช่วง_Coversation_pc.png" width="57%" style="position: absolute; top: 57vw; left: 22vw;">
         <img class="char_ingre" src="img/Prapai/PC/2x/ทองหยอด_1@2x.png" width="7%" style="position: absolute; top: 84vw; left: 30vw;">
         <img class="char_ingre" src="img/Prapai/PC/2x/บ้าบิ่น_1@2x.png" width="18%" style="position: absolute; top: 76.5vw; left: 61vw;">
-        <img  src="img/Prapai/PC/2x/ใบตองปกติ@2x.png"width="40%" style="position: absolute; top: 106vw; left: 30%;">
         <img data-aos="zoom-in" src="img/Prapai/PC/2x/พระพายปกติ@2x.png" width="20%" style="position: absolute; top: 95vw; left: 40%;">
 
         <!-- พระพาบซึม -->
         <img src="img/forall/pc/png/พื้นหลังช่วง_Coversation_pc.png" width="57%" style="position: absolute; top: 127vw; left: 22vw;">
         <img class="char_ingre" src="img/Prapai/PC/2x/ทองหยอด_2@2x.png" width="7%" style="position: absolute; top: 142vw; left: 30vw;">
         <img class="char_ingre" src="img/Prapai/PC/2x/บ้าบิ่น_2@2x.png" width="22.5%" style="position: absolute; top: 154vw; left: 54vw;">
-        <img  src="img/Prapai/PC/2x/ใบตองซึม@2x.png"width="40%" style="position: absolute; top: 186vw; left: 30%;">
+        <img id="baitong2"  src="img/Prapai/PC/2x/ใบตองซึม@2x.png"width="40%" style="position: absolute; top: 186vw; left: 30%; visibility: hidden;">
         <img data-aos="zoom-in" src="img/Prapai/PC/2x/พระพายซึม@2x.png" width="20%" style="position: absolute; top: 175vw; left: 40%;">
 
 
@@ -186,7 +186,7 @@
 
         <div class="grid-container">
             <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/แป้งข้าวเหนียว@2x.png" width="45%"><br><p style="padding: 10%;">แป้งข้าวเหนียว</p></div>
-            <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/แป้งข้าวเจ้า@2x.png" width="55%" "><br><p style="padding: 10%;">แป้งข้าวเจ้า</p></div>
+            <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/แป้งข้าวเจ้า@2x.png" width="55%"><br><p style="padding: 10%;">แป้งข้าวเจ้า</p></div>
             <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/น้ำคั้นใบเตย@2x.png" width="45%" style="padding-top: 20%;"><br><p style="padding: 10%;">น้ำคั้นใบเตย</p></div>  
             <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/ถั่วเขียวเลาะเปลือก@2x.png" width="45%"><br><p style="padding: 10%;">ถั่วเขียวเลาะเปลือก</p></div>
             <div data-aos="zoom-in" class="grid-item"><img src="img/Prapai/PC/2x/กะทิ@2x.png" width="45%"style="padding-top:1.75%;" ><br><p style="padding: 10%;">กะทิ</p></div>
@@ -205,7 +205,7 @@
             </p>
             <h4>ทำยากความต้องการน้อย</h4>
         </div>
-        <img src="img/Prapai/PC/2x/ใบตองหิน@2x.png"width="40%" style="position: absolute; top: 29vw; left: 30%;">
+        <img id="baitong3" src="img/Prapai/PC/2x/ใบตองหิน@2x.png"width="40%" style="position: absolute; top: 29vw; left: 30%;">
         <img data-aos="zoom-in" src="img/Prapai/PC/2x/พระพายหิน@2x.png" width="18%" style="position: absolute; top: 20vw; left: 41%;">
         <img src="img/Prapai/PC/2x/กรง@2x.png" width="45%" style="position: absolute; top: 55vw; left: 27.5%;">
 
@@ -220,8 +220,8 @@
             </div>
             <!-- ถ้วย -->
             <img class="pot_pad" src="img/mortan/pc/png/Asset_3.png" width="26.5%" style="position: absolute; left: 36.8vw; top: 14.5vw">
-            <img src="img/mortan/pc/png/Asset_5.png" width="3.5%" style="position: absolute; left: 30.8vw; top: 30vw">
-            <img src="img/mortan/pc/png/Asset_4.png" width="3.5%" style="position: absolute; left: 65vw; top: 17.7vw">
+            <img class="flower" src="img/mortan/pc/png/Asset_5.png" width="3.5%" style="position: absolute; left: 30.8vw; top: 30vw">
+            <img class="flower" src="img/mortan/pc/png/Asset_4.png" width="3.5%" style="position: absolute; left: 65vw; top: 17.7vw">
             <img src="img/mortan/pc/png/Asset_2.png" width="45%" style="position: absolute; left: 28.6vw; top: 27.4vw; z-index: -1;">
             <h2 data-aos="zoom-in" class="text_box text_color1" style="top: 65vw; left: 40.5vw; text-align: center; ">"ขนมหม้อตาล" ขนมหวานไทยโบราณที่จัดอยู่ใน<br>หมวดชาววัง ซึ่งได้รับอิทธิพลจากการนำเข้ามา<br>
                 ของชาวจีน ทำให้ขนมนี้เป็นที่นิยมในหมู่ชุมชนชาว<br>ไทยเชื้อสายจีน หรือคนจีนที่เข้ามาติดต่อค้าขาย</h2>
@@ -261,6 +261,7 @@
             <img class="fly_tan" src="img/mortan/pc/png/Asset_23.png" width="5%" style="position: absolute; left: 38.6vw; top: 193vw;">
             <svg class="text_box"  width="10.8%" style="top: 187.3vw; left: 37vw; z-index: 1;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 191.61 88.75"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_95" data-name="Layer 95"><polygon class="cls-1" points="73.48 76.28 65.8 88.75 84.3 76.28 149.2 82.51 188.25 72.61 191.61 19.8 66.93 0 0 44.37 24.19 80.68 73.48 76.28"/></g></g></svg>
             <h1 class="text_color1" style="position: absolute; top: 188vw; left: 38.3vw; text-align: center; transform: rotateZ(-2deg); z-index: 1">เอ๊อะ...นั่นสินะ</h1>
+            
             <!-- พื้นหลัง -->
             <!-- ทองแถว 1 -->
             <img src="img/mortan/pc/png/Asset_17.png" width="4.8%" style="position: absolute; left: 30.8vw; top: 131.1vw;">
@@ -335,11 +336,11 @@
            <img class="mirrorback_door"  src="img/EatFourCup/pc/png/เศษกระจก@2x.png">
            <h1 data-aos="fade-right"  class="title_door">มุ่งสู่อดีต ฉากกถัดไปกันเลย!
             </h1>
-            <a href="EatFourCup.html"><img class="door_all door1" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_01@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_01@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_01@2x.png"></a>
-            <a href="Ayutthaya.html"><img class="door_all door2" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_02@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูเลข 2-Desktop.png';"  src="img/EatFourCup/pc/png/ประตูเลข 2-Desktop.png"></a>
-            <a href="Ayutthaya.html#mortan"><img class="door_all door3" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_03@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_03@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_03@2x.png"></a>
-            <a href="Rattanakosin.html"><img class="door_all door4" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_04@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_04@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_04@2x.png"></a>
-            <a href="Rattanakosin.html#purplebranch"><img class="door_all door5" onmouseover="this.src='img/EatFourCup/pc/png/ประตูเปิด_05@2x.png';" onmouseout="this.src='img/EatFourCup/pc/png/ประตูปิด_05@2x.png';"  src="img/EatFourCup/pc/png/ประตูปิด_05@2x.png"></a>
+            <a href="index.html"><img class="door_all door1" onmouseover="this.src='img/forall/pc/png/door_1_Op.png';" onmouseout="this.src='img/forall/pc/png/door_1.png';"  src="img/forall/pc/png/door_1.png"></a>
+            <a href="EatFourCup.html"><img class="door_all door2" onmouseover="this.src='img/forall/pc/png/door_2_sukothai.png';" onmouseout="this.src='img/forall/pc/png/door_2.png';"  src="img/forall/pc/png/door_2.png"></a>
+            <a href="Ayutthaya.html"><img class="door_all door3" onmouseover="this.src='img/forall/pc/png/door_3_ayuthaya.png';" onmouseout="this.src='img/forall/pc/png/door_3.png';"  src="img/forall/pc/png/door_3.png"></a>
+             <a href="Rattanakosin.html"><img class="door_all door4" onmouseover="this.src='img/forall/pc/png/door_4_rathanakosin.png';" onmouseout="this.src='img/forall/pc/png/door_4.png';"  src="img/forall/pc/png/door_4.png"></a>
+             <a href="end_page.html"><img class="door_all door5" onmouseover="this.src='img/forall/pc/png/door_5_End.png';" onmouseout="this.src='img/forall/pc/png/door_5.png';"  src="img/forall/pc/png/door_5.png"></a>
         </div>
     </div>
     <footer class="footer_style item-justify-center"> 
@@ -358,5 +359,29 @@
 </body>
 <script>
       AOS.init();
+      function getOffset(el) {
+          const rect = el.getBoundingClientRect();
+          return {
+            left: rect.left + window.scrollX,
+            top: rect.top + window.scrollY
+        };
+        }
+      setInterval(function(){ 
+            if (getOffset(baitong1).top >= getOffset(baitong3).top){
+                var baitong = document.getElementById("baitong1");
+                baitong.style.visibility = 'hidden';  
+            }
+            else if (getOffset(baitong1).top >= getOffset(baitong2).top){
+                var baitong = document.getElementById("baitong1");
+                baitong.src = 'img/Prapai/PC/2x/ใบตองซึม@2x.png';  
+                baitong.style.visibility = 'visible'; 
+            }else{
+                var baitong = document.getElementById("baitong1");
+                baitong.src = 'img/Prapai/PC/2x/ใบตองปกติ@2x.png';
+                baitong.style.visibility = 'visible';  
+            }
+
+        }, 1);
+
     </script>
 </html>
