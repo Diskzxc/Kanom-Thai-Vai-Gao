@@ -185,22 +185,22 @@
                 <img id="game_img2_win" src="img/bulann/pc/png/asset_49.png">
                 <img id="game_img2_win2" src="img/bulann/pc/png/asset_49.png">
             </div>
-            <div class="click_zone" onclick="play()"></div>
+            <div class="click_zone"  onclick="play()"></div>
             <img id="result_game" src="img/bulann/pc/png/asset_48.png">
             <!-- Game Result -->
             <div id="result_game_text">
-                <h3>คุณนึ่งสวยมาก!</h3>
-                <p>สิ่งที่มุ่งหวังหรืออธิฐานไว้<br> จะประสบความสำเร็จดังใจหมาย
+                <h3 class="text_re_big">คุณนึ่งสวยมาก!</h3>
+                <p class="text_re_small">สิ่งที่มุ่งหวังหรืออธิฐานไว้<br> จะประสบความสำเร็จดังใจหมาย
                 </p>
-                <p id="replay" onclick="replay()">เล่นอีกครั้ง
+                <p class="text_re_small" id="replay" onclick="replay()">เล่นอีกครั้ง
                 </p>
             </div>
             <!-- Game Result -->
             <div id="result_game_text_fail">
-                <h4>คุณนึ่งพลาดไปนิดเดียว!</h4>
-                <p>ถึงวันนี้จะไม่ใช่วันของคุณ<br> แต่พรุ่งนี้จะต้องสำเร็จอย่างแน่นอน
+                <h4 class="text_re_big">คุณนึ่งพลาดไปนิดเดียว!</h4>
+                <p class="text_re_small">ถึงวันนี้จะไม่ใช่วันของคุณ<br> แต่พรุ่งนี้จะต้องสำเร็จอย่างแน่นอน
                 </p>
-                <p id="replay" onclick="replay()">เล่นอีกครั้ง
+                <p class="text_re_small" id="replay" onclick="replay()">เล่นอีกครั้ง
                 </p>
             </div>
         </div>
@@ -388,21 +388,12 @@
                 var win_check1 = document.getElementById("game_img2_win").getBoundingClientRect().left;
                 var win_check2 = document.getElementById("game_img2_win2").getBoundingClientRect().left;
                 var rect = game.getBoundingClientRect();
-                result_box.style.animation = "pop_down_text 1s 1";
-                
-                if (rect.left >= win_check1 && rect.left <= win_check2){
-                    result_win.style.animation = "pop_down_text 1s 1";
-                }
-                else {
-                    result_lose.style.animation = "pop_down_text 1s 1";
-                }
+                result_box.style.animation = "pop_down_tex 1s 1";
+                result_win.style.animation = "pop_down_tex 1s 1";
+                result_lose.style.animation = "pop_down_tex 1s 1";
                 result_box.style.visibility = "hidden";
-                if (rect.left >= win_check1 && rect.left <= win_check2){
-                    result_win.style.visibility = "hidden";
-                }
-                else {
-                    result_lose.style.visibility = "hidden";
-                }
+                result_win.style.visibility = "hidden";
+                result_lose.style.visibility = "hidden";
                 game.style.left = "52.5vw";
                 game.style.animation = "game 3s infinite linear";
                           

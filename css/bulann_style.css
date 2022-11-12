@@ -928,9 +928,18 @@
         }
         #replay{
             color : lightyellow;
+            position: absolute;
+            top: 9.5vw;
+            left: 10vw;
         }
         #replay:hover{
             cursor: pointer;
+        }
+        .text_re_big{
+            font-size: 2vw;
+        }
+        .text_re_small{
+            font-size: 1.5vw;
         }
         @keyframes game {
             0% {
