@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+}
+
+/** Mobile Style **/
+
+.mob_cm_chormuang {
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-width: 360px;
+    max-width: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
