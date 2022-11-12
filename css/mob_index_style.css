@@ -40,7 +40,7 @@ body {
 .mob_head_text {
     text-align: center;
     font-size: 4.5vw;
-    left: 12vw;
+    left: 8vw;
     top: 15vw;
 }
 
@@ -157,12 +157,14 @@ body {
 }
 
 .mob_L7 {
+    visibility: hidden;
     width: 30%;
     right: 10vw;
     top: 5vw;
 }
 
 .mob_in_L7 {
+    visibility: hidden;
     text-align: center;
     color: white;
     right: 17vw;
