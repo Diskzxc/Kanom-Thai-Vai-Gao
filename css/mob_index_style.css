@@ -57,12 +57,14 @@ body {
 }
 
 .mob_L2 {
+    visibility: hidden;
     width: 37%;
     left: 9vw;
     top: 69.5vw;
 }
 
 .mob_in_L2 {
+    visibility: hidden;
     text-align: center;
     left: 13.5vw;
     top: 72vw;
@@ -70,36 +72,42 @@ body {
 }
 
 .mob_L3 {
+    visibility: hidden;
     width: 40%;
     left: 52vw;
     top: 78vw;
 }
 
 .mob_in_L3 {
+    visibility: hidden;
     text-align: center;
     left: 55vw;
     top: 78vw;
 }
 
 .mob_L4 {
+    visibility: hidden;
     width: 37%;
     left: 12vw;
     top: 57vw;
 }
 
 .mob_in_L4 {
+    visibility: hidden;
     text-align: center;
     left: 17.5vw;
     top: 56.5vw;
 }
 
 .mob_L5 {
+    visibility: hidden;
     width: 37%;
     right: 10vw;
     bottom: 1.5vw;
 }
 
 .mob_in_L5 {
+    visibility: hidden;
     text-align: center;
     color: white;
     right: 14vw;
@@ -108,12 +116,14 @@ body {
 }
 
 .mob_L6 {
+    visibility: hidden;
     width: 30%;
     left: 16vw;
     bottom: 15vw;
 }
 
 .mob_in_L6 {
+    visibility: hidden;
     text-align: center;
     left: 18.5vw;
     bottom: 18vw;
