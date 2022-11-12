@@ -447,6 +447,7 @@
         #textbox9 {
             position: absolute;
             left: 30%;
+            width: 30%;
         }
         
         .staple1 {
@@ -823,10 +824,49 @@
         #game_img2 {
             position: absolute;
             width: 13vw;
-            left: 50vw;
+            left: 52.5vw;
             top: 20vw;
+            animation: game 3s infinite linear;
         }
-        
+        #game_img2_check {
+            position: absolute;
+            width: 13vw;
+            left: 52.5vw;
+            top: 20vw;
+            visibility: hidden;
+        }
+        #game_img2_win {
+            position: absolute;
+            width: 13vw;
+            left: 62.75vw;
+            top: 20vw;
+            visibility: hidden;
+        }
+        #game_img2_win2 {
+            position: absolute;
+            width: 13vw;
+            left: 63.6vw;
+            top: 20vw;
+            visibility: hidden;
+        }
+        .click_zone{
+            width : 35vw;
+            height: 20vw;
+            background-color: transparent;
+            position: absolute;
+            top: 15vw;
+            left: 52.5vw;
+        }
+        @keyframes pop_text {
+            0% {transform: scale(0);}
+            70% {transform: scale(1.1);}
+            100% {transform: scale(1);}
+        }
+
+        @keyframes pop_down_text {
+            0% {transform: scale(1);}
+            100% {transform: scale(0);}
+        }
         #game_img3 {
             position: absolute;
             width: 4vw;
@@ -851,12 +891,37 @@
         
         .bulanngame {
             position: absolute;
-            animation-name: game;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            transition-timing-function: linear;
+            
         }
-        
+        #result_game{
+            position: absolute;
+            width: 30%;
+            top: 30vw;
+            left: 40vw;
+            visibility: hidden;
+        }
+        #result_game_text{
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 36.5vw;
+            left: 45vw;
+            visibility: hidden;
+        }
+        #result_game_text_fail{
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 37vw;
+            left: 42.5vw;
+            visibility: hidden;
+        }
+        #replay{
+            color : lightyellow;
+        }
+        #replay:hover{
+            cursor: pointer;
+        }
         @keyframes game {
             0% {
                 transform: translateX(0vw);

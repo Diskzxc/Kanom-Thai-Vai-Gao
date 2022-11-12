@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/bulann_style.css" type="text/css">
     <link rel="stylesheet" href="css/chormuang_style.css">
-    <script src="/js/bulann.js"></script>
+    <script src="js/bulann.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ขนมไทยวัยเก๋า | ยุครัตนโกสินทร์</title>
@@ -180,13 +180,28 @@
             </div>
             <div class="bulanngame">
                 <img id="game_img2" src="img/bulann/pc/png/asset_49.png">
+                <img id="game_img2_check" src="img/bulann/pc/png/asset_49.png">
+                <img id="game_img2_win" src="img/bulann/pc/png/asset_49.png">
+                <img id="game_img2_win2" src="img/bulann/pc/png/asset_49.png">
             </div>
+            <div class="click_zone" onclick="play()"></div>
+            <img id="result_game" src="img/bulann/pc/png/asset_48.png">
             <!-- Game Result -->
-            <!-- <div>
+            <div id="result_game_text">
                 <h3>คุณนึ่งสวยมาก!</h3>
                 <p>สิ่งที่มุ่งหวังหรืออธิฐานไว้<br> จะประสบความสำเร็จดังใจหมาย
                 </p>
-            </div> -->
+                <p id="replay" onclick="replay()">เล่นอีกครั้ง
+                </p>
+            </div>
+            <!-- Game Result -->
+            <div id="result_game_text_fail">
+                <h4>คุณนึ่งพลาดไปนิดเดียว!</h4>
+                <p>ถึงวันนี้จะไม่ใช่วันของคุณ<br> แต่พรุ่งนี้จะต้องสำเร็จอย่างแน่นอน
+                </p>
+                <p id="replay" onclick="replay()">เล่นอีกครั้ง
+                </p>
+            </div>
         </div>
         <div class="row bulann_box8">
             <img id="last_img1" src="img/bulann/pc/png/asset_50.png">
@@ -337,6 +352,63 @@
         </div>
         <script>
             AOS.init();
+            function play() {
+                var moon = document.getElementById("bulanngame");
+                var game = document.getElementById("game_img2");
+                var result_box = document.getElementById("result_game");
+                var result_win = document.getElementById("result_game_text");
+                var result_lose = document.getElementById("result_game_text_fail");
+                var check = document.getElementById("game_img2_check").getBoundingClientRect().left;
+                var win_check1 = document.getElementById("game_img2_win").getBoundingClientRect().left;
+                var win_check2 = document.getElementById("game_img2_win2").getBoundingClientRect().left;
+                var rect = game.getBoundingClientRect();
+                console.log(check)
+                console.log(rect.left);
+                game.style.animation = "games 3s infinite linear";
+                place = ((rect.left)/check)*52.5;
+                game.style.left = place.toString()+"vw";
+                result_box.style.animation = "pop_text 1s 1";
+                result_box.style.visibility = "visible";
+                if (rect.left >= win_check1 && rect.left <= win_check2){
+                    result_win.style.animation = "pop_text 1s 1";
+                    result_win.style.visibility = "visible";
+                }
+                else {
+                    result_lose.style.animation = "pop_text 1s 1";
+                    result_lose.style.visibility = "visible";
+                }
+                          
+            }
+            function replay() {
+                var moon = document.getElementById("bulanngame");
+                var game = document.getElementById("game_img2");
+                var result_box = document.getElementById("result_game");
+                var result_win = document.getElementById("result_game_text");
+                var result_lose = document.getElementById("result_game_text_fail");
+                var check = document.getElementById("game_img2_check").getBoundingClientRect().left;
+                var win_check1 = document.getElementById("game_img2_win").getBoundingClientRect().left;
+                var win_check2 = document.getElementById("game_img2_win2").getBoundingClientRect().left;
+                var rect = game.getBoundingClientRect();
+                result_box.style.animation = "pop_down_text 1s 1";
+                
+                if (rect.left >= win_check1 && rect.left <= win_check2){
+                    result_win.style.animation = "pop_down_text 1s 1";
+                }
+                else {
+                    result_lose.style.animation = "pop_down_text 1s 1";
+                }
+                result_box.style.visibility = "hidden";
+                if (rect.left >= win_check1 && rect.left <= win_check2){
+                    result_win.style.visibility = "hidden";
+                }
+                else {
+                    result_lose.style.visibility = "hidden";
+                }
+                game.style.left = "52.5vw";
+                game.style.animation = "game 3s infinite linear";
+                          
+            }
+
         </script>
 </body>
 
