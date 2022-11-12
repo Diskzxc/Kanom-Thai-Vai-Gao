@@ -182,7 +182,6 @@ body {
     text-align: center;
     left: 9vw;
     top: 48vw;
-    transform: rotateZ(3deg);
 }
 
 .mob_L9 {
@@ -195,7 +194,6 @@ body {
     text-align: center;
     left: 11vw;
     top: 189vw;
-    transform: rotateZ(3deg);
 }
 
 .mob_L10 {
@@ -208,7 +206,6 @@ body {
     text-align: center;
     left: 5vw;
     top: 295vw;
-    transform: rotateZ(4.5deg);
 }
 
 .mob_L11 {
@@ -221,7 +218,6 @@ body {
     text-align: center;
     left: 19vw;
     top: 382vw;
-    transform: rotateZ(3deg);
 }
 
 .mob_title_text {
