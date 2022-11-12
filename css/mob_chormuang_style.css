@@ -9,106 +9,6 @@ body {
     position: absolute;
 }
 
-/* CSS ช่วง 6 จบ */
-.bottom_container {
-    background-color: transparent;
-    width: 100vw;
-    text-align: center;
-    height: 32.5vw;
-    position: absolute;
-    bottom: 33vw;
-}
-
-.door_mirror {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #488167;
-
-}
-
-.mirrorbreak_door {
-    width: 200%;
-    position: absolute;
-    top: 0vw;
-    left: 0vw;
-    z-index: 3;
-
-}
-
-.mirrorback_door {
-    width: 100%;
-    position: absolute;
-    top: 15vw;
-    left: 0vw;
-    z-index: 3;
-    animation-name: mirrorback_fly;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-
-}
-
-.title_door {
-    font-size: 4.5vw;
-    position: absolute;
-    top: 23vw;
-    left: 20.5vw;
-    text-align: left;
-    z-index: 3;
-    color: #7194c5;
-}
-
-.door1 {
-    width: 10%;
-    position: absolute;
-    top: 36vw;
-    left: 17vw;
-    z-index: 3;
-
-}
-
-.door2 {
-    width: 10%;
-    position: absolute;
-    top: 36vw;
-    left: 31vw;
-    z-index: 3;
-
-}
-
-.door3 {
-    width: 10%;
-    position: absolute;
-    top: 36vw;
-    left: 45vw;
-    z-index: 3;
-
-}
-
-.door4 {
-    width: 10%;
-    position: absolute;
-    top: 36vw;
-    right: 31vw;
-    z-index: 3;
-
-}
-
-.door5 {
-    width: 10%;
-    position: absolute;
-    top: 36vw;
-    right: 17vw;
-    z-index: 3;
-
-}
-
-@keyframes mirrorback_fly {
-    50% {
-        transform: translateY(2vw);
-    }
-}
-
 /** Mobile Style **/
 
 .mob_cm_chormuang {
@@ -465,4 +365,108 @@ body {
 .mb_L24 {
     left: 12vw;
     top: 280vw;
+}
+
+
+
+
+/** Door **/
+
+.bottom_container {
+    background-color: transparent;
+    width: 100vw;
+    text-align: center;
+    height: 32.5vw;
+    position: absolute;
+    bottom: 33vw;
+}
+
+.door_mirror {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.mirrorbreak_door {
+    width: 200%;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    z-index: 3;
+
+}
+
+.mirrorback_door {
+    width: 100%;
+    position: absolute;
+    top: 15vw;
+    left: 0vw;
+    z-index: 3;
+    animation-name: mirrorback_fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.title_door {
+    font-size: 4.5vw;
+    position: absolute;
+    top: 23vw;
+    left: 20.5vw;
+    text-align: left;
+    z-index: 3;
+    color: #7194c5;
+}
+
+.door1 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 17vw;
+    z-index: 3;
+
+}
+
+.door2 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 31vw;
+    z-index: 3;
+
+}
+
+.door3 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 45vw;
+    z-index: 3;
+
+}
+
+.door4 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    right: 31vw;
+    z-index: 3;
+
+}
+
+.door5 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    right: 17vw;
+    z-index: 3;
+
+}
+
+@keyframes mirrorback_fly {
+    50% {
+        transform: translateY(2vw);
+    }
 }
