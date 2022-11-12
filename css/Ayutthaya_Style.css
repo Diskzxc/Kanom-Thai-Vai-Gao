@@ -19,12 +19,6 @@
     left: 0;
     width: 100vw;
 }
-.water_back{
-    position: absolute;
-    top : 34vw;
-    left: 0;
-    width: 100vw;
-}
 .boat_cover{
     position: absolute; left: 32.5vw; top:-25vw;
     animation-name: boat_xaxis;
@@ -297,6 +291,131 @@
     color: #468066;
     font-size: 1.25vw;
 }
+.text_prapai1{
+    position: absolute; 
+    top: 74.5vw; 
+    left: 27.5%; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai2{
+    position: absolute; 
+    top: 70vw; 
+    left: 57%; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai3{
+    position: absolute; 
+    top: 70.5vw; 
+    left: 57.5%; 
+    transform: rotateZ(-4deg);
+    visibility: hidden;
+}
+.text_prapai4{
+    position: absolute; 
+    top:83vw; 
+    left: 43vw; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai5{
+    position: absolute; 
+    top: 134.5vw; 
+    left: 32.5%; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai6{
+    position: absolute; 
+    top: 146.5vw; 
+    left: 59.5%; 
+    transform: rotateZ(-3deg);
+}
+.text_prapai7{
+    position: absolute; 
+    top: 146.5vw; 
+    left: 59.5%; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai8{
+    position: absolute; 
+    top: 209.5vw; 
+    left: 35%; 
+    transform: rotateZ(-4deg);
+}
+.text_prapai9{
+    position: absolute; 
+    top: 215.5vw; 
+    left: 60%; 
+    transform: rotateZ(-3deg);
+}
+@keyframes show_scroll {
+    0% {opacity: 0; transform: translateY(0%);}
+    100% {opacity: 1; transform: translateY(10%);}
+}
+@keyframes show_scroll2 {
+    0% {opacity: 0; transform: translateY(0%) rotateY(180deg);}
+    100% {opacity: 1; transform: translateY(10%)rotateY(180deg); }
+}
+    .next {
+        width: 2.5vw;
+        position: absolute;
+        top: 71vw;
+        left: 76.5%;
+        opacity: 0;
+        animation-name: show_scroll;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .back {
+        width: 2.5vw;
+        position: absolute;
+        top: 71vw;
+        left: 52%;
+        opacity: 0;
+        animation-name: show_scroll2;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .next:hover{
+        cursor: pointer;
+    }
+    .back:hover{
+        cursor: pointer;
+    } 
+    .next2 {
+        width: 2.5vw;
+        position: absolute;
+        top: 147.5vw;
+        left: 76.5%;
+        opacity: 0;
+        animation-name: show_scroll;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .back2 {
+        width: 2.5vw;
+        position: absolute;
+        top: 147.5vw;
+        left: 53.5%;
+        opacity: 0;
+        animation-name: show_scroll2;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .next2:hover{
+        cursor: pointer;
+    }
+    .back2:hover{
+        cursor: pointer;
+    } 
+    @keyframes pop_text {
+    0% {transform: scale(0);}
+    70% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+    }
+
+    @keyframes pop_down_text {
+        0% {transform: scale(1);}
+        100% {transform: scale(0);}
+    }      
 .bottomp_container{
     width: 100vw; 
     height: 90vw;
@@ -304,7 +423,47 @@
     background-color: white;
     text-align: center;
 }
-
+.cage{
+    position: absolute; top: 55vw; left: 27.5%;
+    width: 45%;
+}
+.pai_small1{
+    position: absolute; 
+    top: 57.5vw; 
+    left: 56%;
+    width: 9%;
+    animation: prapai_low 3s infinite linear;
+}
+.pai_small2{
+    position: absolute; 
+    top: 63vw; 
+    left: 46%;
+    width: 8%;
+    animation: prapai_low 3s infinite linear;
+}
+.pai_small3{
+    position: absolute; 
+    top: 58.5vw; 
+    left: 36%;
+    width: 9%;
+    animation: prapai_low 3s infinite linear;
+}
+.tong_prapai{
+    position: absolute; 
+    top: 74.5vw; 
+    left: 62%;
+    width: 9%;
+}
+.lock_prapai{
+    position: absolute; 
+    top: 72vw; 
+    left: 29%;
+    width: 8%;
+}
+@keyframes prapai_low{
+    50% {transform: translateY(2vw);}
+}
+/** Mortarn**/
 body {
     height: 100%;
     margin: 0;
