@@ -478,20 +478,20 @@
             }
             
         }
-        var state = 1;
+      var state2 = 1;
       function next2() {
         var chat_1 = document.getElementById("textbox_move3");
           var chat_2 = document.getElementById("textbox_move4");
           var chat_text_1 = document.getElementById("text_move3");
           var chat_text_2 = document.getElementById("text_move4");
-          if (state == 1){
+          if (state2 == 1){
                 chat_2.style.visibility = "visible" ;
                 chat_2.style.animation = "pop_text 1s 1";
                 chat_text_2.style.visibility = "visible";
                 chat_text_2.style.animation = "pop_text 1s 1";
                 chat_1.style.animation = "pop_down_text 1s 1";
                 chat_text_1.style.animation = "pop_down_text 1s 1";
-                state = 2;
+                state2 = 2;
                 setTimeout(function () {
                     chat_1.style.visibility = "hidden" ;
                     chat_text_1.style.visibility = "hidden";
@@ -506,14 +506,14 @@
           var chat_text_1 = document.getElementById("text_move3");
           var chat_text_2 = document.getElementById("text_move4");
           
-          if (state == 2){
+          if (state2 == 2){
                 chat_1.style.visibility = "visible" ;
                 chat_1.style.animation = "pop_text 1s 1";
                 chat_text_1.style.visibility = "visible";
                 chat_text_1.style.animation = "pop_text 1s 1";
                 chat_2.style.animation = "pop_down_text 1s 1";
                 chat_text_2.style.animation = "pop_down_text 1s 1";
-                state = 1;
+                state2 = 1;
                 setTimeout(function () {
                     chat_2.style.visibility = "hidden" ;
                     chat_text_2.style.visibility = "hidden";
