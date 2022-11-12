@@ -893,6 +893,12 @@
             position: absolute;
             
         }
+        #bg_game{
+            width: 100%;
+            position: absolute;
+            top: 365vw;
+            left: 0;
+        }
         #result_game{
             position: absolute;
             width: 30%;

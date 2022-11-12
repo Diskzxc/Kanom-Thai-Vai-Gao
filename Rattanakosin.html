@@ -166,6 +166,7 @@
                 </p>
             </div>
         </div>
+        <img id="bg_game" src="img/bulann/pc/png/asset_39.png">
         <div data-aos="zoom-in-up" data-aos-delay="500" class="row bulann_box7">
             <div data-aos="zoom-in-up" class="story_text">
                 <p id="bulann_text13">ในส่วนของบุหลัน (ดวงจันทร์) สีเหลือง<br> เวลาหยอดแล้วนำไปนึ่ง จะขึ้นสวยหรือไม่<br> ต้องเสี่ยงทายดู
@@ -362,8 +363,6 @@
                 var win_check1 = document.getElementById("game_img2_win").getBoundingClientRect().left;
                 var win_check2 = document.getElementById("game_img2_win2").getBoundingClientRect().left;
                 var rect = game.getBoundingClientRect();
-                console.log(check)
-                console.log(rect.left);
                 game.style.animation = "games 3s infinite linear";
                 place = ((rect.left)/check)*52.5;
                 game.style.left = place.toString()+"vw";
