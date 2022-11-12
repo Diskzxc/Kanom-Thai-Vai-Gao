@@ -50,6 +50,7 @@
         <div class="row into_row">
             <img  src="img/Prapai/PC/2x/head_bg@2x.png" width="100%">
             <img  src="img/Prapai/PC/2x/Font_title@2x.png" width="50%" style="position: absolute; top:14vw; left:26vw;">   
+            <img class="water_back"  src="img/Prapai/PC/2x/water_head@2x.png">
             <div class="boat_wrap">
                 <img class="boat_cover" src="img/Prapai/PC/2x/เรือ_head@2x.png" width="35%">  
             </div>         
@@ -104,6 +105,31 @@
             <img src="img/Prapai/PC/2x/เม็ดซ้ายบน@2x.png" width="10%"
                 style="position: absolute; left: 30.5vw; top: 75.5vw;">
             <img src="img/Prapai/PC/2x/เม็ดขวาบน@2x.png" width="10%" style="position: absolute; left: 60.5vw; top: 75.5vw;">
+            <div class ="green_body1">
+                <img id="pink_eyes" class="pink_eyes pink1" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body2">
+                <img id="pink_eyes" class="pink_eyes pink2" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body3">
+                <img id="pink_eyes" class="pink_eyes pink3" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body4">
+                <img id="pink_eyes" class="pink_eyes pink4" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body5">
+                <img id="pink_eyes" class="pink_eyes pink5" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body6">
+                <img id="pink_eyes" class="pink_eyes pink6" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body7">
+                <img id="pink_eyes" class="pink_eyes pink7" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+            <div class ="green_body8">
+                <img id="pink_eyes" class="pink_eyes pink8" src="img/Prapai/PC/2x/5-1_left_middle@2x.png">
+            </div>
+
             <div class="text info_prapai_center" style="top: 85vw; font-size: 1.5vw;">
                 ความเชื่อ<br>
                 ของขนมพระพาย<br>
@@ -359,6 +385,18 @@
 </body>
 <script>
       AOS.init();
+      var balls = document.getElementsByClassName("pink_eyes")
+      document.onmousemove = function(){
+        var x = event.clientX * 80 / window.innerWidth + "%"; 
+        var y = event.clientY * 80 / window.innerHeight + "%"; 
+        for (var i=0; i<8; i++){
+            balls[i].style.left = x;
+            balls[i].style.top = y;
+            balls[i].style.transform = "translate(-"+x+",-"+y+")"
+        }
+        
+
+      }
       function getOffset(el) {
           const rect = el.getBoundingClientRect();
           return {

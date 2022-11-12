@@ -19,6 +19,12 @@
     left: 0;
     width: 100vw;
 }
+.water_back{
+    position: absolute;
+    top : 34vw;
+    left: 0;
+    width: 100vw;
+}
 .boat_cover{
     position: absolute; left: 32.5vw; top:-25vw;
     animation-name: boat_xaxis;
@@ -91,6 +97,135 @@
     left: 30.5%;
     width: 40%;
 }
+.green_body1{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: 81.5vw;
+    left: 9.5vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body2{
+    position: absolute;
+    width: 13vw;
+    height: 13vw;
+    top: 81vw;
+    left: 78vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body3{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 82.25vw;
+    left: 30.5vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body4{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 82.25vw;
+    left: 64.75vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body5{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 91.25vw;
+    left: 69.5vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body6{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 91.25vw;
+    left: 23vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body7{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 97.25vw;
+    left: 1vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.green_body8{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 97.25vw;
+    left: 92.5vw;
+    border-radius: 50%;
+    background-image: url("../img/Prapai/PC/2x/4-2_left_side@2x.png");
+    background-size: 100%;
+}
+.pink1{
+    position: absolute;
+    width: 4vw;
+    top: 5.5vw;
+    left: 5.75vw;
+}
+.pink2{
+    position: absolute;
+    width: 4vw;
+    top: 5.5vw;
+    left: 5.75vw;
+}
+.pink3{
+    position: absolute;
+    width: 2vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+.pink4{
+    position: absolute;
+    width: 2vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+.pink5{
+    position: absolute;
+    width: 2.75vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+.pink6{
+    position: absolute;
+    width: 2.75vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+.pink7{
+    position: absolute;
+    width: 2.75vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+.pink8{
+    position: absolute;
+    width: 2.75vw;
+    top: 2.15vw;
+    left: 2.15vw;
+}
+
 .bg_prapai {
     background-image: url("../img/Prapai/PC/2x/พื้นหลังพระพาย@2x.png");
     width: 100%;
