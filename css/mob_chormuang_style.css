@@ -2,11 +2,117 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+}
+
+.el_pos {
+    position: absolute;
+}
+
+/* CSS ช่วง 6 จบ */
+.bottom_container {
+    background-color: transparent;
+    width: 100vw;
+    text-align: center;
+    height: 32.5vw;
+    position: absolute;
+    bottom: 33vw;
+}
+
+.door_mirror {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.mirrorbreak_door {
+    width: 200%;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    z-index: 3;
+
+}
+
+.mirrorback_door {
+    width: 100%;
+    position: absolute;
+    top: 15vw;
+    left: 0vw;
+    z-index: 3;
+    animation-name: mirrorback_fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.title_door {
+    font-size: 4.5vw;
+    position: absolute;
+    top: 23vw;
+    left: 20.5vw;
+    text-align: left;
+    z-index: 3;
+    color: #7194c5;
+}
+
+.door1 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 17vw;
+    z-index: 3;
+
+}
+
+.door2 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 31vw;
+    z-index: 3;
+
+}
+
+.door3 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    left: 45vw;
+    z-index: 3;
+
+}
+
+.door4 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    right: 31vw;
+    z-index: 3;
+
+}
+
+.door5 {
+    width: 10%;
+    position: absolute;
+    top: 36vw;
+    right: 17vw;
+    z-index: 3;
+
+}
+
+@keyframes mirrorback_fly {
+    50% {
+        transform: translateY(2vw);
+    }
 }
 
 /** Mobile Style **/
 
 .mob_cm_chormuang {
+    color: #578b72;
     background-color: #f3f3e5;
     overflow-x: hidden;
     overflow-y: auto;
@@ -16,10 +122,347 @@ body {
     overflow-y: auto;
 }
 
-.mob_menu{
+.mb_text {
+    font-size: 7vw;
+}
+
+.mb_text1 {
+    font-size: 5vw;
+}
+
+.mb_text2 {
+    font-size: 4.5vw;
+}
+
+.mb_text3 {
+    font-size: 4.5vw;
+    color: black;
+}
+
+.mob_menu {
     position: fixed;
     right: 1vw;
     top: 2vw;
     width: 6vw;
     z-index: 100;
+}
+
+.mob_cm_block1 {
+    position: relative;
+    width: 100%;
+    height: 400vh;
+}
+
+.mb_topic_text {
+    color: #6c90c4;
+    top: 12vw;
+    left: 32vw;
+}
+
+.mb_el1 {
+    width: 100vw;
+    top: 45vw;
+}
+
+.mb_el2 {
+    width: 60vw;
+    left: 20vw;
+    top: 57vw;
+}
+
+.mb_el3 {
+    width: 74vw;
+    left: 14vw;
+    top: 67vw;
+}
+
+.mb_el4 {
+    width: 34vw;
+    left: 33vw;
+    top: 63vw;
+}
+
+.mb_el5 {
+    width: 2.5vw;
+    left: 51vw;
+    top: 77vw;
+}
+
+.mb_el6 {
+    width: 76vw;
+    left: 12vw;
+    top: 40vw;
+}
+
+.mb_L1 {
+    text-align: center;
+    left: 12vw;
+    top: 110vw;
+}
+
+.mb_el7 {
+    width: 56vw;
+    left: 22vw;
+    top: 170vw;
+}
+
+.mb_el8 {
+    width: 100vw;
+    left: 0vw;
+    top: 150vw;
+}
+
+.mb_el9 {
+    width: 100vw;
+    left: 0vw;
+    top: 210vw;
+}
+
+.mb_L2 {
+    color: #a781e5;
+    text-align: center;
+    left: 15vw;
+    top: 240vw;
+}
+
+.mb_L3 {
+    color: #a781e5;
+    text-align: center;
+    left: 19vw;
+    top: 280vw;
+}
+
+.mb_el10 {
+    width: 100vw;
+    left: 0vw;
+    top: 305vw;
+}
+
+.mb_el11 {
+    width: 60vw;
+    left: 20vw;
+    top: 340vw;
+}
+
+.mb_el12 {
+    width: 100vw;
+    left: 0vw;
+    top: 410vw;
+}
+
+.mb_L4 {
+    text-align: center;
+    left: 11vw;
+    top: 440vw;
+}
+
+.mb_el13 {
+    width: 100vw;
+    left: 0vw;
+    top: 480vw;
+}
+
+.mb_L5 {
+    text-align: center;
+    left: 12vw;
+    top: 520vw;
+}
+
+.mb_el14 {
+    width: 98vw;
+    left: 1vw;
+    top: 590vw;
+}
+
+.mb_L6 {
+    left: 38vw;
+    top: 675vw;
+}
+
+/**block 2**/
+
+.mob_cm_block2 {
+    position: relative;
+    width: 100%;
+    height: 300vh;
+    background-image: url("../img/chormuang/mobile/png/Bg_น้ำ-MB.png");
+    background-size: cover;
+}
+
+.mb_el15 {
+    width: 60vw;
+    left: 20vw;
+    top: -10vw;
+}
+
+.mb_el16 {
+    width: 80vw;
+    left: 10vw;
+    top: -30vw;
+}
+
+.mb_el17 {
+    width: 74vw;
+    left: 12vw;
+    top: 20vw;
+}
+
+.mb_el18 {
+    width: 80vw;
+    left: 10vw;
+    top: 280vw;
+}
+
+.mob_stopper {
+    width: 100vw;
+    height: 10%;
+    position: relative;
+    top: 65%;
+    background-image: url("../img/chormuang/pc/png/Pattern_ช่อม่วง-PC.png");
+    background-size: 30%;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: flower_slide 10s linear infinite;
+}
+
+@keyframes flower_slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 42.75% 0;
+    }
+}
+
+.mb_L7 {
+    left: 24vw;
+    top: 370vw;
+}
+
+.mb_el19 {
+    width: 80vw;
+    left: 10vw;
+    top: 400vw;
+}
+
+.mb_L8 {
+    text-align: center;
+    left: 16vw;
+    top: 460vw;
+}
+
+.mb_L9 {
+    top: 48vw;
+    left: 23vw;
+}
+
+.mb_L10 {
+    top: 48vw;
+    left: 60vw;
+}
+
+.mb_L11 {
+    top: 95vw;
+    left: 23vw;
+}
+
+.mb_L12 {
+    top: 95vw;
+    left: 54vw;
+}
+
+
+.mb_L13 {
+    top: 145vw;
+    left: 18vw;
+}
+
+.mb_L14 {
+    top: 145vw;
+    left: 60vw;
+}
+
+.mb_L15 {
+    top: 195vw;
+    left: 18vw;
+}
+
+.mb_L16 {
+    top: 195vw;
+    left: 60vw;
+}
+
+
+.mb_L17 {
+    top: 245vw;
+    left: 25vw;
+}
+
+.mb_L18 {
+    top: 245vw;
+    left: 55vw;
+}
+
+.mb_L19 {
+    top: 310vw;
+    left: 15vw;
+}
+
+.mb_L20 {
+    top: 310vw;
+    left: 40vw;
+}
+
+.mb_L21 {
+    top: 310vw;
+    left: 55vw;
+}
+
+/**block 3**/
+
+.mob_cm_block3 {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 260vh;
+}
+
+.mb_el20 {
+    width: 200vw;
+    left: -45vw;
+    top: -12vw;
+}
+
+.mb_el21 {
+    width: 30vw;
+    left: 12vw;
+    top: 38vw;
+}
+
+.mb_el22 {
+    width: 70vw;
+    left: 20vw;
+    top: 85vw;
+}
+
+.mb_el23 {
+    width: 105vw;
+    bottom: 0vw;
+}
+
+.mb_L22 {
+    color: #8890c7;
+    left: 12vw;
+    top: 200vw;
+}
+
+.mb_L23 {
+    left: 12vw;
+    top: 230vw;
+}
+
+.mb_L24 {
+    left: 12vw;
+    top: 280vw;
 }
