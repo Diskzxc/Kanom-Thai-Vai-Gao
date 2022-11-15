@@ -123,29 +123,32 @@ body {
     left: -1%;
     top: 133vw;
 }
-.fourcup{
+
+.fourcup {
     animation-name: show1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-.prapai{
+
+.prapai {
     animation-name: show2;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-.brownpot{
+
+.brownpot {
     animation-name: show3;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-.bulan{
+
+.bulan {
     animation-name: show4;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-.purplebranch{
-    top: 125vw;
-    left: 4%;
+
+.purplebranch {
     animation-name: show5;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -180,43 +183,136 @@ body {
     left: 34.5%;
     bottom: 48vw;
 }
- @keyframes fly {
-        0% {transform: translateY(0%);}
-        50% {transform: translateY(12.5%);}
-        100% {transform: translateY(0%);}
+
+.prop9 {
+    left: 30vw;
+    bottom: 30vw;
+    transform: rotateZ(-45deg);
 }
- @keyframes show1 {
-        0% {transform: scale(0);}
-        10% {transform: scale(1);}
-        20% {transform: scale(0);}
-        100% {transform: scale(0);}
+
+.prop10 {
+    left: 38vw;
+    bottom: 1.5vw;
 }
+
+.prop10:hover {
+    cursor: pointer;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(12.5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes show1 {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
 @keyframes show2 {
-        0% {transform: scale(0);}
-        20% {transform: scale(0);}
-        30% {transform: scale(1);}
-        40% {transform: scale(0);}
-        100% {transform: scale(0);}
+    0% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
+
 @keyframes show3 {
-        0% {transform: scale(0);}
-        40% {transform: scale(0);}
-        50% {transform: scale(1);}
-        60% {transform: scale(0);}
-        100% {transform: scale(0);}
+    0% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
+
 @keyframes show4 {
-        0% {transform: scale(0);}
-        60% {transform: scale(0);}
-        70% {transform: scale(1);}
-        80% {transform: scale(0);}
-        100% {transform: scale(0);}
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
+
 @keyframes show5 {
-        0% {transform: scale(0);}
-        80% {transform: scale(0);}
-        90% {transform: scale(0.95);}
-        100% {transform: scale(0);}
+    0% {
+        transform: scale(0);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
 
 
@@ -240,4 +336,41 @@ body {
 .logo_footer {
     width: 5vw;
     position: absolute;
+}
+
+
+.ppb_pos {
+    top: 125vw;
+    left: 4%;
+}
+
+.prop11 {
+    right: 5vw;
+    top: 155vw;
+}
+
+
+.text_fourcup {
+    right: 10vw;
+    top: 167.8vw;
+}
+
+.text_prapai {
+    right: 10vw;
+    top: 167.8vw;
+}
+
+.text_brownpot {
+    right: 10vw;
+    top: 167.8vw;
+}
+
+.text_bulan {
+    right: 11vw;
+    top: 167.8vw;
+}
+
+.text_purplebranch {
+    right: 11vw;
+    top: 167.8vw;
 }
