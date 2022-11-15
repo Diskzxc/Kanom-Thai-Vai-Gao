@@ -1,0 +1,477 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #a7ebe7;
+    color: rgb(69, 125, 98);
+}
+
+.el_pos {
+    position: absolute;
+}
+
+/** Mobile Block ที่ 1 **/
+
+.mob_top_container {
+    max-width: 360px;
+    min-width: 360px;
+    color: rgb(69, 125, 98);
+    background-color: #a7ebe7;
+    width: 100vw;
+    height: 390vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.mob_block1 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+
+.mob_t_font {
+    font-size: 2.5vw;
+}
+
+.mob_text_box0 {
+    width: 70vw;
+    left: 15vw;
+    top: 283vw;
+}
+
+.mob_text5 {
+    font-size: 3vw;
+    left: 32vw;
+    top: 293vw;
+}
+
+.mob_text_box1 {
+    width: 40vw;
+    left: 30vw;
+    top: 100vw;
+}
+
+.mob_text4 {
+    text-align: center;
+    font-size: 3vw;
+    left: 39vw;
+    top: 103vw;
+}
+
+.mob_text_box2 {
+    width: 35vw;
+    left: 42vw;
+    top: 55vw;
+}
+
+.mob_text3 {
+    left: 45vw;
+    top: 58vw;
+}
+
+.mob_text_box3 {
+    width: 30vw;
+    left: 25vw;
+    top: 42vw;
+}
+
+.mob_text2 {
+    left: 29vw;
+    top: 43.5vw;
+}
+
+.mob_text_box4 {
+    width: 26vw;
+    left: 18vw;
+    top: 28vw;
+}
+
+.mob_text1 {
+    left: 21vw;
+    top: 29vw;
+}
+
+.mob_text_box5 {
+    width: 38vw;
+    left: 17vw;
+    top: 12vw;
+}
+
+.mob_text0 {
+    left: 19vw;
+    top: 13vw;
+}
+
+.mob_prop0 {
+    left: -12%;
+    top: 28vw;
+}
+
+.mob_prop1 {
+    left: -5%;
+    top: 75vw;
+}
+
+.mob_prop2 {
+    left: 42vw;
+    top: 15vw;
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.mob_prop3 {
+    left: 8vw;
+    top: 58vw;
+}
+
+.mob_prop4 {
+    left: 15vw;
+    top: 95vw;
+}
+
+.mob_prop5 {
+    left: -1%;
+    top: 133vw;
+}
+
+.mob_fourcup {
+    animation-name: show1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_prapai {
+    animation-name: show2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_brownpot {
+    animation-name: show3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_bulan {
+    animation-name: show4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_purplebranch {
+    animation-name: show5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_prop6 {
+    left: 10vw;
+    top: 195.5vw;
+}
+
+.mob_text6 {
+    text-align: center;
+    font-size: 2.8vw;
+    color: white;
+    left: 12vw;
+    top: 207vw;
+}
+
+.mob_prop7 {
+    left: -5%;
+    top: 242vw;
+}
+
+.mob_prop8 {
+    left: -11%;
+    bottom: 0vw;
+}
+
+.mob_text7 {
+    text-align: center;
+    font-size: 3vw;
+    left: 25vw;
+    bottom: 45vw;
+}
+
+.mob_prop9 {
+    left: 30vw;
+    bottom: 30vw;
+    transform: rotateZ(-45deg);
+}
+
+.mob_prop10 {
+    left: 38vw;
+    bottom: 2vw;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(12.5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes show1 {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes show2 {
+    0% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes show3 {
+    0% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes show4 {
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes show5 {
+    0% {
+        transform: scale(0);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+.mob_ppb_pos {
+    top: 125vw;
+    left: 4%;
+}
+
+.mob_prop11 {
+    right: 5vw;
+    top: 155vw;
+}
+
+
+.mob_text_fourcup {
+    right: -21vw;
+    top: 159.5vw;
+    animation-name: text_show1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_text_prapai {
+    right: -21vw;
+    top: 159.5vw;
+    animation-name: text_show2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_text_brownpot {
+    right: -21vw;
+    top: 159.5vw;
+    animation-name: text_show3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_text_bulan {
+    right: -16vw;
+    top: 159.5vw;
+    animation-name: text_show4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.mob_text_purplebranch {
+    right: -17vw;
+    top: 159.5vw;
+    animation-name: text_show5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text_show1 {
+    0% {
+        transform: scale(0);
+    }
+
+    10% {
+        transform: scale(0.3);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes text_show2 {
+    0% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(0);
+    }
+
+    30% {
+        transform: scale(0.3);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes text_show3 {
+    0% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(0.3);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes text_show4 {
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(0.3);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes text_show5 {
+    0% {
+        transform: scale(0);
+    }
+
+    80% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(0.3);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
