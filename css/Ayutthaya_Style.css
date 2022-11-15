@@ -929,9 +929,210 @@ h2 {
     transform: rotateZ(-90deg);
     animation: float_high 3s infinite linear;
 }
-
+.boy{
+    position: absolute;
+    top: 15vw;
+    left: 41vw;
+    width: 5vw;
+    z-index: 2;
+}
+.girl{
+    position: absolute;
+    top: 15vw;
+    left: 45.5vw;
+    width: 5vw;
+    z-index: 2;
+}
+.head{
+    position: absolute;
+    top: 15.5vw;
+    left: 41.5vw;
+    width: 8.5vw;
+    z-index: 2;
+}
+.tan1{
+    position: absolute;
+    top: 22.5vw;
+    left: 36.5vw;
+    width: 4vw;
+    z-index: 2;
+    animation: dukdik 1s infinite;
+}
+.tan2{
+    position: absolute;
+    top: 23.5vw;
+    left: 50vw;
+    width: 4vw;
+    z-index: 2;
+    animation: dukdik 1s infinite;
+}
+.heart_purple{
+    position: absolute;
+    top: 15.25vw;
+    left: 44.5vw;
+    width: 2.15vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_blue1{
+    position: absolute;
+    top: 16vw;
+    left: 39.5vw;
+    width: 1.25vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_blue2{
+    position: absolute;
+    top: 17.25vw;
+    left: 38vw;
+    width: 0.75vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_blue3{
+    position: absolute;
+    top: 22.25vw;
+    left: 39.25vw;
+    width: 0.75vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_pink1{
+    position: absolute;
+    top: 24.5vw;
+    left: 48.25vw;
+    width: 1vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_pink2{
+    position: absolute;
+    top: 23.5vw;
+    left: 49.5vw;
+    width: 0.75vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.heart_pink3{
+    position: absolute;
+    top: 22.5vw;
+    left: 50.5vw;
+    width: 0.75vw;
+    z-index: 2;
+    animation: heart_beat 1s infinite linear;
+}
+.coin1{
+    position: absolute;
+    top: 18vw;
+    left: 38.75vw;
+    width: 1.35vw;
+    z-index: 2;
+    animation: coin_float2 3s infinite linear;
+}
+.coin2{
+    position: absolute;
+    top: 14.75vw;
+    left: 37.75vw;
+    width: 2vw;
+    z-index: 2;
+    transform: rotateZ(-30deg);
+    animation: coin_float2 3s infinite linear;
+}
+.coin3{
+    position: absolute;
+    top: 12.75vw;
+    left: 48.25vw;
+    width: 1.75vw;
+    z-index: 2;
+    animation: coin_float2 3s infinite linear;
+}
+.back_marry1{
+    position: absolute;
+    top: 15vw;
+    left: 37.5vw;
+    width: 12.5vw;
+    z-index: 1;
+}
+.back_marry2{
+    position: absolute;
+    top: 21.5vw;
+    left: 47.5vw;
+    width: 4vw;
+    z-index: 1;
+}
+.back_marry3{
+    position: absolute;
+    top: 17vw;
+    left: 35vw;
+    width: 4vw;
+    z-index: 1;
+}
+.coin{
+    animation: coin_float 3s infinite linear;
+}
+@keyframes heart_beat {
+    50% {transform: scale(1.25);}
+}
+@keyframes coin_float{
+    50% {transform: translateY(-2vw);}
+}
+@keyframes coin_float2{
+    50% {transform: translateY(-1vw);}
+}
 .text_color2 {
     color: #97a0ef;
+}
+.text_tan1{
+    position: absolute; top: 41.25vw; left: 38vw; text-align: center; transform: rotateZ(-2deg); z-index: 1;
+}
+.text_tan2{
+    position: absolute; top: 50.4vw; left: 53.5vw; text-align: center; transform: rotateZ(-2deg); z-index: 1;
+    
+}
+.text_tan3{
+    position: absolute; top: 50.4vw; left: 52.5vw; text-align: center; transform: rotateZ(-2deg); z-index: 1;
+    visibility: hidden;
+}
+.text_tan4{
+    position: absolute; top: 62.2vw; left: 39vw; text-align: center; transform: rotateZ(-2deg); z-index: 1
+}
+.next_tan {
+        width: 2vw;
+        position: absolute;
+        top: 51vw;
+        left: 68.5%;
+        opacity: 0;
+        animation-name: show_scroll;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+}
+.back_tan {
+        width: 2vw;
+        position: absolute;
+        top: 51vw;
+        left: 48.5%;
+        opacity: 0;
+        animation-name: show_scroll2;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+}
+.next_tan:hover{
+    cursor: pointer;
+}
+.back_tan:hover{
+    cursor: pointer;
+} 
+.oil{
+    position: absolute; left: 53.8vw; top:11.5vw;
+    width: 5%;
+    transform: scale(0.1);
+    animation: oil_drop 3s infinite linear;
+}
+@keyframes oil_drop{
+    0% {transform: translateY(0) scaleX(0) scaleY(0);}
+    50% {transform: translateY(7vw) scaleX(0.7) scaleY(1);}
+    100% {transform: translateY(0vw) scaleX(0) scaleY(0);}
 }
 .line {
     position: absolute;
