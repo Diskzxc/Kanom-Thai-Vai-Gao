@@ -120,38 +120,28 @@ body {
 }
 
 .prop5 {
-    left: -1%;
+    left: 12.5%;
     top: 133vw;
 }
 
 .fourcup {
-    animation-name: show1;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation: show1 15s infinite;
 }
 
 .prapai {
-    animation-name: show2;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation: show2 15s infinite;
 }
 
 .brownpot {
-    animation-name: show3;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+   animation: show3 15s infinite;
 }
 
 .bulan {
-    animation-name: show4;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation: show4 15s infinite;
 }
 
 .purplebranch {
-    animation-name: show5;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation: show5 15s infinite;
 }
 
 .prop6 {
@@ -340,8 +330,8 @@ body {
 
 
 .ppb_pos {
-    top: 125vw;
-    left: 4%;
+    top: 122.5vw;
+    left: 12.5%;
 }
 
 .prop11 {
@@ -351,26 +341,36 @@ body {
 
 
 .text_fourcup {
-    right: 10vw;
-    top: 167.8vw;
+    right: 12.5vw;
+    top: 165vw;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .text_prapai {
-    right: 10vw;
-    top: 167.8vw;
+    right: 12.5vw;
+    top: 165vw;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .text_brownpot {
-    right: 10vw;
-    top: 167.8vw;
+    right: 11vw;
+    top: 165vw;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .text_bulan {
-    right: 11vw;
-    top: 167.8vw;
+    right: 11.25vw;
+    top: 165vw;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .text_purplebranch {
     right: 11vw;
-    top: 167.8vw;
+    top: 165vw;
+    font-size: 3vw;
+    text-align: center;
 }
