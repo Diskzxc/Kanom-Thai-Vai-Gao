@@ -15,7 +15,7 @@ body {
 
 .top_container {
     width: 100vw;
-    height: 390vw;
+    height: 470vw;
 }
 
 .block1 {
@@ -208,11 +208,11 @@ body {
         transform: scale(0);
     }
 
-    10% {
+    12.5% {
         transform: scale(1);
     }
 
-    20% {
+    25% {
         transform: scale(0);
     }
 
@@ -226,15 +226,15 @@ body {
         transform: scale(0);
     }
 
-    20% {
+    18.75% {
         transform: scale(0);
     }
 
-    30% {
+    31.25% {
         transform: scale(1);
     }
 
-    40% {
+    43.75% {
         transform: scale(0);
     }
 
@@ -248,7 +248,7 @@ body {
         transform: scale(0);
     }
 
-    40% {
+    37.5% {
         transform: scale(0);
     }
 
@@ -256,7 +256,7 @@ body {
         transform: scale(1);
     }
 
-    60% {
+    62.5% {
         transform: scale(0);
     }
 
@@ -270,15 +270,15 @@ body {
         transform: scale(0);
     }
 
-    60% {
+    56.25% {
         transform: scale(0);
     }
 
-    70% {
+    68.75% {
         transform: scale(1);
     }
 
-    80% {
+    81.25% {
         transform: scale(0);
     }
 
@@ -292,17 +292,31 @@ body {
         transform: scale(0);
     }
 
-    80% {
+    75% {
         transform: scale(0);
     }
 
-    90% {
+    87.5% {
         transform: scale(0.95);
     }
 
     100% {
         transform: scale(0);
     }
+}
+.timeline {
+    width: 100vw;
+    height: 100vw;
+    background-color: #dcefe8;
+    position: absolute;
+    bottom: 60vw;
+}
+.five_years_text{
+    font-size: 5vw;
+    position: absolute;
+    left: 40vw;
+    top: 42.5vw;
+
 }
 
 
