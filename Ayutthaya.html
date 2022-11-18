@@ -464,6 +464,15 @@
              <a href="end_page.html"><img class="door_all door5" onmouseover="this.src='img/forall/pc/png/door_5_End.png';" onmouseout="this.src='img/forall/pc/png/door_5.png';"  src="img/forall/pc/png/door_5.png"></a>
         </div>
     </div>
+    <!-- html menubar -->
+    <div id="menubar">
+        <h1 class="text_menu menu1">หน้าแรก</h1>
+        <h1 class="text_menu menu2">ยุคสุโขทัย</h1>
+        <h1 class="text_menu menu3">ยุคอยุธยา</h1>
+        <h1 class="text_menu menu4">ยุครัตนโกสินทร์</h1>
+        <h1 class="text_menu menu5">หน้าปิด</h1>
+        <img onclick="menu_back()" id="back_but" class="back_arrow" src="img/forall/pc/png/arrow.png">
+    </div>
     <footer class="footer_style item-justify-center"> 
         <img class="logo_footer" style="top: 1.5vw; left: 4.5vw; width: 4.5%;"
             src="img/open/pc/png/2x/logo_ถาปัต_1@2x.png">
@@ -475,7 +484,7 @@
             เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์หลักสูตรนิเทศศิลป์คณะสถาปัตยกรรมศาสตร์<br> และ การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ<br> สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2022
         </div>
     </footer>  
-    <a href="index.html"><img class="menu" src="img/forall/pc/png/HAM@2x.png"></a>
+    <img class="menu" id="home_but" onclick="menu()" src="img/forall/pc/png/HAM@2x.png">
 
 </body>
 <script>
@@ -663,5 +672,28 @@
             }
             
         }
+        /** script menubar **/
+        function menu(){
+            var menu = document.getElementById("menubar");
+            var home = document.getElementById("home_but");
+            menu.style.animation = "menu_slide 1s 1 linear";
+            setTimeout(function () {
+                menu.style.transform = "translateX(0vw)";
+                home.style.visibility = "hidden"
+
+            }, 1000);
+            
+        } 
+        function menu_back(){
+            var menu = document.getElementById("menubar");
+            var home = document.getElementById("home_but");
+            menu.style.animation = "menu_back 1s 1 linear";
+            setTimeout(function () {
+                menu.style.transform = "translateX(20vw)";
+                home.style.visibility = "visible"
+
+            }, 1000);
+            
+        } 
     </script>
 </html>

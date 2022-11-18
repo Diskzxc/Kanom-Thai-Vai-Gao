@@ -168,6 +168,16 @@
             
         
     </div>
+
+    <!-- html menubar -->
+    <div id="menubar">
+        <h1 class="text_menu menu1">หน้าแรก</h1>
+        <h1 class="text_menu menu2">ยุคสุโขทัย</h1>
+        <h1 class="text_menu menu3">ยุคอยุธยา</h1>
+        <h1 class="text_menu menu4">ยุครัตนโกสินทร์</h1>
+        <h1 class="text_menu menu5">หน้าปิด</h1>
+        <img onclick="menu_back()" id="back_but" class="back_arrow" src="img/forall/pc/png/arrow.png">
+    </div>
    
 
     <footer class="footer_style item-justify-center"> 
@@ -180,7 +190,7 @@
             เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์หลักสูตรนิเทศศิลป์คณะสถาปัตยกรรมศาสตร์<br> และ การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ<br> สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2022
         </div>
     </footer> 
-    <a href="index.html"><img class="menu" src="img/forall/pc/png/HAM@2x.png"></a>
+    <img class="menu" onclick="menu()" id="home_but" onclick="menu()" src="img/forall/pc/png/HAM@2x.png">
     <script>
 
       AOS.init();
@@ -487,7 +497,29 @@
             }
 
         }, 1);
-        
+        /** script menubar **/
+        function menu(){
+            var menu = document.getElementById("menubar");
+            var home = document.getElementById("home_but");
+            menu.style.animation = "menu_slide 1s 1 linear";
+            setTimeout(function () {
+                menu.style.transform = "translateX(0vw)";
+                home.style.visibility = "hidden"
+
+            }, 1000);
+            
+        } 
+        function menu_back(){
+            var menu = document.getElementById("menubar");
+            var home = document.getElementById("home_but");
+            menu.style.animation = "menu_back 1s 1 linear";
+            setTimeout(function () {
+                menu.style.transform = "translateX(20vw)";
+                home.style.visibility = "visible"
+
+            }, 1000);
+            
+        } 
         
     </script>
 </body>
