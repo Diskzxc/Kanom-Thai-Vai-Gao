@@ -18,7 +18,7 @@ body {
     color: rgb(69, 125, 98);
     background-color: #a7ebe7;
     width: 100vw;
-    height: 390vw;
+    height: 465vw;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -192,7 +192,7 @@ body {
     text-align: center;
     font-size: 3vw;
     left: 25vw;
-    bottom: 45vw;
+    bottom: 46vw;
 }
 
 .mob_prop9 {
@@ -335,40 +335,45 @@ body {
 
 
 .mob_text_fourcup {
-    right: -21vw;
-    top: 159.5vw;
+    text-align: center;
+    right: -2vw;
+    top: 153.5vw;
     animation-name: text_show1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 .mob_text_prapai {
-    right: -21vw;
-    top: 159.5vw;
+    text-align: center;
+    right: -1vw;
+    top: 153.5vw;
     animation-name: text_show2;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 .mob_text_brownpot {
-    right: -21vw;
-    top: 159.5vw;
+    text-align: center;
+    right: -8vw;
+    top: 153.5vw;
     animation-name: text_show3;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 .mob_text_bulan {
-    right: -16vw;
-    top: 159.5vw;
+    text-align: center;
+    right: -6.5vw;
+    top: 153.5vw;
     animation-name: text_show4;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 .mob_text_purplebranch {
-    right: -17vw;
-    top: 159.5vw;
+    text-align: center;
+    right: -8vw;
+    top: 153.5vw;
     animation-name: text_show5;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -474,4 +479,19 @@ body {
     100% {
         transform: scale(0);
     }
+}
+
+.timeline {
+    width: 100vw;
+    height: 100vw;
+    background-color: #dcefe8;
+    position: absolute;
+    bottom: 60vw;
+}
+.five_years_text{
+    font-size: 5vw;
+    position: absolute;
+    left: 40vw;
+    top: 42.5vw;
+
 }
