@@ -50,6 +50,12 @@ body {
     height: 120vh;
 }
 
+.mb_box7 {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+}
+
 #mb_text1 {
     position: absolute;
     text-align: center;
@@ -74,6 +80,22 @@ body {
     top: 80vw;
     left: 35vw;
     position: absolute;
+    animation-name: bulann;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes bulann {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
 }
 
 #mb_bulann_1 {
@@ -130,6 +152,34 @@ body {
     top: 75vw;
     left: -3vw;
     position: absolute;
+    animation-name: cloud1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes cloud1 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(3vw);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes cloud2 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-3vw);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 #mb_cloud2 {
@@ -137,6 +187,10 @@ body {
     top: 73vw;
     left: 59vw;
     position: absolute;
+    animation-name: cloud2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_cloud3 {
@@ -144,6 +198,10 @@ body {
     top: 97vw;
     left: 2vw;
     position: absolute;
+    animation-name: cloud1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_cloud4 {
@@ -151,6 +209,10 @@ body {
     top: 108vw;
     left: 57vw;
     position: absolute;
+    animation-name: cloud2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note1 {
@@ -158,6 +220,10 @@ body {
     top: 96vw;
     left: 18vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note2 {
@@ -165,6 +231,11 @@ body {
     top: 103.5vw;
     left: 27vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note3 {
@@ -172,6 +243,11 @@ body {
     top: 65vw;
     left: 20vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note4 {
@@ -179,6 +255,10 @@ body {
     top: 66vw;
     left: 83vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note5 {
@@ -186,6 +266,11 @@ body {
     top: 75vw;
     left: 65vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_note6 {
@@ -193,6 +278,22 @@ body {
     top: 85vw;
     left: 72vw;
     position: absolute;
+    animation-name: wipwap;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes wipwap {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1.0);
+    }
 }
 
 .bulann_text2 {
@@ -362,11 +463,45 @@ body {
     line-height: 8vw;
 }
 
+.bulann_text19 {
+    color: white;
+    top: 3vw;
+    left: 37vw;
+    font-size: 3.5vw;
+    position: absolute;
+    text-align: center;
+    line-height: 6vw;
+}
+
+.bulann_text20 {
+    color: #588469;
+    top: 10vw;
+    left: 15vw;
+    font-size: 5vw;
+    position: absolute;
+    line-height: 6vw;
+}
+
+.bulann_text21 {
+    color: #93a3eb;
+    top: 50vw;
+    left: 7vw;
+    font-size: 4.5vw;
+    position: absolute;
+    text-align: center;
+    line-height: 8vw;
+}
+
 #mb_star1 {
     position: absolute;
     width: 6vw;
     top: 125vw;
     left: 10vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_star2 {
@@ -374,6 +509,10 @@ body {
     width: 5vw;
     top: 128vw;
     left: 85vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_star3 {
@@ -381,6 +520,11 @@ body {
     width: 5vw;
     top: 190vw;
     left: 6vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_star4 {
@@ -388,6 +532,10 @@ body {
     width: 9vw;
     top: 210vw;
     left: 65vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story1 {
@@ -402,6 +550,10 @@ body {
     width: 10vw;
     top: 5vw;
     left: 6vw;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story3 {
@@ -409,6 +561,11 @@ body {
     width: 42vw;
     top: 14vw;
     left: 10vw;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story4 {
@@ -416,6 +573,10 @@ body {
     width: 5vw;
     top: 45vw;
     left: 7vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story5 {
@@ -423,6 +584,11 @@ body {
     width: 5vw;
     top: 110vw;
     left: 7vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story6 {
@@ -430,6 +596,11 @@ body {
     width: 27vw;
     top: 133vw;
     left: 58vw;
+    animation-name: tranx2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story7 {
@@ -437,6 +608,11 @@ body {
     width: 38vw;
     top: 125vw;
     left: 13vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story8 {
@@ -444,6 +620,11 @@ body {
     width: 45vw;
     top: 142vw;
     left: 36vw;
+    animation-name: tranx2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story9 {
@@ -451,6 +632,10 @@ body {
     width: 8vw;
     top: 113vw;
     left: 70vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story10 {
@@ -472,6 +657,11 @@ body {
     width: 7vw;
     top: 235vw;
     left: 17vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story13 {
@@ -479,6 +669,10 @@ body {
     width: 4.5vw;
     top: 260vw;
     left: 10vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story14 {
@@ -486,6 +680,11 @@ body {
     width: 4.5vw;
     top: 225vw;
     left: 80vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story15 {
@@ -493,6 +692,11 @@ body {
     width: 4vw;
     top: 340vw;
     left: 25vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story16 {
@@ -500,6 +704,10 @@ body {
     width: 7vw;
     top: 330vw;
     left: 75vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story17 {
@@ -507,6 +715,10 @@ body {
     width: 100vw;
     top: 37vw;
     left: 36vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story18 {
@@ -514,6 +726,10 @@ body {
     width: 80vw;
     top: 150vw;
     left: 30vw;
+    animation-name: tranx2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story19 {
@@ -521,6 +737,10 @@ body {
     width: 18vw;
     top: 120vw;
     left: 60vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story20 {
@@ -528,6 +748,10 @@ body {
     width: 20vw;
     top: 115vw;
     left: 15vw;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_story21 {
@@ -535,6 +759,58 @@ body {
     width: 50vw;
     top: 210vw;
     left: 20vw;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(3vw);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes tranx {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(3vw);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes tranx2 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-3vw);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
 }
 
 #mb_mate1 {
@@ -577,6 +853,11 @@ body {
     width: 5vw;
     top: 25vw;
     left: 75vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate7 {
@@ -584,6 +865,10 @@ body {
     width: 7vw;
     top: 25vw;
     left: 6vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate8 {
@@ -591,6 +876,11 @@ body {
     width: 5vw;
     top: 50vw;
     left: 6vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate9 {
@@ -654,6 +944,10 @@ body {
     width: 15vw;
     top: 75vw;
     left: 65vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate18 {
@@ -661,6 +955,10 @@ body {
     width: 15vw;
     top: 140vw;
     left: 70vw;
+    animation-name: tranx2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate19 {
@@ -668,6 +966,10 @@ body {
     width: 15vw;
     top: 260vw;
     left: 70vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_mate20 {
@@ -675,6 +977,10 @@ body {
     width: 15vw;
     top: 310vw;
     left: 5vw;
+    animation-name: tranx2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_people1 {
@@ -696,6 +1002,10 @@ body {
     width: 50vw;
     top: 75vw;
     left: 5vw;
+    animation-name: people_updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
 }
 
 #mb_people4 {
@@ -703,6 +1013,10 @@ body {
     width: 38vw;
     top: 82vw;
     left: 60vw;
+    animation-name: people_updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
 }
 
 #mb_people5 {
@@ -717,6 +1031,18 @@ body {
     width: 35vw;
     top: 90vw;
     left: 50vw;
+}
+
+@keyframes people_updown {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(3vw);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 #mb_game1 {
@@ -738,6 +1064,10 @@ body {
     width: 25vw;
     top: 0vw;
     left: 64vw;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_game4 {
@@ -745,6 +1075,10 @@ body {
     width: 8vw;
     top: 23vw;
     left: 45vw;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_game5 {
@@ -752,6 +1086,10 @@ body {
     width: 10vw;
     top: 23vw;
     left: 20vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_game6 {
@@ -759,6 +1097,11 @@ body {
     width: 8vw;
     top: 20vw;
     left: 70vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_game7 {
@@ -770,16 +1113,25 @@ body {
 
 #mb_game8 {
     position: absolute;
-    width: 20vw;
+    width: 15vw;
     top: 140vw;
-    left: 2vw;
+    left: 13vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_game9 {
     position: absolute;
     width: 10vw;
-    top: 115vw;
-    left: 12vw;
+    top: 120vw;
+    left: 17vw;
+    animation-name: wipwap;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
 
 #mb_textbox1 {
@@ -1044,4 +1396,91 @@ body {
     width: 100vw;
     top: 10vw;
     left: 1vw;
+}
+
+#mb_asset69 {
+    position: absolute;
+    width: 80vw;
+    top: 5vw;
+    left: -5vw;
+}
+
+#mb_asset70 {
+    position: absolute;
+    width: 180vw;
+    top: 110vw;
+    left: -40vw;
+}
+
+#mb_asset71 {
+    position: absolute;
+    width: 50vw;
+    top: 140vw;
+    left: 8vw;
+}
+
+#mb_asset72 {
+    position: absolute;
+    width: 40vw;
+    top: 132vw;
+    left: 14vw;
+}
+
+#mb_asset73 {
+    position: absolute;
+    width: 12vw;
+    top: 130vw;
+    left: 60vw;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+#mb_asset76 {
+    position: absolute;
+    width: 10vw;
+    top: 123vw;
+    left: 45vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+#mb_asset77 {
+    position: absolute;
+    width: 20vw;
+    top: 115vw;
+    left: 60vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+#mb_asset78 {
+    position: absolute;
+    width: 10vw;
+    top: 110vw;
+    left: 83vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+#mb_asset79 {
+    position: absolute;
+    width: 120vw;
+    top: 152vw;
+    left: -35vw;
+    animation-name: tranx;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
 }
