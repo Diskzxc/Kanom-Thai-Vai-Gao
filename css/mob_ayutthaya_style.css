@@ -193,7 +193,7 @@
     left: 14vw; 
     transform: rotateZ(-4deg);
 }
-#mb_mb_textp3{
+#mb_textp3{
     font-size: 3vw; 
     position: absolute; 
     top: 160vw; 
@@ -576,7 +576,7 @@ body {
 .mob_block{
     position: relative;
     width: 100%;
-    height: 1715vh; /**ขนาดความยาวเว็บ**/
+    height: 2525vw; /**ขนาดความยาวเว็บ**/
     top: 450vw;
 }
 
@@ -903,9 +903,9 @@ h1 {
 }
 
 .mobi_el37{
-    width: 20%;
-    left: 56vw;
-    top: 1837.5vw;
+    width: 17%;
+    left: 58vw;
+    top: 1816.5vw;
 }
 
 .mobi_el38{
@@ -931,10 +931,97 @@ h1 {
 .mobi_el41{
     width: 185%;
     left: -38vw;
-    top: 2020vw;
+    top: 2007vw;
     z-index: -1;
 }
 
+.mobi_el42{
+    width: 22%;
+    left: 35.5vw;
+    top:572vw;
+}
+
+.mobi_el43{
+    width: 22%;
+    left: 56vw;
+    top:571.8vw;
+}
+
+.mobi_el44{
+    width: 40%;
+    left: 37vw;
+    top:574.5vw;
+}
+
+.mobi_el45{
+    width: 10%;
+    left: 52vw;
+    top:572vw;
+}
+
+.mobi_el46{
+    width: 7%;
+    left: 27.5vw;
+    top: 576vw;
+}
+
+.mobi_el47{
+    width: 4%;
+    left: 20vw;
+    top: 582vw;
+}
+
+.mobi_el48{
+    width: 4%;
+    left: 79vw;
+    top: 603vw;
+    transform: rotate(-20deg);
+}
+
+.mobi_el49{
+    width: 4%;
+    left: 75vw;
+    top: 609.5vw;
+    transform: rotate(-24deg);
+}
+
+.mobi_el50{
+    width: 5%;
+    left: 68vw;
+    top: 614.5vw;
+}
+
+.mobi_el51{
+    width: 9%;
+    left: 21vw;
+    top: 570vw;
+    transform: rotate(-35deg);
+}
+
+.mobi_el52{
+    width: 5%;
+    left: 25vw;
+    top: 585vw;
+}
+
+.mobi_el53{
+    width: 20%;
+    left: 12vw;
+    top: 604vw;
+}
+
+.mobi_el54{
+    width: 20%;
+    left: 78vw;
+    top: 607.3vw;
+}
+
+.mobi_el55{
+    width: 4%;
+    left: 26vw;
+    top: 601.5vw;
+    transform: rotate(-20deg);
+}
 
 
 /* ทองและbg */
@@ -942,98 +1029,105 @@ h1 {
     width: 9%;
     left: 6vw;
     top: 490vw;
+    transform: rotate(-220deg);
 }
 
 .mobi_bg_el2{
     width: 11%;
     left: 14vw;
     top: 500vw;
-    transform: rotate(-180deg);
+    transform: rotate(-270deg);
 }
 
 .mobi_bg_el3{
     width: 11%;
     left: -5.5vw;
     top: 505vw;
+    transform: rotate(-150deg);
 }
 
 .mobi_bg_el4{
     width: 9%;
     left: 8vw;
     top: 522vw;
-    transform: rotate(15deg);
+    transform: rotate(-190deg);;
 }
 
 .mobi_bg_el5{
     width: 7%;
     left: 14vw;
     top: 540vw;
+    transform: rotate(-300deg);
 }
 
 .mobi_bg_el6{
     width: 7%;
     left: 14vw;
     top: 553vw;
+    transform: rotate(-170deg);
 }
 
 .mobi_bg_el7{
     width:12%;
     left: -3vw;
     top: 560vw;
-    transform: rotate(25deg);
+    transform: rotate(-100deg);
 }
 
 .mobi_bg_el8{
     width: 7%;
     left: 90vw;
     top: 479vw;
-    transform: rotate(10deg);
+    transform: rotate(-168deg);
 }
 
 .mobi_bg_el9{
     width: 12%;
     left: 75vw;
     top: 488vw;
-    transform: rotate(-3deg);
+    transform: rotate(-184deg);
 }
 
 .mobi_bg_el10{
     width: 7%;
     left: 89vw;
     top: 503vw;
+    transform: rotate(-300deg);
 }
 
 .mobi_bg_el11{
     width: 9%;
     left: 82vw;
     top: 515vw;
+    transform: rotate(-168deg);
 }
 
 .mobi_bg_el12{
     width: 12%;
     left: 95.5vw;
     top: 511vw;
-    transform: rotate(-3deg);
+    transform: rotate(-90deg);
 }
 
 .mobi_bg_el13{
     width: 12%;
     left: 84.8vw;
     top: 532vw;
-    transform: rotate(-3deg);
+    transform: rotate(-120deg);
 }
 
 .mobi_bg_el14{
     width: 7%;
     left: 82vw;
     top: 551vw;
+    transform: rotate(-184deg);
 }
 
 .mobi_bg_el15{
     width:12%;
     left: 90vw;
     top: 558vw;
-    transform: rotate(25deg);
+    transform: rotate(60deg);
 }
 
 .mobi_bg_el16{
@@ -1041,26 +1135,28 @@ h1 {
     left: 5vw;
     top: 705vw;
     top: 705vw;
+    transform: rotate(-184deg);
 }
 
 .mobi_bg_el17{
     width:7%;
     left: 16vw;
     top: 720vw;
-    transform: rotate(-3deg);
+    transform: rotate(65deg);
 }
 
 .mobi_bg_el18{
     width:10%;
     left: 8vw;
     top: 750vw;
-    transform: rotate(20deg);
+    transform: rotate(120deg);
 }
 
 .mobi_bg_el19{
     width:10%;
     left: 80vw;
     top: 720vw;
+    transform: rotate(-270deg);
 }
 
 .mobi_bg_el20{
@@ -1295,7 +1391,7 @@ h1 {
         width: 100%;
         height: 100%;
         color: #488167;
-        top: -70vw;
+        top: -74vw;
     
     }
     
@@ -1454,6 +1550,55 @@ h1 {
 @keyframes prapai_low{
     50% {transform: translateY(2vw);}
 }
+
+/** animation หม้อตาล **/
+.coin{
+    animation: coin_float 3s infinite linear;
+}
+
+.coin2{
+    position: absolute;
+    animation: coin_float2 3s infinite linear;
+}
+
+.oil{
+    position: absolute;
+    transform: scale(0.1);
+    animation: oil_drop 3s infinite linear;
+}
+
+.tan1{
+    position: absolute;
+    animation: dukdik 1s infinite;
+}
+.tan2{
+    position: absolute;
+    animation: dukdik 1s infinite;
+}
+.heart{
+    position: absolute;
+    animation: heart_beat 1s infinite linear;
+}
+
+/** keyframe หม้อตาล **/
+@keyframes coin_float{
+    50% {transform: translateY(-2vw);}
+}
+
+@keyframes coin_float2{
+    50% {transform: translateY(-1vw);}
+}
+
+@keyframes oil_drop{
+    0% {transform: translateY(0) scaleX(0) scaleY(0);}
+    50% {transform: translateY(24vw) scaleX(0.7) scaleY(1);}
+    100% {transform: translateY(0vw) scaleX(0) scaleY(0);}
+}
+
+@keyframes heart_beat {
+    50% {transform: scale(1.25);}
+}
+
 body {
     height: 100%;
     margin: 0;
