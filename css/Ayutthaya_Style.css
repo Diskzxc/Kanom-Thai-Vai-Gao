@@ -13,7 +13,7 @@
 }
 
 .desktop_ver {
-    z-index: -100;
+    z-index: 1;
 }
 
 /**CSS พระพาย**/
@@ -446,23 +446,25 @@
 .next {
     width: 2.5vw;
     position: absolute;
-    top: 71vw;
-    left: 76.5%;
+    top: 232.5vw;
+    left: 78.5%;
     opacity: 0;
     animation-name: show_scroll;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    z-index: 50;
 }
 
 .back {
     width: 2.5vw;
     position: absolute;
-    top: 71vw;
-    left: 52%;
+    top: 232.5vw;
+    left: 54%;
     opacity: 0;
     animation-name: show_scroll2;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    z-index: 50;
 }
 
 .next:hover {
@@ -476,8 +478,8 @@
 .next2 {
     width: 2.5vw;
     position: absolute;
-    top: 147.5vw;
-    left: 76.5%;
+    top: 310vw;
+    left: 78.5%;
     opacity: 0;
     animation-name: show_scroll;
     animation-duration: 3s;
@@ -487,8 +489,8 @@
 .back2 {
     width: 2.5vw;
     position: absolute;
-    top: 147.5vw;
-    left: 53.5%;
+    top: 310vw;
+    left: 55.5%;
     opacity: 0;
     animation-name: show_scroll2;
     animation-duration: 3s;
