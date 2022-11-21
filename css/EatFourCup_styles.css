@@ -1154,6 +1154,11 @@
     color: #7194c5;
 }
 
+.title_door:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
 .door1 {
     width: 5%;
     position: absolute;
