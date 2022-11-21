@@ -475,7 +475,7 @@ h1 {
 
 .footer_tbox {
     position: absolute;
-    top: 2vw;
+    top: 0.5vw;
     left: 18vw;
     font-size: 1vw;
 }
