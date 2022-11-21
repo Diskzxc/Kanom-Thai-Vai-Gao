@@ -1690,3 +1690,11 @@ body {
         display: block;
     }
 }
+.mb_believe{
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    background-color: #f3f3e5;
+    top: 150vw;
+
+}
