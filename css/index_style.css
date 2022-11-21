@@ -6,7 +6,7 @@ body {
     overflow-y: auto;
 }
 .desktop_ver{
-    min-width: 390px;
+    min-width: 395px;
 }
 .menu{
     position: fixed;
@@ -583,6 +583,6 @@ h1 {
     transform: scale(1.1);
     transition: font_up .2s ease-in-out; 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 395px) {
   .desktop_ver {display: none;}
 }
