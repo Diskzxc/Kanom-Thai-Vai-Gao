@@ -1561,10 +1561,10 @@ h1 {
     animation: coin_float2 3s infinite linear;
 }
 
-.oil{
+.mb_oil{
     position: absolute;
     transform: scale(0.1);
-    animation: oil_drop 3s infinite linear;
+    animation: mb_oil_drop 3s infinite linear;
 }
 
 .tan1{
@@ -1589,7 +1589,7 @@ h1 {
     50% {transform: translateY(-1vw);}
 }
 
-@keyframes oil_drop{
+@keyframes mb_oil_drop{
     0% {transform: translateY(0) scaleX(0) scaleY(0);}
     50% {transform: translateY(24vw) scaleX(0.7) scaleY(1);}
     100% {transform: translateY(0vw) scaleX(0) scaleY(0);}

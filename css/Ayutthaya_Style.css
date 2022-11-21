@@ -447,7 +447,7 @@
     width: 2.5vw;
     position: absolute;
     top: 232.5vw;
-    left: 78.5%;
+    left: 77.5%;
     opacity: 0;
     animation-name: show_scroll;
     animation-duration: 3s;
@@ -459,7 +459,7 @@
     width: 2.5vw;
     position: absolute;
     top: 232.5vw;
-    left: 54%;
+    left: 53%;
     opacity: 0;
     animation-name: show_scroll2;
     animation-duration: 3s;
@@ -479,7 +479,7 @@
     width: 2.5vw;
     position: absolute;
     top: 310vw;
-    left: 78.5%;
+    left: 77.5%;
     opacity: 0;
     animation-name: show_scroll;
     animation-duration: 3s;
@@ -490,7 +490,7 @@
     width: 2.5vw;
     position: absolute;
     top: 310vw;
-    left: 55.5%;
+    left: 54.5%;
     opacity: 0;
     animation-name: show_scroll2;
     animation-duration: 3s;
