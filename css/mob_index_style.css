@@ -7,6 +7,8 @@ body {
 /** mobile style **/
 .mobile_ver{
     display: none;
+    letter-spacing: 0.25vw;
+    line-height: 1.75;
 }
 .mob_body {
     background-color: white;
@@ -36,7 +38,7 @@ body {
     visibility: hidden;
 }
 .mob_text {
-    font-size: 3.2vw;
+    font-size: 3vw;
 }
 .mb_next {
     width: 4vw;
@@ -82,8 +84,8 @@ body {
 
 .mob_in_L1 {
     left: 55.5vw;
-    top: 61vw;
-    transform: rotateZ(4deg);
+    top: 60vw;
+    transform: rotateZ(5deg);
 }
 
 .mob_L2 {
@@ -96,9 +98,9 @@ body {
 .mob_in_L2 {
     visibility: hidden;
     text-align: center;
-    left: 13.5vw;
-    top: 72vw;
-    transform: rotateZ(-18deg);
+    left: 13vw;
+    top: 71vw;
+    transform: rotateZ(-20deg);
 }
 
 .mob_L3 {
@@ -112,7 +114,8 @@ body {
     visibility: hidden;
     text-align: center;
     left: 55vw;
-    top: 78vw;
+    top: 76.25vw;
+    font-size: 2.75vw;
 }
 
 .mob_L4 {
@@ -125,8 +128,8 @@ body {
 .mob_in_L4 {
     visibility: hidden;
     text-align: center;
-    left: 17.5vw;
-    top: 56.5vw;
+    left: 17vw;
+    top: 55.5vw;
 }
 
 .mob_L5 {
@@ -134,6 +137,7 @@ body {
     width: 37%;
     right: 10vw;
     bottom: 1.5vw;
+    transform: rotateZ(10deg);
 }
 
 .mob_in_L5 {
@@ -141,8 +145,8 @@ body {
     text-align: center;
     color: white;
     right: 14vw;
-    bottom: 1.2vw;
-    transform: rotateZ(-3deg);
+    bottom: -1vw;
+    transform: rotateZ(10deg);
 }
 
 .mob_L6 {
@@ -157,7 +161,7 @@ body {
     text-align: center;
     left: 18.5vw;
     bottom: 18vw;
-    transform: rotateZ(-22deg);
+    transform: rotateZ(-20deg);
 }
 
 .mob_el1 {
@@ -212,6 +216,7 @@ body {
     text-align: center;
     left: 9vw;
     top: 48vw;
+    font-size: 2.75vw;
 }
 
 .mob_L9 {
@@ -236,6 +241,7 @@ body {
     text-align: center;
     left: 5vw;
     top: 295vw;
+    font-size: 2.75vw;
 }
 
 .mob_L11 {
@@ -386,7 +392,8 @@ body {
     color: white;
     left: 26.5vw;
     top: 61vw;
-    transform: rotateZ(-3deg);
+    transform: rotateZ(-8deg);
+    font-size: 2.75vw;
 }
 
 .mob_L13 {
@@ -400,9 +407,10 @@ body {
     visibility: hidden;
     text-align: center;
     color: white;
-    left: 23.5vw;
+    left: 24vw;
     top: 62.5vw;
     transform: rotateZ(-4deg);
+    font-size: 2.75vw;
 }
 
 .mob_L14 {
@@ -417,7 +425,7 @@ body {
     text-align: center;
     color: white;
     left: 28.5vw;
-    top: 62.5vw;
+    top: 62vw;
     transform: rotateZ(-4deg);
 }
 
@@ -434,7 +442,8 @@ body {
     color: white;
     left: 29vw;
     top: 63vw;
-    transform: rotateZ(-4deg);
+    transform: rotateZ(-8deg);
+    font-size: 2.75vw;
 }
 
 .mob_L16 {
@@ -513,8 +522,8 @@ body {
 
 .mob_start_text {
     font-size: 5vw;
-    left: 27.5vw;
-    bottom: 17.5vw;
+    left: 27vw;
+    bottom: 16vw;
 }
 .mb_next_bot {
     width: 4vw;

@@ -4,6 +4,12 @@ body {
     overflow-x: hidden;
     font-family: 'Kodchasan', sans-serif;
     overflow-y: auto;
+    
+
+}
+.desktop_ver{
+    letter-spacing: 0.075vw;
+    line-height : 2.35vw;
 }
 .menu{
     position: fixed;
@@ -302,7 +308,7 @@ h1 {
 }
 .chat_bottom_text_1{
     position: absolute; 
-    top: 36.5vw; 
+    top: 36vw; 
     left: 42%; text-align: center; 
     transform: rotateZ(-8deg); 
     font-size: 1.35vw;
@@ -318,7 +324,7 @@ h1 {
 .chat_bottom_text_2{
     position: absolute; 
     top: 37.5vw; 
-    left: 42%; text-align: center; 
+    left: 41%; text-align: center; 
     transform: rotateZ(-4deg); 
     font-size: 1.3vw;
     visibility: hidden;
@@ -334,7 +340,7 @@ h1 {
 }
 .chat_bottom_text_3{
     position: absolute; 
-    top: 38vw; 
+    top: 37vw; 
     left: 42.5%; text-align: center; 
     transform: rotateZ(-4deg); 
     font-size: 1.3vw;
@@ -350,7 +356,7 @@ h1 {
 }
 .chat_bottom_text_4{
     position: absolute; 
-    top: 36.5vw; 
+    top: 35.5vw; 
     left: 42%; text-align: center; 
     transform: rotateZ(-8deg); 
     font-size: 1.35vw;
