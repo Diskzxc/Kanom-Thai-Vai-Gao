@@ -5,6 +5,9 @@ body {
     font-family: 'Kodchasan', sans-serif;
     overflow-y: auto;
 }
+.desktop_ver{
+    min-width: 360px;
+}
 .menu{
     position: fixed;
     right: 1vw;
@@ -579,4 +582,7 @@ h1 {
     cursor: pointer;
     transform: scale(1.1);
     transition: font_up .2s ease-in-out; 
+}
+@media only screen and (max-width: 360px) {
+  .desktop_ver {display: none;}
 }

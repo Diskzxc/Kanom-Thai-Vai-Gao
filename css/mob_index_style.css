@@ -5,7 +5,9 @@ body {
 }
 
 /** mobile style **/
-
+.mobile_ver{
+    display: none;
+}
 .mob_body {
     background-color: white;
     overflow-x: hidden;
@@ -465,4 +467,7 @@ body {
 
 .mob_start_bot {
     color: white;
+}
+@media only screen and (max-width: 360px) {
+  .mobile_ver {display: block;}
 }
