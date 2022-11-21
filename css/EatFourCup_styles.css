@@ -1,1067 +1,1322 @@
-<style>
-    
-   
-    /* CSS ช่วง 1 */
-    .top_container {
-        background-color: #8bdcf1;
+/* CSS ช่วง 1 */
+.top_container {
+    background-color: #8bdcf1;
 
-    }
-    .cover_sukothai {
-        width: 100vw;
-        height: 100%;
-        position: relative;
-        background-color: #8bdcf1;
-        z-index: 2;
-    }
-    .bg_cover{
-        width:100%; 
-        top:7.5vw; 
-        left:49.5%;
-    }
-    .title_logo_cover{
-        position: absolute;
-        width: 36%;
-        top:5.5vw; 
-        left:32%
-    }
-    .kratong_cover{
-        width:50%; 
-        position: absolute;
-        top:17.5vw; 
-        left:-50%;
-        animation-name: kratong_float;
-        animation-duration: 35s;
-        animation-iteration-count: infinite;
-        transition-timing-function: linear;
-    }
-    .wateryord_cover{
-        width:5.6%; 
-        position: absolute;
-        top:23.59vw; 
-        left:31.93%;
-    }
-    .tongyord_cover{
-        width:5.5%; 
-        position: absolute;
-        top:22vw; 
-        left:32%;
-        animation-name: tong_swim;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .star_cover_1{
-        width:3.5%; 
-        position: absolute;
-        top:26vw; 
-        left:32.5%;
-        animation-name: swim;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .star_cover_2{
-        width:3%; 
-        position: absolute;
-        top:18.5vw; 
-        left:50%;
-        animation-name: swim;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .star_cover_3{
-        width:3%; 
-        position: absolute;
-        top:22.5vw; 
-        left:67.5%;
-        transform: rotateZ(20deg);
-        animation-name: swim;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes kratong_float {
-        0% {transform: translateX(0vw);}
-        100% {transform: translateX(150vw);}
-
-    }
-    @keyframes swim {
-        0% {transform: translateY(0%);}
-        50% {transform: translateY(1vw);}
-        100% {transform: translateY(0%);}
-    }
-    @keyframes tong_swim {
-        0% {transform: translateY(0%);}
-        50% {transform: translateY(-3.5vw);}
-        100% {transform: translateY(0%);}
-    }
-
-    /* CSS ช่วง 2 */
-    .middle_container {
-        background-color: #f3f3e5; 
-        width: 100vw; 
-        text-align: center; 
-        height: 80vw;
-    }
-
-     .fourcup_intro{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        color: #488167;
-    }
-    .bg_intro{
-        width:45%; 
-        position: absolute;
-        top:-20vw; 
-        left:27.5%;
-
-    }
-    .title_intro{
-        position:relative; 
-        top:2.5vw;
-    }
-    .title_word_intro{
-        font-size: 2vw;
-        position: absolute;  
-        left: 44.5%;  
-        text-align: center; 
-        color: #7194c5;
-    }
-    .logo_intro{
-        width:23.75%; 
-        position: absolute;
-        top:10vw; 
-        left:37.5%;
-        animation-name: spin;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        z-index: 2;
-    }
-    .text1_word_intro{
-        font-size: 1vw;
-        position: absolute;
-        top:37.5vw;  
-        left: 35%;  
-        text-align: center; 
-        z-index: 2;
-    }
-    .text2_word_intro{
-        font-size: 1vw;
-        position: absolute;
-        top:62.5vw;  
-        left: 60%;  
-        text-align: center; 
-        z-index: 2;
-    }
-    .image1_intro{
-        width:15%; 
-        position: absolute;
-        top:50vw; 
-        left:60%;
-        z-index: 2;
-    }
-    .ghost1_intro{
-        width:7.5%; 
-        position: absolute;
-        top:47.5vw; 
-        left:85%;
-        animation-name: fly;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        z-index: 2;
-    }
-    .ghost2_intro{
-        width:7.5%; 
-        position: absolute;
-        top:50vw; 
-        left:10%;
-        animation-name: fly;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        z-index: 2;
-    }
-    .grass_up_intro{
-        width:100%; 
-        position: absolute;
-        bottom: 0; 
-        left:0%;
-        z-index: 2;
-    }
-    .home_intro{
-        width:35%; 
-        position: absolute;
-        top:47.5vw; 
-        left:20%;
-        z-index: 2;
-    }
-    @keyframes fly {
-        0% {transform: translateY(0%);}
-        50% {transform: translateY(12.5%);}
-        100% {transform: translateY(0%);}
-    }
-    @keyframes fall_down {
-        0% {transform: translateY(0%) translateX(0%);}
-        100% {transform: translateY(90vw) translateX(20vw) ;}
-    }
-    @keyframes spin {
-        0% {transform: rotateZ(0deg);}
-        100% {transform: rotateZ(360deg);}
-    }
-    @keyframes flower_orbit {
-        from { transform: rotate(0deg) translateX(14.5vw) rotate(0deg); }
-        to   { transform: rotate(-360deg) translateX(14.5vw) rotate(360deg); }
-    }
-    .yellow_flower{
-        width:5%; 
-        position: absolute;
-        z-index: 1;
-        top:20vw; 
-        left:47.5%;
-        animation-name: flower_orbit;
-        animation-duration: 15s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-    .flower_intro{
-        width:8%; 
-        position: absolute;
-        z-index: 1;
-        animation-name: fall_down;
-        animation-duration: 15s;
-        animation-iteration-count: infinite;
-    }
-    .flower1{
-        top:-15vw; 
-        left:-10%;
-    }
-    .flower2{
-        top:-15vw; 
-        left:5%;
-        animation-delay: 10.5s;
-    }
-    .flower3{
-        top:-15vw; 
-        left:20%;
-        animation-delay: 1.5s;
-    }
-    .flower4{
-        top:-15vw; 
-        left:35%;
-        animation-delay: 7.5s;
-    }
-    .flower5{
-        top:-15vw; 
-        left:50%;
-        animation-delay: 4.5s;
-    }
-    .flower6{
-        top:-15vw; 
-        left:65%;
-        animation-delay: 6s;
-    }
-    .flower7{
-        top:-15vw; 
-        left:80%;
-        animation-delay: 9s;
-    }
-    .flower8{
-        top:-15vw; 
-        left:90%;
-        animation-delay: 10.5s;
-    }
-    
-
-    /* CSS ช่วง 3 */
-    .middle2_container {
-        background-color: #f3f3e5; 
-        width: 100vw; 
-        text-align: center; 
-        height: 39.5vw;
-    }
-
-     .fourcup_phase2{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        color: #488167;
-
-    }
-    .grass_down_intro{
-        width:100%; 
-        position: absolute;
-        top: -0.1%; 
-        left:0%;
-        z-index: 2;
-    }
-    .curtain_culture{
-        width:100%; 
-        position: absolute;
-        top: -0.1%; 
-        left:0%;
-        z-index: 1;
-    }
-    .floor1_culture{
-        width:100%; 
-        position: absolute;
-        top: 31.5vw; 
-        left:0%;
-        z-index: 2;
-    }
-    .floor2_culture{
-        width:100%; 
-        position: absolute;
-        top: 33.5vw; 
-        left:0%;
-    }
-    .textbox_title_cover{
-        width:20%; 
-        position: absolute;
-        top: 7.5vw; 
-        left:57.5%;
-        z-index: 2;
-    }
-    .text_title_cover{
-        font-size: 1.65vw;
-        position: absolute;
-        top: 8.5vw; 
-        left:60.5%;
-        z-index: 2;
-        color: #7194c5;
-
-    }
-    .text1_culture{
-        font-size: 1.35vw;
-        position: absolute;
-        top:16vw; 
-        left:60%;
-        z-index: 2;
-    }
-    .text2_culture{
-        font-size: 1vw;
-        position: absolute;
-        top:19vw; 
-        left:60%;
-        text-align: left;
-        z-index: 2;
-    }
-    .image1_culture{
-        width:19.5%; 
-        position: absolute;
-        top: 20vw; 
-        left:30%;
-        z-index: 2;
-    }
-    .flower1_culture{
-        width:5%; 
-        position: absolute;
-        top: 37.5vw; 
-        left:45.5%;
-        z-index: 2;
-        animation : flower_spin 2s linear infinite;
-    }
-    .flower2_culture{
-        width:3.25%; 
-        position: absolute;
-        top: 28.5vw; 
-        left:27.5%;
-        z-index: 2;
-        animation : flower_spin 2s linear infinite;
-    }
-    .flower3_culture{
-        width:2%; 
-        position: absolute;
-        top: 32vw; 
-        left:29.5%;
-        z-index: 2;
-        animation : flower_spin 2s linear infinite;
-    }
-    .flower4_culture{
-        width:4%; 
-        position: absolute;
-        top: 7.5vw; 
-        left:53.5%;
-        z-index: 2;
-        animation : flower_spin 2s linear infinite;
-    }
-    .flower5_culture{
-        width:1.75%; 
-        position: absolute;
-        top: 10.5vw; 
-        left:52.5%;
-        z-index: 2;
-        animation : flower_spin 2s linear infinite;
-    }
-    @keyframes flower_spin {
-        0% {transform: rotateZ(0deg);}
-        100% {transform: rotateZ(360deg);}
-    }
-    /* CSS ช่วง 4 */
-    .middle3_container {
-        background-color: #f3f3e5; 
-        width: 100vw; 
-        text-align: center; 
-        height: 100vw;
-    }
-
-    .fourcup_ingre{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        color: #488167;
-
-    }
-    .fivecup_ingre{
-        width:55%; 
-        position: absolute;
-        top: 10vw; 
-        left:22.5%;
-        z-index: 2;
-    }
-    .textbox1_ingre{
-        width:20%; 
-        position: absolute;
-        top: 21.5vw; 
-        left:40%;
-        z-index: 2;
-    }
-    .text1_ingre{
-        font-size: 1vw;
-        position: absolute;
-        top:25vw;  
-        left: 42.5%;  
-        text-align: center; 
-        z-index: 2;
-        color: #f3f3e5;
-    }
-    .cloud1_ingre{
-        width:22.5%; 
-        position: absolute;
-        top: 35vw; 
-        left:47.5%;
-    }
-    .cloud2_ingre{
-        width:20%; 
-        position: absolute;
-        top: 50vw; 
-        left:20%;
-    }
-    .cloud3_ingre{
-        width:20%; 
-        position: absolute;
-        top: 60vw; 
-        left:40%;
-    }
-
-    .star1_ingre{
-        width:3%; 
-        position: absolute;
-        top: 45vw; 
-        left:60%;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .star2_ingre{
-        width:3%; 
-        position: absolute;
-        top: 37.5vw; 
-        left:77.5%;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 0.5s;
-    }
-    .star3_ingre{
-        width:3%; 
-        position: absolute;
-        top: 40vw; 
-        left:30%;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 1s;
-    }
-    .star4_ingre{
-        width:3%; 
-        position: absolute;
-        top: 60vw; 
-        left:35%;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 1.5s;
-    }
-    .tong_ingre{
-        width:7.5%; 
-        position: absolute;
-        top: 48.5vw; 
-        left:27.5%;
-        animation-name: fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .textbox2_ingre{
-        width:12.5%; 
-        position: absolute;
-        top: 42.5vw; 
-        left:32.5vw;
-        z-index: 2;
-    }
-    .text2_ingre{
-        font-size: 1vw;
-        position: absolute;
-        top: 44vw; 
-        left:36vw;
-        text-align: center; 
-        z-index: 2;
-    }
-    .babin_ingre{
-        width:15%; 
-        position: absolute;
-        top: 47.5vw; 
-        left:65%;
-        animation-name: fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .textbox3_ingre{
-        width:12.5%; 
-        position: absolute;
-        top: 45vw; 
-        left:75vw;
-        z-index: 2;
-    }
-    .text3_ingre{
-        font-size: 1vw;
-        position: absolute;
-        top: 46.5vw; 
-        left:76.5vw;
-        text-align: center; 
-        z-index: 2;
-    }
-    .grass_ingre{
-        width: 100%;
-        height: 10vw;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-image: url('C:/Users/USER/Desktop/web/img/baitong@2x.png');
-        background-size: 27.5%;
-        background-repeat: repeat-x repeat-y;
-    }
-    .logo_ingre{
-        width:50%; 
-        position: absolute; 
-        left:25vw;
-        bottom: -5vw;
-        z-index: 2;
-    }
-    .title_textbox_ingre{
-        width:15%; 
-        position: absolute; 
-        left:42.5vw;
-        bottom: 17.5vw;
-        z-index: 2;
-    }
-    .title_text_ingre{
-        font-size: 1.5vw;
-        position: absolute; 
-        left:46.5vw;
-        bottom: 18.5vw;
-        z-index: 2;
-    }
-    .ing1_ingre{
-        font-size: 1vw;
-        position: absolute; 
-        left:26.5vw;
-        bottom: 13.5vw;
-        z-index: 2;
-        color: black;
-    }
-    .ing1_small{
-        color: grey;
-        font-size: 1vw;
-        position: absolute; 
-        left:26.5vw;
-        bottom: 12vw;
-        z-index: 2;        
-    }
-    .ing2_ingre{
-        font-size: 1vw;
-        position: absolute; 
-        left:26.5vw;
-        bottom: -6.5vw;
-        z-index: 2;
-        color: black;
-    }
-    .ing2_small{
-        color: grey;
-        font-size: 1vw;
-        position: absolute; 
-        left:26.5vw;
-        bottom: -8vw;
-        z-index: 2;        
-    }
-    .ing3_ingre{
-        font-size: 1vw;
-        position: absolute; 
-        left:70vw;
-        bottom: 13.5vw;
-        z-index: 2;
-        color: black;
-    }
-    .ing3_small{
-        color: grey;
-        font-size: 1vw;
-        position: absolute; 
-        left:69vw;
-        bottom: 12vw;
-        z-index: 2;        
-    }
-    .ing4_ingre{
-        font-size: 1vw;
-        position: absolute; 
-        left:70vw;
-        bottom: -6.5vw;
-        z-index: 2;
-        color: black;
-    }
-    .ing4_small{
-        color: grey;
-        font-size: 1vw;
-        position: absolute; 
-        left:69vw;
-        bottom: -8vw;
-        z-index: 2;        
-    }
-    @keyframes blink {
-        0% {transform: scale(1.0);}
-        50% {transform: scale(0.5);}
-        100% {transform: scale(1.0);}
-    }
-    @keyframes fly {
-        0% {transform:translateY(0);}
-        50% {transform:translateY(2.5vw);}
-        100% {transform:translateY(0);}
-    }
-    @keyframes blow {
-        0% {transform:translateX(0);}
-        100% {transform:translateX(-100vw);}
-    }
-    @keyframes show_scroll {
-    0% {opacity: 0; transform: translateY(0%);}
-    100% {opacity: 1; transform: translateY(10%);}
 }
-    @keyframes show_scroll2 {
-        0% {opacity: 0; transform: translateY(0%) rotateY(180deg);}
-        100% {opacity: 1; transform: translateY(10%)rotateY(180deg); }
-    }
-    /* CSS ช่วง 5 */
-    .middle4_container {
-        background-color: #72cc62; 
-        width: 100vw; 
-        text-align: center; 
-        height: 80vw;
+
+.cover_sukothai {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    background-color: #8bdcf1;
+    z-index: 2;
+}
+
+.bg_cover {
+    width: 100%;
+    top: 7.5vw;
+    left: 49.5%;
+}
+
+.title_logo_cover {
+    position: absolute;
+    width: 36%;
+    top: 5.5vw;
+    left: 32%
+}
+
+.kratong_cover {
+    width: 50%;
+    position: absolute;
+    top: 17.5vw;
+    left: -50%;
+    animation-name: kratong_float;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+.wateryord_cover {
+    width: 5.6%;
+    position: absolute;
+    top: 23.59vw;
+    left: 31.93%;
+}
+
+.tongyord_cover {
+    width: 5.5%;
+    position: absolute;
+    top: 22vw;
+    left: 32%;
+    animation-name: tong_swim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star_cover_1 {
+    width: 3.5%;
+    position: absolute;
+    top: 26vw;
+    left: 32.5%;
+    animation-name: swim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star_cover_2 {
+    width: 3%;
+    position: absolute;
+    top: 18.5vw;
+    left: 50%;
+    animation-name: swim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star_cover_3 {
+    width: 3%;
+    position: absolute;
+    top: 22.5vw;
+    left: 67.5%;
+    transform: rotateZ(20deg);
+    animation-name: swim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kratong_float {
+    0% {
+        transform: translateX(0vw);
     }
 
-    .fourcup_forget{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        color: #488167;
+    100% {
+        transform: translateX(150vw);
+    }
 
+}
+
+@keyframes swim {
+    0% {
+        transform: translateY(0%);
     }
-    .cloud1_forget{
-        width:22.5%; 
-        position: absolute;
-        top: 12.5vw; 
-        left:47.5%;
-        z-index: 2;
+
+    50% {
+        transform: translateY(1vw);
     }
-    .cloud2_forget{
-        width:20%; 
-        position: absolute;
-        top: 20vw; 
-        left:20%;
+
+    100% {
+        transform: translateY(0%);
     }
-    .cloud3_forget{
-        width:20%; 
-        position: absolute;
-        top: 50vw; 
-        left:40%;
+}
+
+@keyframes tong_swim {
+    0% {
+        transform: translateY(0%);
     }
-     .star1_forget{
-        width:3%; 
-        position: absolute;
-        top: 35vw; 
-        left:60%;
-        z-index: 2;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
+
+    50% {
+        transform: translateY(-3.5vw);
     }
-    .star2_forget{
-        width:3%; 
-        position: absolute;
-        top: 30vw; 
-        left:77.5%;
-        z-index: 2;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 0.5s;
+
+    100% {
+        transform: translateY(0%);
     }
-    .star3_forget{
-        width:3%; 
-        position: absolute;
-        top: 32.5vw; 
-        left:30%;
-        z-index: 2;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 1s;
+}
+
+/* CSS ช่วง 2 */
+.middle_container {
+    background-color: #f3f3e5;
+    width: 100vw;
+    text-align: center;
+    height: 80vw;
+}
+
+.fourcup_intro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+}
+
+.bg_intro {
+    width: 45%;
+    position: absolute;
+    top: -20vw;
+    left: 27.5%;
+
+}
+
+.title_intro {
+    position: relative;
+    top: 2.5vw;
+}
+
+.title_word_intro {
+    font-size: 2vw;
+    position: absolute;
+    left: 44.5%;
+    text-align: center;
+    color: #7194c5;
+}
+
+.logo_intro {
+    width: 23.75%;
+    position: absolute;
+    top: 10vw;
+    left: 37.5%;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 2;
+}
+
+.text1_word_intro {
+    font-size: 1vw;
+    position: absolute;
+    top: 37.5vw;
+    left: 35%;
+    text-align: center;
+    z-index: 2;
+}
+
+.text2_word_intro {
+    font-size: 1vw;
+    position: absolute;
+    top: 62.5vw;
+    left: 60%;
+    text-align: center;
+    z-index: 2;
+}
+
+.image1_intro {
+    width: 15%;
+    position: absolute;
+    top: 50vw;
+    left: 60%;
+    z-index: 2;
+}
+
+.ghost1_intro {
+    width: 7.5%;
+    position: absolute;
+    top: 47.5vw;
+    left: 85%;
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+.ghost2_intro {
+    width: 7.5%;
+    position: absolute;
+    top: 50vw;
+    left: 10%;
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+.grass_up_intro {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    z-index: 2;
+}
+
+.home_intro {
+    width: 35%;
+    position: absolute;
+    top: 47.5vw;
+    left: 20%;
+    z-index: 2;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0%);
     }
-    .star4_forget{
-        width:3%; 
-        position: absolute;
-        top: 55vw; 
-        left:35%;
-        z-index: 2;
-        animation-name: blink;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-delay: 1.5s;
+
+    50% {
+        transform: translateY(12.5%);
     }
-    .tong_forget{
-        width:7.5%; 
-        position: absolute;
-        top: 37.5vw; 
-        left:25%;
-        animation-name: fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
+
+    100% {
+        transform: translateY(0%);
     }
-    .next {
-        width: 2.5vw;
-        position: absolute;
-        top: 23.5vw;
-        left: 86%;
+}
+
+@keyframes fall_down {
+    0% {
+        transform: translateY(0%) translateX(0%);
+    }
+
+    100% {
+        transform: translateY(90vw) translateX(20vw);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes flower_orbit {
+    from {
+        transform: rotate(0deg) translateX(14.5vw) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg) translateX(14.5vw) rotate(360deg);
+    }
+}
+
+.yellow_flower {
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+    top: 20vw;
+    left: 47.5%;
+    animation-name: flower_orbit;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.flower_intro {
+    width: 8%;
+    position: absolute;
+    z-index: 1;
+    animation-name: fall_down;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.flower1 {
+    top: -15vw;
+    left: -10%;
+}
+
+.flower2 {
+    top: -15vw;
+    left: 5%;
+    animation-delay: 10.5s;
+}
+
+.flower3 {
+    top: -15vw;
+    left: 20%;
+    animation-delay: 1.5s;
+}
+
+.flower4 {
+    top: -15vw;
+    left: 35%;
+    animation-delay: 7.5s;
+}
+
+.flower5 {
+    top: -15vw;
+    left: 50%;
+    animation-delay: 4.5s;
+}
+
+.flower6 {
+    top: -15vw;
+    left: 65%;
+    animation-delay: 6s;
+}
+
+.flower7 {
+    top: -15vw;
+    left: 80%;
+    animation-delay: 9s;
+}
+
+.flower8 {
+    top: -15vw;
+    left: 90%;
+    animation-delay: 10.5s;
+}
+
+
+/* CSS ช่วง 3 */
+.middle2_container {
+    background-color: #f3f3e5;
+    width: 100vw;
+    text-align: center;
+    height: 39.5vw;
+}
+
+.fourcup_phase2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.grass_down_intro {
+    width: 100%;
+    position: absolute;
+    top: -0.1%;
+    left: 0%;
+    z-index: 2;
+}
+
+.curtain_culture {
+    width: 100%;
+    position: absolute;
+    top: -0.1%;
+    left: 0%;
+    z-index: 1;
+}
+
+.floor1_culture {
+    width: 100%;
+    position: absolute;
+    top: 31.5vw;
+    left: 0%;
+    z-index: 2;
+}
+
+.floor2_culture {
+    width: 100%;
+    position: absolute;
+    top: 33.5vw;
+    left: 0%;
+}
+
+.textbox_title_cover {
+    width: 20%;
+    position: absolute;
+    top: 7.5vw;
+    left: 57.5%;
+    z-index: 2;
+}
+
+.text_title_cover {
+    font-size: 1.65vw;
+    position: absolute;
+    top: 8.5vw;
+    left: 60.5%;
+    z-index: 2;
+    color: #7194c5;
+
+}
+
+.text1_culture {
+    font-size: 1.35vw;
+    position: absolute;
+    top: 16vw;
+    left: 60%;
+    z-index: 2;
+}
+
+.text2_culture {
+    font-size: 1vw;
+    position: absolute;
+    top: 19vw;
+    left: 60%;
+    text-align: left;
+    z-index: 2;
+}
+
+.image1_culture {
+    width: 19.5%;
+    position: absolute;
+    top: 20vw;
+    left: 30%;
+    z-index: 2;
+}
+
+.flower1_culture {
+    width: 5%;
+    position: absolute;
+    top: 37.5vw;
+    left: 45.5%;
+    z-index: 2;
+    animation: flower_spin 2s linear infinite;
+}
+
+.flower2_culture {
+    width: 3.25%;
+    position: absolute;
+    top: 28.5vw;
+    left: 27.5%;
+    z-index: 2;
+    animation: flower_spin 2s linear infinite;
+}
+
+.flower3_culture {
+    width: 2%;
+    position: absolute;
+    top: 32vw;
+    left: 29.5%;
+    z-index: 2;
+    animation: flower_spin 2s linear infinite;
+}
+
+.flower4_culture {
+    width: 4%;
+    position: absolute;
+    top: 7.5vw;
+    left: 53.5%;
+    z-index: 2;
+    animation: flower_spin 2s linear infinite;
+}
+
+.flower5_culture {
+    width: 1.75%;
+    position: absolute;
+    top: 10.5vw;
+    left: 52.5%;
+    z-index: 2;
+    animation: flower_spin 2s linear infinite;
+}
+
+@keyframes flower_spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* CSS ช่วง 4 */
+.middle3_container {
+    background-color: #f3f3e5;
+    width: 100vw;
+    text-align: center;
+    height: 100vw;
+}
+
+.fourcup_ingre {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.fivecup_ingre {
+    width: 55%;
+    position: absolute;
+    top: 10vw;
+    left: 22.5%;
+    z-index: 2;
+}
+
+.textbox1_ingre {
+    width: 20%;
+    position: absolute;
+    top: 21.5vw;
+    left: 40%;
+    z-index: 2;
+}
+
+.text1_ingre {
+    font-size: 1vw;
+    position: absolute;
+    top: 25vw;
+    left: 42.5%;
+    text-align: center;
+    z-index: 2;
+    color: #f3f3e5;
+}
+
+.cloud1_ingre {
+    width: 22.5%;
+    position: absolute;
+    top: 35vw;
+    left: 47.5%;
+}
+
+.cloud2_ingre {
+    width: 20%;
+    position: absolute;
+    top: 50vw;
+    left: 20%;
+}
+
+.cloud3_ingre {
+    width: 20%;
+    position: absolute;
+    top: 60vw;
+    left: 40%;
+}
+
+.star1_ingre {
+    width: 3%;
+    position: absolute;
+    top: 45vw;
+    left: 60%;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star2_ingre {
+    width: 3%;
+    position: absolute;
+    top: 37.5vw;
+    left: 77.5%;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+.star3_ingre {
+    width: 3%;
+    position: absolute;
+    top: 40vw;
+    left: 30%;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.star4_ingre {
+    width: 3%;
+    position: absolute;
+    top: 60vw;
+    left: 35%;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+.tong_ingre {
+    width: 7.5%;
+    position: absolute;
+    top: 48.5vw;
+    left: 27.5%;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.textbox2_ingre {
+    width: 12.5%;
+    position: absolute;
+    top: 42.5vw;
+    left: 32.5vw;
+    z-index: 2;
+}
+
+.text2_ingre {
+    font-size: 1vw;
+    position: absolute;
+    top: 44vw;
+    left: 36vw;
+    text-align: center;
+    z-index: 2;
+}
+
+.babin_ingre {
+    width: 15%;
+    position: absolute;
+    top: 47.5vw;
+    left: 65%;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.textbox3_ingre {
+    width: 12.5%;
+    position: absolute;
+    top: 45vw;
+    left: 75vw;
+    z-index: 2;
+}
+
+.text3_ingre {
+    font-size: 1vw;
+    position: absolute;
+    top: 46.5vw;
+    left: 76.5vw;
+    text-align: center;
+    z-index: 2;
+}
+
+.grass_ingre {
+    width: 100%;
+    height: 10vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('C:/Users/USER/Desktop/web/img/baitong@2x.png');
+    background-size: 27.5%;
+    background-repeat: repeat-x repeat-y;
+}
+
+.logo_ingre {
+    width: 50%;
+    position: absolute;
+    left: 25vw;
+    bottom: -5vw;
+    z-index: 2;
+}
+
+.title_textbox_ingre {
+    width: 15%;
+    position: absolute;
+    left: 42.5vw;
+    bottom: 17.5vw;
+    z-index: 2;
+}
+
+.title_text_ingre {
+    font-size: 1.5vw;
+    position: absolute;
+    left: 46.5vw;
+    bottom: 18.5vw;
+    z-index: 2;
+}
+
+.ing1_ingre {
+    font-size: 1vw;
+    position: absolute;
+    left: 26.5vw;
+    bottom: 13.5vw;
+    z-index: 2;
+    color: black;
+}
+
+.ing1_small {
+    color: grey;
+    font-size: 1vw;
+    position: absolute;
+    left: 26.5vw;
+    bottom: 12vw;
+    z-index: 2;
+}
+
+.ing2_ingre {
+    font-size: 1vw;
+    position: absolute;
+    left: 26.5vw;
+    bottom: -6.5vw;
+    z-index: 2;
+    color: black;
+}
+
+.ing2_small {
+    color: grey;
+    font-size: 1vw;
+    position: absolute;
+    left: 26.5vw;
+    bottom: -8vw;
+    z-index: 2;
+}
+
+.ing3_ingre {
+    font-size: 1vw;
+    position: absolute;
+    left: 70vw;
+    bottom: 13.5vw;
+    z-index: 2;
+    color: black;
+}
+
+.ing3_small {
+    color: grey;
+    font-size: 1vw;
+    position: absolute;
+    left: 69vw;
+    bottom: 12vw;
+    z-index: 2;
+}
+
+.ing4_ingre {
+    font-size: 1vw;
+    position: absolute;
+    left: 70vw;
+    bottom: -6.5vw;
+    z-index: 2;
+    color: black;
+}
+
+.ing4_small {
+    color: grey;
+    font-size: 1vw;
+    position: absolute;
+    left: 69vw;
+    bottom: -8vw;
+    z-index: 2;
+}
+
+@keyframes blink {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2.5vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes blow {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes show_scroll {
+    0% {
         opacity: 0;
-        animation-name: show_scroll;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
+        transform: translateY(0%);
     }
-    .back {
-        width: 2.5vw;
-        position: absolute;
-        top: 23.5vw;
-        left: 63.5%;
+
+    100% {
+        opacity: 1;
+        transform: translateY(10%);
+    }
+}
+
+@keyframes show_scroll2 {
+    0% {
         opacity: 0;
-        animation-name: show_scroll2;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
-    }
-    .next:hover{
-        cursor: pointer;
-    }
-    .back:hover{
-        cursor: pointer;
-    }
-    .textbox1_forget{
-        width:12.5%; 
-        position: absolute;
-        top: 32.5vw; 
-        left:30vw;
-        z-index: 2;
-    }
-    .text1_forget{
-        font-size: 1vw;
-        position: absolute;
-        top: 34vw; 
-        left:32.5vw;
-        text-align: center; 
-        z-index: 2;
-    }
-    .babin_forget{
-        width:15%; 
-        position: absolute;
-        top: 27.5vw; 
-        left:65%;
-        animation-name: fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-    .textbox2_forget{
-        width:17.5%; 
-        position: absolute;
-        top: 22.5vw; 
-        left:67.5vw;
-        z-index: 2;
-    }
-    .text2_forget{
-        font-size: 1vw;
-        position: absolute;
-        top: 24vw; 
-        left:68.5vw;
-        text-align: center; 
-        z-index: 2;
-    }
-    .textbox3_forget{
-        width:17.5%; 
-        position: absolute;
-        top: 22.5vw; 
-        left:67.5vw;
-        z-index: 2;
-        visibility: hidden;
-    }
-    .text3_forget{
-        font-size: 1vw;
-        position: absolute;
-        top: 24vw; 
-        left:68.5vw;
-        text-align: center; 
-        z-index: 2;
-        visibility: hidden;
-
-    }
-    .textbox4_forget{
-        width:17.5%; 
-        position: absolute;
-        top: 22.5vw; 
-        left:67.5vw;
-        z-index: 2;
-        visibility: hidden;
-
-    }
-    .text4_forget{
-        font-size: 1vw;
-        position: absolute;
-        top: 23.5vw; 
-        left:69.5vw;
-        text-align: center; 
-        z-index: 2;
-        visibility: hidden;
-
-    }
-    .textbox7_forget{
-        width:17.5%; 
-        position: absolute;
-        top: 22.5vw; 
-        left:67.5vw;
-        z-index: 2;
-        visibility: hidden;
-    }
-    .text7_forget{
-        font-size: 1vw;
-        position: absolute;
-        top: 24vw; 
-        left:68.75vw;
-        text-align: center; 
-        z-index: 2;
-        visibility: hidden;
-
-    }
-    @keyframes pop_text {
-    0% {transform: scale(0);}
-    70% {transform: scale(1.1);}
-    100% {transform: scale(1);}
+        transform: translateY(0%) rotateY(180deg);
     }
 
-    @keyframes pop_down_text {
-        0% {transform: scale(1);}
-        100% {transform: scale(0);}
+    100% {
+        opacity: 1;
+        transform: translateY(10%)rotateY(180deg);
     }
-    .logo_forget{
-        width:30%; 
-        position: absolute;
-        top: 62.5vw; 
-        left:55vw;
-        z-index: 2;
-    }
-    .text5_forget{
-        font-size: 2vw;
-        position: absolute;
-        top: 60vw; 
-        left:25vw;
-        text-align: left; 
-        z-index: 2;
-        color: white;
-    }
-    .text6_forget{
-        font-size: 1.25vw;
-        position: absolute;
-        top: 67.5vw; 
-        left:25vw;
-        text-align: left; 
-        z-index: 2;
-        color: white;
-    }
-    /* CSS ช่วง 6 จบ */
-    .bottom_container {
-        background-color: #72cc62; 
-        width: 100vw; 
-        text-align: center; 
-        height: 32.5vw;
+}
+
+/* CSS ช่วง 5 */
+.middle4_container {
+    background-color: #72cc62;
+    width: 100vw;
+    text-align: center;
+    height: 80vw;
+}
+
+.fourcup_forget {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.cloud1_forget {
+    width: 22.5%;
+    position: absolute;
+    top: 12.5vw;
+    left: 47.5%;
+    z-index: 2;
+}
+
+.cloud2_forget {
+    width: 20%;
+    position: absolute;
+    top: 20vw;
+    left: 20%;
+}
+
+.cloud3_forget {
+    width: 20%;
+    position: absolute;
+    top: 50vw;
+    left: 40%;
+}
+
+.star1_forget {
+    width: 3%;
+    position: absolute;
+    top: 35vw;
+    left: 60%;
+    z-index: 2;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.star2_forget {
+    width: 3%;
+    position: absolute;
+    top: 30vw;
+    left: 77.5%;
+    z-index: 2;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+.star3_forget {
+    width: 3%;
+    position: absolute;
+    top: 32.5vw;
+    left: 30%;
+    z-index: 2;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.star4_forget {
+    width: 3%;
+    position: absolute;
+    top: 55vw;
+    left: 35%;
+    z-index: 2;
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+.tong_forget {
+    width: 7.5%;
+    position: absolute;
+    top: 37.5vw;
+    left: 25%;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.next {
+    width: 2.5vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 86%;
+    opacity: 0;
+    animation-name: show_scroll;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.back {
+    width: 2.5vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 63.5%;
+    opacity: 0;
+    animation-name: show_scroll2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+.back:hover {
+    cursor: pointer;
+}
+
+.textbox1_forget {
+    width: 12.5%;
+    position: absolute;
+    top: 32.5vw;
+    left: 30vw;
+    z-index: 2;
+}
+
+.text1_forget {
+    font-size: 1vw;
+    position: absolute;
+    top: 34vw;
+    left: 32.5vw;
+    text-align: center;
+    z-index: 2;
+}
+
+.babin_forget {
+    width: 15%;
+    position: absolute;
+    top: 27.5vw;
+    left: 65%;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.textbox2_forget {
+    width: 17.5%;
+    position: absolute;
+    top: 22.5vw;
+    left: 67.5vw;
+    z-index: 2;
+}
+
+.text2_forget {
+    font-size: 1vw;
+    position: absolute;
+    top: 24vw;
+    left: 68.5vw;
+    text-align: center;
+    z-index: 2;
+}
+
+.textbox3_forget {
+    width: 17.5%;
+    position: absolute;
+    top: 22.5vw;
+    left: 67.5vw;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.text3_forget {
+    font-size: 1vw;
+    position: absolute;
+    top: 24vw;
+    left: 68.5vw;
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+
+}
+
+.textbox4_forget {
+    width: 17.5%;
+    position: absolute;
+    top: 22.5vw;
+    left: 67.5vw;
+    z-index: 2;
+    visibility: hidden;
+
+}
+
+.text4_forget {
+    font-size: 1vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 69.5vw;
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+
+}
+
+.textbox7_forget {
+    width: 17.5%;
+    position: absolute;
+    top: 22.5vw;
+    left: 67.5vw;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.text7_forget {
+    font-size: 1vw;
+    position: absolute;
+    top: 24vw;
+    left: 68.75vw;
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+
+}
+
+@keyframes pop_text {
+    0% {
+        transform: scale(0);
     }
 
-    .door_mirror{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        color: #488167;
+    70% {
+        transform: scale(1.1);
+    }
 
+    100% {
+        transform: scale(1);
     }
-    .mirrorbreak_door{
-        width:100%; 
-        position: absolute;
-        top: 0vw; 
-        left:0vw;
-        z-index: 3;
-        
+}
+
+@keyframes pop_down_text {
+    0% {
+        transform: scale(1);
     }
-    .mirrorback_door{
-        width:50%; 
-        position: absolute;
-        top: 10vw; 
-        left:25vw;
-        z-index: 3;
-        animation-name: mirrorback_fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        
+
+    100% {
+        transform: scale(0);
     }
-    .title_door{
-        font-size: 1.5vw;
-        position: absolute;
-        top: 10vw; 
-        left:40vw;
-        text-align: left; 
-        z-index: 3;
-        color: #7194c5;
+}
+
+.logo_forget {
+    width: 30%;
+    position: absolute;
+    top: 62.5vw;
+    left: 55vw;
+    z-index: 2;
+}
+
+.text5_forget {
+    font-size: 2vw;
+    position: absolute;
+    top: 60vw;
+    left: 25vw;
+    text-align: left;
+    z-index: 2;
+    color: white;
+}
+
+.text6_forget {
+    font-size: 1.25vw;
+    position: absolute;
+    top: 67.5vw;
+    left: 25vw;
+    text-align: left;
+    z-index: 2;
+    color: white;
+}
+
+/* CSS ช่วง 6 จบ */
+.bottom_container {
+    background-color: #72cc62;
+    width: 100vw;
+    text-align: center;
+    height: 32.5vw;
+}
+
+.door_mirror {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #488167;
+
+}
+
+.mirrorbreak_door {
+    width: 100%;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    z-index: 3;
+
+}
+
+.mirrorback_door {
+    width: 50%;
+    position: absolute;
+    top: 10vw;
+    left: 25vw;
+    z-index: 3;
+    animation-name: mirrorback_fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.title_door {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 10vw;
+    left: 40vw;
+    text-align: left;
+    z-index: 3;
+    color: #7194c5;
+}
+
+.door1 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 31vw;
+    z-index: 3;
+
+}
+
+.door2 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 38.5vw;
+    z-index: 3;
+
+}
+
+.door3 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 46vw;
+    z-index: 3;
+
+}
+
+.door4 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 53.5vw;
+    z-index: 3;
+
+}
+
+.door5 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 61vw;
+    z-index: 3;
+
+}
+
+@keyframes door_anime {
+    0% {
+        transform: scale(1.00);
     }
-    .door1{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:31vw;
-        z-index: 3;
-        
+
+    100% {
+        transform: scale(1.25);
     }
-    .door2{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:38.5vw;
-        z-index: 3;
-        
+}
+
+.door_all:hover {
+    animation-name: door_anime;
+    animation-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 50%;
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+@keyframes mirrorback_fly {
+    50% {
+        transform: translateY(2vw);
     }
-    .door3{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:46vw;
-        z-index: 3;
-        
-    }
-    .door4{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:53.5vw;
-        z-index: 3;
-        
-    }
-    .door5{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:61vw;
-        z-index: 3;
-        
-    }
-    @keyframes door_anime{
-        0% {transform:scale(1.00);}
-        100% {transform:scale(1.25);}
-    }
-    .door_all:hover{
-        animation-name: door_anime;
-        animation-duration: 1s;
-        transition-timing-function: ease-in-out;
-        border-radius: 50%;
-        transform:scale(1.25);
-        cursor: pointer;
-    }
-    @keyframes mirrorback_fly{
-        50%{transform: translateY(2vw);}
-    }
+}
+
 /** CSS Menubar**/
-#menubar  {
+#menubar {
     position: fixed;
     width: 20vw;
     height: 100vh;
-    top : 0vw;
+    top: 0vw;
     right: 0;
     background-color: #f3f3e5;
     opacity: 0.8;
     z-index: 200;
     transform: translateX(20vw);
 }
-.text_menu{
-      color: #548a71;
-      position: absolute;
-      font-size: 1.5vw;
+
+.text_menu {
+    color: #548a71;
+    position: absolute;
+    font-size: 1.5vw;
 }
-.text_menu:hover{
+
+.text_menu:hover {
     animation: font_up 0.2s linear;
     cursor: pointer;
     transform: scale(1.1);
     text-decoration: underline;
 }
-.menu1{
-    top : 10vh;
-    left:7.5vw;
+
+.menu1 {
+    top: 10vh;
+    left: 7.5vw;
 }
-.menu2{
-    top : 20vh;
-    left:7.5vw;
+
+.menu2 {
+    top: 20vh;
+    left: 7.5vw;
 }
-.menu3{
-    top : 30vh;
-    left:7.5vw;
+
+.menu3 {
+    top: 30vh;
+    left: 7.5vw;
 }
-.menu4{
-    top : 40vh;
-    left:5.5vw;
+
+.menu4 {
+    top: 40vh;
+    left: 5.5vw;
 }
-.menu5{
-    top : 50vh;
-    left:7.5vw;
+
+.menu5 {
+    top: 50vh;
+    left: 7.5vw;
 }
-@keyframes font_up{
-    0% {transform: scale(1.0);}
-    100% {transform: scale(1.1);}
+
+@keyframes font_up {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
 }
-@keyframes menu_slide{
-    0% {transform: translateX(20vw);}
-    100% {transform: translateX(0vw);}
+
+@keyframes menu_slide {
+    0% {
+        transform: translateX(20vw);
+    }
+
+    100% {
+        transform: translateX(0vw);
+    }
 }
-@keyframes menu_back{
-    0% {transform: translateX(0vw);}
-    100% {transform: translateX(20vw);}
+
+@keyframes menu_back {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(20vw);
+    }
 }
-.back_arrow{
+
+.back_arrow {
     position: absolute;
     top: 2.5vw;
     left: 1.5vw;
     width: 2vw;
 }
-.back_arrow:hover{
+
+.back_arrow:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: font_up .2s ease-in-out; 
+    transition: font_up .2s ease-in-out;
 }
+
 @media only screen and (max-width: 430px) {
-  .desktop_ver {display: none;}
+    .desktop_ver {
+        display: none;
+    }
 }
-</style>

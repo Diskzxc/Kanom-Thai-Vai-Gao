@@ -28,8 +28,6 @@ body {
     overflow-y: auto;
     min-width: 360px;
     max-width: 430px;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .mb_font {
@@ -45,7 +43,7 @@ body {
 .mb_block1 {
     position: relative;
     width: 100%;
-    height: 395vh;
+    height: 700vw;
 }
 
 .mb_el1 {
@@ -59,16 +57,25 @@ body {
     top: 21vw;
 }
 
-.mb_el3 {
-    width: 13vw;
-    left: 22vw;
-    top: 50vw;
-}
-
 .mb_el4 {
     width: 96vw;
-    left: 2vw;
-    top: 50vw;
+    left: -100vw;
+    top: 48vw;
+    animation-name: mb_kratong_float;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes mb_kratong_float {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(200vw);
+    }
+
 }
 
 .mb_el5 {
@@ -87,36 +94,61 @@ body {
     width: 65vw;
     left: 17.5vw;
     top: 110vw;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .mb_el7 {
-    width: 20vw;
-    left: 60vw;
-    top: 160vw;
+    width: 15vw;
+    left: 63vw;
+    top: 163vw;
     transform: rotateZ(-150deg);
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .mb_el8 {
     width: 40vw;
-    top: 70vw;
+    left: -50vw;
+    top: 40vw;
+    animation-name: mbfall_down;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
-.mb_el9 {
-    width: 25vw;
-    right: 0vw;
-    top: 85vw;
+
+@keyframes mbfall_down {
+    0% {
+        transform: translateY(0%) translateX(0%);
+    }
+
+    100% {
+        transform: translateY(120vw) translateX(150vw);
+    }
 }
 
 .mb_el10 {
     width: 8vw;
     left: 5vw;
     top: 75vw;
+    animation-name: spin;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .mb_el11 {
     width: 10vw;
     right: 5vw;
     top: 85vw;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .mb_L2 {
@@ -143,8 +175,11 @@ body {
 
 .mb_el15 {
     width: 25vw;
-    left: 0vw;
-    top: 260vw;
+    left: -50vw;
+    top: 220vw;
+    animation-name: mbfall_down;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 .mb_el16 {
@@ -169,12 +204,18 @@ body {
     width: 30vw;
     left: 5vw;
     top: 585vw;
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .mb_el19 {
     width: 30vw;
     right: 5vw;
     top: 580vw;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 /*Block 2*/
@@ -182,7 +223,7 @@ body {
 .mb_block2 {
     position: relative;
     width: 100%;
-    height: 370vh;
+    height: 650vw;
 }
 
 .mb_el20 {
@@ -200,26 +241,58 @@ body {
 }
 
 .mb_el23 {
-    width: 30vw;
-    top: -20vw;
+    width: 40vw;
+    left: -50vw;
+    top: -50vw;
+    animation-name: mbfall_down;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
-.mb_el24 {
-    width: 30vw;
-    top: -43vw;
-    right: -15vw;
+.mb_flower1_culture {
+    width: 15%;
+    position: absolute;
+    top: 115vw;
+    right: 8vw;
+    animation: flower_spin 2s linear infinite;
 }
 
-.mb_el25 {
-    width: 28vw;
-    top: -9vw;
-    right: 12vw;
+.mb_flower2_culture {
+    width: 12%;
+    position: absolute;
+    top: 82vw;
+    left: 7vw;
+    animation: flower_spin 2s linear infinite;
+}
+
+.mb_flower3_culture {
+    width: 6%;
+    position: absolute;
+    top: 95vw;
+    left: 8vw;
+    animation: flower_spin 2s linear infinite;
+}
+
+.mb_flower4_culture {
+    width: 15%;
+    position: absolute;
+    top: -5vw;
+    right: 15vw;
+    animation: flower_spin 2s linear infinite;
+}
+
+.mb_flower5_culture {
+    width: 6%;
+    position: absolute;
+    top: 5vw;
+    right: 30vw;
+    animation: flower_spin 2s linear infinite;
 }
 
 .mb_el26 {
-    width: 88vw;
-    left: 6vw;
-    top: 52.5vw;
+    width: 80vw;
+    left: 12vw;
+    top: 48.2vw;
 }
 
 .mb_el27 {
@@ -330,6 +403,9 @@ body {
     width: 70vw;
     top: 460vw;
     right: 5vw;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .mb_el40 {
@@ -361,7 +437,7 @@ body {
 .mb_block3 {
     position: relative;
     width: 100%;
-    height: 350vh;
+    height: 620vw;
 }
 
 .mb_el43 {
@@ -401,6 +477,9 @@ body {
     width: 35vw;
     left: 8vw;
     top: 340vw;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .mb_el50 {
@@ -431,6 +510,9 @@ body {
     width: 70vw;
     right: 15vw;
     top: 198vw;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .mb_el55 {
