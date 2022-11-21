@@ -1,13 +1,15 @@
     
 .mobile_ver{
     display: none;
+    letter-spacing: 0.25vw;
+    line-height: 1.75;
 }
 /** พรพาย **/
-.mob_menu {
+.mob_menu{
     position: fixed;
     right: 1vw;
     top: 2vw;
-    width: 10vw;
+    width: 6vw;
     z-index: 100;
 }
 .mob_menu:hover {
@@ -182,12 +184,12 @@
 #mb_textp1{
    font-size: 4vw; 
    position: absolute; 
-   top: 52vw; 
+   top: 51vw; 
    left: 30vw; 
    transform: rotateZ(-4deg);
 }
 #mb_textp2{
-    font-size: 3vw; 
+    font-size: 2.75vw; 
     position: absolute;
     top: 117vw; 
     left: 14vw; 
@@ -196,12 +198,12 @@
 #mb_textp3{
     font-size: 3vw; 
     position: absolute; 
-    top: 160vw; 
+    top: 159vw; 
     left: 15vw; 
     transform: rotateZ(-4deg);
 }
 #mb_textp4{
-    font-size: 3vw; 
+    font-size: 4vw; 
     position: absolute; 
     top: 137vw; 
     left:60vw; 
@@ -210,7 +212,7 @@
 #mb_textp5{
     font-size: 3vw; 
     position: absolute; 
-    top: 30vw; 
+    top: 29vw; 
     left: 30vw; 
     transform: rotateZ(-4deg);
 }
@@ -224,21 +226,21 @@
 #mb_textp7{
     font-size: 3vw;
     position: absolute; 
-    top: 137vw; 
+    top: 135vw; 
     left: 37vw; 
     transform: rotateZ(-3deg);
 }
 #mb_textp8{
     font-size: 3vw; 
     position: absolute; 
-    top: 22vw; 
+    top: 20vw; 
     left: 35vw; 
     transform: rotateZ(-3deg);
 }
 #mb_textp9{
     font-size: 3vw; 
     position: absolute; 
-    top: 105vw; 
+    top: 104vw; 
     left: 30vw; 
     transform: rotateZ(-3deg);
 }
@@ -581,7 +583,7 @@ body {
 }
 
 .mob_text {
-    font-size: 4.75vw;
+    font-size: 4vw;
 }
 
 .el_pos {
@@ -596,13 +598,13 @@ body {
     background-color: #ffe9b8;
 }
 
-.pot_pad{
+.mb_pot_pad{
     animation-name: pot_open;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 @keyframes pot_open{
-    50% {transform: translateY(15vw);}
+    50% {transform: translateY(35vw);}
 }
 @keyframes ship_go{
     50% {transform: translateX(-55vw);}
@@ -668,9 +670,9 @@ h1 {
     color: #97a0ef;
 }
 
-.line {
+.mb_line {
     position: absolute;
-    top: -1%;
+    top: -1.5%;
 }
 
 /* element */
@@ -1215,7 +1217,7 @@ h1 {
 
 .mobi_in_t1{
     left: 22vw;
-    top: 781vw;
+    top: 779vw;
     font-size: 4.2vw;
     text-align: center;
     transform: rotateZ(-2deg)
@@ -1243,7 +1245,7 @@ h1 {
 
 .mobi_in_t3{
     left: 28.5vw;
-    top: 920vw;
+    top: 918vw;
     font-size: 4.2vw;
     text-align: center;
     transform: rotateZ(-2deg)
@@ -1269,14 +1271,14 @@ h1 {
 /* ข้อความ */
 .mobi_txt1{
     font-size: 4.8vw;
-    left: 16vw;
+    left: 15vw;
     top: 175vw;
     text-align: center;
 }
 
 .mobi_txt2{
     font-size: 4.8vw;
-    left: 16vw;
+    left: 14vw;
     top: 340vw;
     text-align: center;
 }
@@ -1284,7 +1286,7 @@ h1 {
 .mobi_txt3{
     font-size: 4.8vw;
     left: 10vw;
-    top: 650vw;
+    top: 640vw;
     text-align: center;
 }
 
