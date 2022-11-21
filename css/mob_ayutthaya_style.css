@@ -576,7 +576,7 @@ body {
 .mob_block{
     position: relative;
     width: 100%;
-    height: 2525vw; /**ขนาดความยาวเว็บ**/
+    height: 2515vw; /**ขนาดความยาวเว็บ**/
     top: 450vw;
 }
 
@@ -1391,7 +1391,7 @@ h1 {
         width: 100%;
         height: 100%;
         color: #488167;
-        top: -74vw;
+        top: -60vw;
     
     }
     
@@ -1611,3 +1611,8 @@ body {
   .mobile_ver {display: block;}
 }
 
+.mb_text_door {
+    font-size: 3vw;
+    top: 48vw;
+    left: 45.5%;
+}
