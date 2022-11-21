@@ -12,8 +12,8 @@ body {
     background-color: white;
     overflow-x: hidden;
     overflow-y: auto;
-    min-width: 395px;
-    max-width: 395px;
+    min-width: 360px;
+    max-width: 430px;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -30,7 +30,26 @@ body {
 .mob_text {
     font-size: 3.2vw;
 }
-
+.mb_next {
+    width: 4vw;
+    position: absolute;
+    top: 46.5vw;
+    left: 60%;
+    opacity: 0;
+    animation-name: show_scroll;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.mb_back {
+    width: 4vw;
+    position: absolute;
+    top: 46.5vw;
+    left: 37.5%;
+    opacity: 0;
+    animation-name: show_scroll2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
 .mob_block1 {
     height: 115vw;
     position: relative;
@@ -159,14 +178,12 @@ body {
 }
 
 .mob_L7 {
-    visibility: hidden;
     width: 30%;
     right: 10vw;
     top: 5vw;
 }
 
 .mob_in_L7 {
-    visibility: hidden;
     text-align: center;
     color: white;
     right: 17vw;
@@ -468,6 +485,6 @@ body {
 .mob_start_bot {
     color: white;
 }
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 430px) {
   .mobile_ver {display: block;}
 }

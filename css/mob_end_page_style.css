@@ -11,9 +11,11 @@ body {
 }
 
 /** Mobile Block ที่ 1 **/
-
+.mobile_ver{
+    display: none;
+}
 .mob_top_container {
-    max-width: 360px;
+    max-width: 430px;
     min-width: 360px;
     color: rgb(69, 125, 98);
     background-color: #a7ebe7;
@@ -494,4 +496,7 @@ body {
     left: 40vw;
     top: 42.5vw;
 
+}
+@media only screen and (max-width: 430px) {
+  .mobile_ver {display: block;}
 }
