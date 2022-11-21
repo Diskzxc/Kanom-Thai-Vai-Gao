@@ -44,6 +44,7 @@ body {
     width: 100%;
     height: 350vw;
     left: 3.5vw;
+    background-color: salmon;
 }
 
 .mb_box5 {
@@ -71,7 +72,7 @@ body {
     position: absolute;
     text-align: center;
     top: 62vw;
-    left: 35vw;
+    left: 40vw;
 }
 
 #mb_asset1 {
@@ -309,18 +310,18 @@ body {
 
 .mb_bulann_text2 {
     color: #588469;
-    top: 130vw;
+    top: 150vw;
     left: 15vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 8vw;
 }
 
 .mb_bulann_text3 {
     color: #588469;
-    top: 55vw;
-    left: 22vw;
+    top: 62vw;
+    left: 24vw;
     font-size: 4vw;
     position: absolute;
     text-align: center;
@@ -329,7 +330,7 @@ body {
 
 .mb_bulann_text4 {
     color: #588469;
-    top: 162vw;
+    top: 166vw;
     left: 25vw;
     font-size: 4vw;
     position: absolute;
@@ -339,7 +340,7 @@ body {
 
 .mb_bulann_text5 {
     color: #588469;
-    top: 282vw;
+    top: 280vw;
     left: 24vw;
     font-size: 4vw;
     position: absolute;
@@ -349,7 +350,7 @@ body {
 
 .mb_bulann_text6 {
     color: #588469;
-    top: 20vw;
+    top: 25vw;
     left: 30vw;
     font-size: 4vw;
     position: absolute;
@@ -359,7 +360,7 @@ body {
 
 .mb_bulann_text7 {
     color: #588469;
-    top: 70vw;
+    top: 73vw;
     left: 30vw;
     font-size: 4vw;
     position: absolute;
@@ -379,7 +380,7 @@ body {
 
 .mb_bulann_text9 {
     color: #588469;
-    top: 14vw;
+    top: 20vw;
     left: 36vw;
     font-size: 5vw;
     position: absolute;
@@ -392,7 +393,7 @@ body {
     top: 80vw;
     left: 36vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 7vw;
 }
@@ -400,9 +401,9 @@ body {
 .mb_bulann_text11 {
     color: #588469;
     top: 130vw;
-    left: 38vw;
+    left: 36vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 7vw;
 }
@@ -412,17 +413,21 @@ body {
     top: 190vw;
     left: 36vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 7vw;
+}
+
+.text_mate {
+    position: absolute;
 }
 
 .mb_bulann_text13 {
     color: #588469;
     top: 250vw;
-    left: 35vw;
+    left: 36vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 7vw;
 }
@@ -430,15 +435,15 @@ body {
 .mb_bulann_text14 {
     color: #588469;
     top: 315vw;
-    left: 38vw;
+    left: 36vw;
     font-size: 4vw;
-    position: absolute;
+    position: relative;
     line-height: 7vw;
 }
 
 .mb_bulann_text15 {
     color: #588469;
-    top: 30vw;
+    top: 35vw;
     left: 10vw;
     font-size: 5vw;
     position: absolute;
@@ -447,7 +452,7 @@ body {
 
 .mb_bulann_text16 {
     color: #588469;
-    top: 57vw;
+    top: 60vw;
     left: 50vw;
     font-size: 3vw;
     position: absolute;
@@ -476,20 +481,20 @@ body {
 
 .mb_bulann_text19 {
     color: white;
-    top: 3vw;
+    top: 5vw;
     left: 37vw;
     font-size: 3.5vw;
-    position: absolute;
+    position: relative;
     text-align: center;
     line-height: 6vw;
 }
 
 .mb_bulann_text20 {
     color: #588469;
-    top: 10vw;
+    top: 12vw;
     left: 15vw;
     font-size: 5vw;
-    position: absolute;
+    position: relative;
     line-height: 6vw;
 }
 
@@ -1155,28 +1160,28 @@ body {
 #mb_textbox2 {
     position: absolute;
     width: 60vw;
-    top: 98vw;
-    left: 23vw;
+    top: 100vw;
+    left: 25vw;
 }
 
 #mb_textbox3 {
     position: absolute;
     width: 80vw;
     top: 150vw;
-    left: 10vw;
+    left: 8vw;
 }
 
 #mb_textbox4 {
     position: absolute;
-    width: 40vw;
+    width: 30vw;
     top: 220vw;
-    left: 11vw;
+    left: 20vw;
 }
 
 #mb_textbox5 {
     position: absolute;
     width: 80vw;
-    top: 268vw;
+    top: 260vw;
     left: 10vw;
 }
 
