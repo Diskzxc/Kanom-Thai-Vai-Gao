@@ -5,9 +5,11 @@ body {
     background-color: #f3f3e5;
     color: #6c90c4;
 }
-.mobile_ver{
+
+.mobile_ver {
     display: none;
 }
+
 .bulann_mob {
     background-color: #f3f3e5;
     overflow-x: hidden;
@@ -20,42 +22,49 @@ body {
     position: relative;
     width: 100%;
     height: 200vw;
+    left: 3.5vw;
 }
 
 .mb_box2 {
     position: relative;
     width: 100%;
     height: 350vw;
+    left: 3.5vw;
 }
 
 .mb_box3 {
     position: relative;
     width: 100%;
     height: 280vw;
+    left: 3.5vw;
 }
 
 .mb_box4 {
     position: relative;
     width: 100%;
     height: 350vw;
+    left: 3.5vw;
 }
 
 .mb_box5 {
     position: relative;
     width: 100%;
     height: 200vw;
+    left: 3.5vw;
 }
 
 .mb_box6 {
     position: relative;
     width: 100%;
     height: 175vw;
+    left: 3.5vw;
 }
 
 .mb_box7 {
     position: relative;
     width: 100%;
     height: 180vw;
+    left: 3.5vw;
 }
 
 #mb_text1 {
@@ -1486,6 +1495,9 @@ body {
     animation-iteration-count: infinite;
     transition-timing-function: linear;
 }
+
 @media only screen and (max-width: 430px) {
-  .mobile_ver {display: block;}
+    .mobile_ver {
+        display: block;
+    }
 }
