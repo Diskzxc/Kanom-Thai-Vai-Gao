@@ -11,7 +11,9 @@
     transform: scale(1.1);
     transition: all .2s ease-in-out;
 }
-
+.desktop_ver{
+    z-index: -100;
+}
 /**CSS พระพาย**/
 .water_head{
     position: absolute;

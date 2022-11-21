@@ -21,7 +21,7 @@
     left: 30vw; 
     top: 41vw;
 }
-.babin_cover{
+.mb_babin_cover{
     position: absolute; 
     left: 78.5vw; 
     top:20vw;
@@ -126,116 +126,116 @@
     font-size: 7vw;
     color: #7294c2;
 }
-#textb1{
+#mb_textb1{
     width:68%; 
     position: absolute; 
     top:45vw; 
     left: 20vw;
 }
-#textb2{
+#mb_textb2{
     width:50%; 
     position: absolute; 
     top:115vw; 
     left: 12vw;
 }
-#textb3{
+#mb_textb3{
     width:50%; 
     position: absolute; 
     top:155vw; 
     left: 12vw;
 }
-#textb4{
+#mb_textb4{
     width:38%; 
     position: absolute; 
     top:135vw; left: 45vw;
 }
-#textb5{
+#mb_textb5{
     width:60%;
     position: absolute; 
     top:23vw; 
     left: 20vw;
 }
-#textb6{
+#mb_textb6{
     width:60%;
     position: absolute; 
     top:100vw; 
     left: 27vw;
 }
-#textb7{
+#mb_textb7{
     width:60%;
     position: absolute; 
     top:130vw; 
     left: 25vw;
 }
-#textb8{
+#mb_textb8{
     width:60%; 
     position: absolute; 
     top: 15vw; 
     left: 20vw;
 }
-#textb9{
+#mb_textb9{
     width:60%; 
     position: absolute; 
     top: 100vw; 
     left: 21vw;
 }
-#textp1{
+#mb_textp1{
    font-size: 4vw; 
    position: absolute; 
    top: 52vw; 
    left: 30vw; 
    transform: rotateZ(-4deg);
 }
-#textp2{
+#mb_textp2{
     font-size: 3vw; 
     position: absolute;
     top: 117vw; 
     left: 14vw; 
     transform: rotateZ(-4deg);
 }
-#textp3{
+#mb_mb_textp3{
     font-size: 3vw; 
     position: absolute; 
     top: 160vw; 
     left: 15vw; 
     transform: rotateZ(-4deg);
 }
-#textp4{
+#mb_textp4{
     font-size: 3vw; 
     position: absolute; 
     top: 137vw; 
     left:60vw; 
     transform: rotateZ(-4deg);
 }
-#textp5{
+#mb_textp5{
     font-size: 3vw; 
     position: absolute; 
     top: 30vw; 
     left: 30vw; 
     transform: rotateZ(-4deg);
 }
-#textp6{
+#mb_textp6{
     font-size: 3vw; 
     position: absolute; 
     top: 105vw; 
     left: 37vw; 
     transform: rotateZ(-3deg);
 }
-#textp7{
+#mb_textp7{
     font-size: 3vw;
     position: absolute; 
     top: 137vw; 
     left: 37vw; 
     transform: rotateZ(-3deg);
 }
-#textp8{
+#mb_textp8{
     font-size: 3vw; 
     position: absolute; 
     top: 22vw; 
     left: 35vw; 
     transform: rotateZ(-3deg);
 }
-#textp9{
+#mb_textp9{
     font-size: 3vw; 
     position: absolute; 
     top: 105vw; 
@@ -270,7 +270,8 @@
 }
 /** ตำแหน่ง พระพาย ช่วงด้านบน **/
 .bg_head_pp{
-    left: -1%;
+    top: 0;
+    left: 0;
 }
 .title_pp{
     position: absolute; top:28vw; left:8vw;
@@ -541,7 +542,7 @@
     left: 17vw;
     width: 20%;
     position: absolute;
-    animation: prapai_low s infinite linear;
+    animation: prapai_low 2.75s infinite linear;
 }
 .whiteb_pos{
     top: 270vw;
@@ -902,9 +903,9 @@ h1 {
 }
 
 .mobi_el37{
-    width: 17%;
-    left: 58vw;
-    top: 1816.5vw;
+    width: 20%;
+    left: 56vw;
+    top: 1837.5vw;
 }
 
 .mobi_el38{
@@ -934,198 +935,105 @@ h1 {
     z-index: -1;
 }
 
-.mobi_el42{
-    width: 22%;
-    left: 35.5vw;
-    top:572vw;
-}
 
-.mobi_el43{
-    width: 22%;
-    left: 56vw;
-    top:571.8vw;
-}
-
-.mobi_el44{
-    width: 40%;
-    left: 37vw;
-    top:574.5vw;
-}
-
-.mobi_el45{
-    width: 10%;
-    left: 52vw;
-    top:572vw;
-}
-
-.mobi_el46{
-    width: 7%;
-    left: 27.5vw;
-    top: 576vw;
-}
-
-.mobi_el47{
-    width: 4%;
-    left: 20vw;
-    top: 582vw;
-}
-
-.mobi_el48{
-    width: 4%;
-    left: 79vw;
-    top: 603vw;
-    transform: rotate(-20deg);
-}
-
-.mobi_el49{
-    width: 4%;
-    left: 75vw;
-    top: 609.5vw;
-    transform: rotate(-24deg);
-}
-
-.mobi_el50{
-    width: 5%;
-    left: 68vw;
-    top: 614.5vw;
-}
-
-.mobi_el51{
-    width: 9%;
-    left: 21vw;
-    top: 570vw;
-    transform: rotate(-35deg);
-}
-
-.mobi_el52{
-    width: 5%;
-    left: 25vw;
-    top: 585vw;
-}
-
-.mobi_el53{
-    width: 20%;
-    left: 12vw;
-    top: 604vw;
-}
-
-.mobi_el54{
-    width: 20%;
-    left: 78vw;
-    top: 607.3vw;
-}
-
-.mobi_el55{
-    width: 4%;
-    left: 26vw;
-    top: 601.5vw;
-    transform: rotate(-20deg);
-}
 
 /* ทองและbg */
 .mobi_bg_el1{
     width: 9%;
     left: 6vw;
     top: 490vw;
-    transform: rotate(-220deg);
 }
 
 .mobi_bg_el2{
     width: 11%;
     left: 14vw;
     top: 500vw;
-    transform: rotate(-270deg);
+    transform: rotate(-180deg);
 }
 
 .mobi_bg_el3{
     width: 11%;
     left: -5.5vw;
     top: 505vw;
-    transform: rotate(-150deg);
 }
 
 .mobi_bg_el4{
     width: 9%;
     left: 8vw;
     top: 522vw;
-    transform: rotate(-190deg);;
+    transform: rotate(15deg);
 }
 
 .mobi_bg_el5{
     width: 7%;
     left: 14vw;
     top: 540vw;
-    transform: rotate(-300deg);
 }
 
 .mobi_bg_el6{
     width: 7%;
     left: 14vw;
     top: 553vw;
-    transform: rotate(-170deg);
 }
 
 .mobi_bg_el7{
     width:12%;
     left: -3vw;
     top: 560vw;
-    transform: rotate(-100deg);
+    transform: rotate(25deg);
 }
 
 .mobi_bg_el8{
     width: 7%;
     left: 90vw;
     top: 479vw;
-    transform: rotate(-168deg);
+    transform: rotate(10deg);
 }
 
 .mobi_bg_el9{
     width: 12%;
     left: 75vw;
     top: 488vw;
-    transform: rotate(-184deg);
+    transform: rotate(-3deg);
 }
 
 .mobi_bg_el10{
     width: 7%;
     left: 89vw;
     top: 503vw;
-    transform: rotate(-300deg);
 }
 
 .mobi_bg_el11{
     width: 9%;
     left: 82vw;
     top: 515vw;
-    transform: rotate(-168deg);
 }
 
 .mobi_bg_el12{
     width: 12%;
     left: 95.5vw;
     top: 511vw;
-    transform: rotate(-90deg);
+    transform: rotate(-3deg);
 }
 
 .mobi_bg_el13{
     width: 12%;
     left: 84.8vw;
     top: 532vw;
-    transform: rotate(-120deg);
+    transform: rotate(-3deg);
 }
 
 .mobi_bg_el14{
     width: 7%;
     left: 82vw;
     top: 551vw;
-    transform: rotate(-184deg);
 }
 
 .mobi_bg_el15{
     width:12%;
     left: 90vw;
     top: 558vw;
-    transform: rotate(60deg);
+    transform: rotate(25deg);
 }
 
 .mobi_bg_el16{
@@ -1133,28 +1041,26 @@ h1 {
     left: 5vw;
     top: 705vw;
     top: 705vw;
-    transform: rotate(-184deg);
 }
 
 .mobi_bg_el17{
     width:7%;
     left: 16vw;
     top: 720vw;
-    transform: rotate(65deg);
+    transform: rotate(-3deg);
 }
 
 .mobi_bg_el18{
     width:10%;
     left: 8vw;
     top: 750vw;
-    transform: rotate(120deg);
+    transform: rotate(20deg);
 }
 
 .mobi_bg_el19{
     width:10%;
     left: 80vw;
     top: 720vw;
-    transform: rotate(-270deg);
 }
 
 .mobi_bg_el20{
@@ -1484,20 +1390,20 @@ h1 {
         50%{transform: translateY(2vw);}
     }
 /** animation พระพาย **/
-.boat_cover{
-    position: absolute; left: 40vw; top: 40vw;
+.mb_boat_cover{
+    position: absolute; left: 40vw; top: -32.5vw;
     animation-name: boat_xaxis;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     transition-timing-function: linear;
 }
-.boat_wrap{
+.mb_boat_wrap{
     animation-name: boat_yaxis;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     transition-timing-function: ease-in-out;
 }
-.babin_cover{
+.mb_babin_cover{
     position: absolute; left: 56vw; top:8vw;
     animation-name: fly;
     animation-duration: 3s;
@@ -1513,7 +1419,7 @@ h1 {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-.water_head{
+.mb_water_head{
     position: absolute;
     top : 53vw;
     left: 0;
@@ -1560,51 +1466,3 @@ body {
   .mobile_ver {display: block;}
 }
 
-
-/** animation หม้อตาล **/
-.coin{
-    animation: coin_float 3s infinite linear;
-}
-
-.coin2{
-    position: absolute;
-    animation: coin_float2 3s infinite linear;
-}
-
-.oil{
-    position: absolute;
-    transform: scale(0.1);
-    animation: oil_drop 3s infinite linear;
-}
-
-.tan1{
-    position: absolute;
-    animation: dukdik 1s infinite;
-}
-.tan2{
-    position: absolute;
-    animation: dukdik 1s infinite;
-}
-.heart{
-    position: absolute;
-    animation: heart_beat 1s infinite linear;
-}
-
-/** keyframe หม้อตาล **/
-@keyframes coin_float{
-    50% {transform: translateY(-2vw);}
-}
-
-@keyframes coin_float2{
-    50% {transform: translateY(-1vw);}
-}
-
-@keyframes oil_drop{
-    0% {transform: translateY(0) scaleX(0) scaleY(0);}
-    50% {transform: translateY(24vw) scaleX(0.7) scaleY(1);}
-    100% {transform: translateY(0vw) scaleX(0) scaleY(0);}
-}
-
-@keyframes heart_beat {
-    50% {transform: scale(1.25);}
-}
