@@ -13,6 +13,8 @@ body {
 /** Mobile Block ที่ 1 **/
 .mobile_ver{
     display: none;
+    letter-spacing: 0.25vw;
+    line-height: 1.75;
 }
 .mob_top_container {
     max-width: 430px;
@@ -32,7 +34,7 @@ body {
 }
 
 .mob_t_font {
-    font-size: 2.5vw;
+    font-size: 2.25vw;
 }
 
 .mob_text_box0 {
@@ -43,7 +45,7 @@ body {
 
 .mob_text5 {
     font-size: 3vw;
-    left: 32vw;
+    left: 30vw;
     top: 293vw;
 }
 
@@ -56,7 +58,7 @@ body {
 .mob_text4 {
     text-align: center;
     font-size: 3vw;
-    left: 39vw;
+    left: 38vw;
     top: 103vw;
 }
 
@@ -193,7 +195,7 @@ body {
 .mob_text7 {
     text-align: center;
     font-size: 3vw;
-    left: 25vw;
+    left: 22vw;
     bottom: 46vw;
 }
 
@@ -338,7 +340,7 @@ body {
 
 .mob_text_fourcup {
     text-align: center;
-    right: -2vw;
+    right: 0vw;
     top: 153.5vw;
     animation-name: text_show1;
     animation-duration: 15s;
@@ -347,7 +349,7 @@ body {
 
 .mob_text_prapai {
     text-align: center;
-    right: -1vw;
+    right: 0vw;
     top: 153.5vw;
     animation-name: text_show2;
     animation-duration: 15s;
@@ -356,7 +358,7 @@ body {
 
 .mob_text_brownpot {
     text-align: center;
-    right: -8vw;
+    right: -3.5vw;
     top: 153.5vw;
     animation-name: text_show3;
     animation-duration: 15s;
@@ -365,7 +367,7 @@ body {
 
 .mob_text_bulan {
     text-align: center;
-    right: -6.5vw;
+    right: -3.5vw;
     top: 153.5vw;
     animation-name: text_show4;
     animation-duration: 15s;
@@ -374,7 +376,7 @@ body {
 
 .mob_text_purplebranch {
     text-align: center;
-    right: -8vw;
+    right: -3.5vw;
     top: 153.5vw;
     animation-name: text_show5;
     animation-duration: 15s;
@@ -490,10 +492,10 @@ body {
     position: absolute;
     bottom: 60vw;
 }
-.five_years_text{
+.mb_five_years_text{
     font-size: 5vw;
     position: absolute;
-    left: 40vw;
+    left: 38vw;
     top: 42.5vw;
 
 }
