@@ -3,7 +3,10 @@
             font-family: 'Kodchasan', sans-serif;
             overflow-x: hidden;
         }
-        
+        .desktop_ver{
+            letter-spacing: 0.075vw;
+            line-height : 2.25vw;
+        }
         .content1 {
             color: #7698c8;
             width: 100vw;
@@ -63,7 +66,7 @@
         }
         
         .bulann_box8 {
-            height: 100vw;
+            height: 80vw;
             position: relative;
             background-color: #f3f3e5;
             z-index: 2;
@@ -322,24 +325,24 @@
         #bulann_text3 {
             font-size: 1.25vw;
             position: absolute;
-            top: 17vw;
-            left: 23vw;
+            top: 15vw;
+            left: 22vw;
         }
         
         #bulann_text4 {
             font-size: 1vw;
             text-align: center;
             position: absolute;
-            left: 20vw;
-            top: 19vw;
+            left: 18vw;
+            top: 18vw;
         }
         
         #bulann_text5 {
             font-size: 1vw;
             position: absolute;
             text-align: center;
-            left: 54vw;
-            top: 34vw;
+            left: 52.5vw;
+            top: 32vw;
         }
         
         #bulann_text6 {
@@ -347,31 +350,31 @@
             position: absolute;
             text-align: center;
             left: 20vw;
-            top: 58vw;
+            top: 56vw;
         }
         
         #bulann_text7 {
             font-size: 1vw;
             position: absolute;
             text-align: center;
-            left: 33vw;
+            left: 32.5vw;
             top: 18.5vw;
         }
         
         #bulann_text8 {
-            font-size: 1vw;
+            font-size: 0.9vw;
             position: absolute;
             text-align: center;
             left: 42vw;
-            top: 25vw;
+            top: 24.5vw;
         }
         
         #bulann_text9 {
-            font-size: 1vw;
+            font-size: 0.9vw;
             position: absolute;
             text-align: center;
             left: 56.5vw;
-            top: 10.5vw;
+            top: 9.75vw;
         }
         
         #bulann_text10 {

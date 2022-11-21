@@ -9,6 +9,7 @@ body {
 .container_cm {
     position: absolute;
     left: -0.5vw;
+
 }
 
 .menu {
@@ -35,6 +36,7 @@ body {
 .top_container {
     width: 100vw;
     height: 170vw;
+
 }
 
 .block1 {
@@ -307,10 +309,15 @@ body {
 
 .text_chormuang {
     font-size: 1.1vw;
+    letter-spacing: 0.075vw;
+    line-height : 2.25vw;
 }
-
+h1{
+    letter-spacing: 0.075vw;
+    line-height : 2.25vw;
+}
 .text_0 {
-    left: 39%;
+    left: 37%;
     top: 42vw;
 }
 
@@ -463,6 +470,7 @@ body {
 .text_4 {
     left: 35%;
     top: 16%;
+    
 }
 
 .text_5 {
@@ -534,7 +542,7 @@ body {
 }
 
 .text_18 {
-    left: 37%;
+    left: 35%;
     top: 91%;
 }
 
@@ -670,19 +678,19 @@ body {
 }
 
 .text_19 {
-    left: 33%;
+    left: 30%;
     top: 57vw;
     color: #838bc5;
     font-size: 1.4vw;
 }
 
 .text_20 {
-    left: 33%;
+    left: 30%;
     top: 62vw;
 }
 
 .text_21 {
-    left: 33%;
+    left: 30%;
     top: 70vw;
 }
 
