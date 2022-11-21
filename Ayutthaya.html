@@ -499,7 +499,7 @@
             <div class="boat_warp">
                 <img src="img/Prapai/mobile/2x/เรือ_head_1@2x.png" class="boat_pp boat_cover" width="40%">
             </div>
-            <img class="water_head"  src="img/Prapai/mobile/2x/water@2x.png">
+            <img class="mb_water_head"  src="img/Prapai/mobile/2x/water@2x.png">
             <img src="img/Prapai/mobile/2x/บ้าบิ่น_head_1@2x.png" class="babintop_p babin_cover" width="22.5%">
 
         </div>
@@ -822,7 +822,26 @@
         </div>
     </div>
 
-    <a href="index.html"><img class="mob_menu" src="img/forall/mobile/png/HAM_1@2x.png" ></a>
+     <!-- html menubar -->
+            <div id="mb_menubar">
+                <a href="index.html">
+                    <h1 class="mb_text_menu mb_menu1">หน้าแรก</h1>
+                </a>
+                <a href="EatFourCup.html">
+                    <h1 class="mb_text_menu mb_menu2">ยุคสุโขทัย</h1>
+                </a>
+                <a href="Ayutthaya.html">
+                    <h1 class="mb_text_menu mb_menu3">ยุคอยุธยา</h1>
+                </a>
+                <a href="Rattanakosin.html">
+                    <h1 class="mb_text_menu mb_menu4">ยุครัตนโกสินทร์</h1>
+                </a>
+                <a href="end_page.html">
+                    <h1 class="mb_text_menu mb_menu5">หน้าปิด</h1>
+                </a>
+                <img onclick="mb_menu_back()" id="mb_back_but" class="mb_back_arrow" src="img/forall/pc/png/arrow.png">
+            </div>
+            <img class="mob_menu" id="mb_home_but" onclick="mb_menu()" src="img/forall/pc/png/HAM@2x.png">
 </div>
 </body>
 <script>
@@ -1033,5 +1052,26 @@
             }, 1000);
             
         } 
+    function mb_menu() {
+                var mb_menu = document.getElementById("mb_menubar");
+                var mb_home = document.getElementById("mb_home_but");
+                mb_menu.style.animation = "mb_menu_slide 1s 1 linear";
+                setTimeout(function () {
+                    mb_menu.style.transform = "translateX(0vw)";
+                    mb_home.style.visibility = "hidden"
+
+                }, 1000);
+
+            }
+            function mb_menu_back() {
+                var mb_menu = document.getElementById("mb_menubar");
+                var mb_home = document.getElementById("mb_home_but");
+                mb_menu.style.animation = "mb_menu_back 1s 1 linear";
+                setTimeout(function () {
+                    mb_menu.style.transform = "translateX(50vw)";
+                    mb_home.style.visibility = "visible"
+                }, 1000);
+
+            }  
     </script>
 </html>
