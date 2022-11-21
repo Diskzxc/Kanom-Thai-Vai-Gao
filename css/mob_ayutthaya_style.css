@@ -21,7 +21,7 @@
     left: 30vw; 
     top: 41vw;
 }
-.babin_cover{
+.mb_babin_cover{
     position: absolute; 
     left: 78.5vw; 
     top:20vw;
@@ -270,7 +270,8 @@
 }
 /** ตำแหน่ง พระพาย ช่วงด้านบน **/
 .bg_head_pp{
-    left: -1%;
+    top: 0;
+    left: 0;
 }
 .title_pp{
     position: absolute; top:28vw; left:8vw;
@@ -541,7 +542,7 @@
     left: 17vw;
     width: 20%;
     position: absolute;
-    animation: prapai_low s infinite linear;
+    animation: prapai_low 2.75s infinite linear;
 }
 .whiteb_pos{
     top: 270vw;
@@ -1389,20 +1390,20 @@ h1 {
         50%{transform: translateY(2vw);}
     }
 /** animation พระพาย **/
-.boat_cover{
-    position: absolute; left: 40vw; top: 40vw;
+.mb_boat_cover{
+    position: absolute; left: 40vw; top: -32.5vw;
     animation-name: boat_xaxis;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     transition-timing-function: linear;
 }
-.boat_wrap{
+.mb_boat_wrap{
     animation-name: boat_yaxis;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     transition-timing-function: ease-in-out;
 }
-.babin_cover{
+.mb_babin_cover{
     position: absolute; left: 56vw; top:8vw;
     animation-name: fly;
     animation-duration: 3s;
@@ -1418,7 +1419,7 @@ h1 {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-.water_head{
+.mb_water_head{
     position: absolute;
     top : 53vw;
     left: 0;
