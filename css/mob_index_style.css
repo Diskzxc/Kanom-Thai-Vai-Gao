@@ -12,8 +12,8 @@ body {
     background-color: white;
     overflow-x: hidden;
     overflow-y: auto;
-    min-width: 414px;
-    max-width: 414px;
+    min-width: 390px;
+    max-width: 390px;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -468,6 +468,6 @@ body {
 .mob_start_bot {
     color: white;
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 390px) {
   .mobile_ver {display: block;}
 }
