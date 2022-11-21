@@ -544,7 +544,7 @@ body {
 .press_button:hover {
     cursor: pointer;
 }
-}
+
 .pot_pad{
     animation-name: pot_open;
     animation-duration: 5s;
