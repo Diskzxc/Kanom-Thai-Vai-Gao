@@ -1,0 +1,1610 @@
+    
+.mobile_ver{
+    display: none;
+}
+/** พรพาย **/
+.mob_menu {
+    position: fixed;
+    right: 1vw;
+    top: 2vw;
+    width: 10vw;
+    z-index: 100;
+}
+.mob_menu:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.mob_boat_wrap{
+    position: absolute; 
+    left: 30vw; 
+    top: 41vw;
+}
+.babin_cover{
+    position: absolute; 
+    left: 78.5vw; 
+    top:20vw;
+}
+.mob_top_container {
+    width: 100vw;
+    height: 350vw;
+    position: relative;
+    top: 1.2vw;
+    min-width: 360px;
+    max-width: 430px;
+}
+.mob_top_title {
+    width: 100vw;
+    height: 161vw;
+    color: #447e66;
+}
+.mob_bg_prapai {
+    background-color: #fff2a4;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    height: 200vw;
+    text-align: center;
+    position: relative;
+
+}
+.mob_point_bg_yellow {
+    position: absolute;
+    height: 110vw;
+}
+.mob_text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.mob_ingredient_container{
+    width: 100vw; 
+    height: 300vw;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.mob_chat{
+    height: 300vw;
+    position: relative;
+    text-align: center;
+    color: #447e66;
+    overflow-x: hidden;
+}
+
+.mob_ingr_text{
+    color: #488167; 
+    font-size: 3vw;
+}
+.mob_grid-container {
+    display: inline-grid;
+    grid-template-columns: 20vw;
+    top: 20vw;
+    position: relative;
+  }
+
+.textp_pos{
+    position: absolute;
+    color: #468066;
+    font-size: 1.25vw;
+}
+.mob_bottom_prapai{
+    position: relative;
+    
+}
+.mob_info{
+    position: absolute; 
+    text-align: left; 
+}
+.mfont_prapai{
+    font-size: 4.25vw;
+    color: #468066;
+}
+.mob_cage{
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    top: 200vw;
+}
+.bottom_prapai_info{
+    top: 75vw;
+    left: 15vw;
+} 
+
+/** ID **/
+#mob_chat_h1{
+    height: 350vw;
+}
+#mob_chat_h2{
+    height: 350vw;
+}
+#mob_chat_h3{
+    height: 200vw;
+}
+#prapai_head{
+    font-size: 7vw;
+    color: #7294c2;
+}
+#textb1{
+    width:68%; 
+    position: absolute; 
+    top:45vw; 
+    left: 20vw;
+}
+#textb2{
+    width:50%; 
+    position: absolute; 
+    top:115vw; 
+    left: 12vw;
+}
+#textb3{
+    width:50%; 
+    position: absolute; 
+    top:155vw; 
+    left: 12vw;
+}
+#textb4{
+    width:38%; 
+    position: absolute; 
+    top:135vw; left: 45vw;
+}
+#textb5{
+    width:60%;
+    position: absolute; 
+    top:23vw; 
+    left: 20vw;
+}
+#textb6{
+    width:60%;
+    position: absolute; 
+    top:100vw; 
+    left: 27vw;
+}
+#textb7{
+    width:60%;
+    position: absolute; 
+    top:130vw; 
+    left: 25vw;
+}
+#textb8{
+    width:60%; 
+    position: absolute; 
+    top: 15vw; 
+    left: 20vw;
+}
+#textb9{
+    width:60%; 
+    position: absolute; 
+    top: 100vw; 
+    left: 21vw;
+}
+#textp1{
+   font-size: 4vw; 
+   position: absolute; 
+   top: 52vw; 
+   left: 30vw; 
+   transform: rotateZ(-4deg);
+}
+#textp2{
+    font-size: 3vw; 
+    position: absolute;
+    top: 117vw; 
+    left: 14vw; 
+    transform: rotateZ(-4deg);
+}
+#textp3{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 160vw; 
+    left: 15vw; 
+    transform: rotateZ(-4deg);
+}
+#textp4{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 137vw; 
+    left:60vw; 
+    transform: rotateZ(-4deg);
+}
+#textp5{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 30vw; 
+    left: 30vw; 
+    transform: rotateZ(-4deg);
+}
+#textp6{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 105vw; 
+    left: 37vw; 
+    transform: rotateZ(-3deg);
+}
+#textp7{
+    font-size: 3vw;
+    position: absolute; 
+    top: 137vw; 
+    left: 37vw; 
+    transform: rotateZ(-3deg);
+}
+#textp8{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 22vw; 
+    left: 35vw; 
+    transform: rotateZ(-3deg);
+}
+#textp9{
+    font-size: 3vw; 
+    position: absolute; 
+    top: 105vw; 
+    left: 30vw; 
+    transform: rotateZ(-3deg);
+}
+.circle{
+    width:27.5%; 
+    position: absolute; 
+    top: -20vw;
+    width:27.5%; 
+}
+#circlel{
+    left: 2vw;
+}
+#circler{
+    left: 71vw; 
+}
+#py1{
+    left: 12vw;
+}
+#py2{
+    left: 77vw;
+}
+#py3{
+    left: 12vw; 
+    top: 110vw;
+}
+#py4{
+    left: 77vw; 
+    top: 110vw;
+}
+/** ตำแหน่ง พระพาย ช่วงด้านบน **/
+.bg_head_pp{
+    left: -1%;
+}
+.title_pp{
+    position: absolute; top:28vw; left:8vw;
+}
+.boat_pp{
+    position: absolute;left: 30vw; top: 41vw;
+}
+.babintop_p{
+    position: absolute;
+    top: 4vw;
+    left: 56vw;
+}
+.phead_prapai{
+    color: #6c90c4; font-size: 5vw; top: 5vw;
+}
+.bgp1{
+    width:80%; 
+    position: absolute; 
+    top: 20vw; 
+    left: 10vw;
+}
+.ptop{
+    width:10%; 
+    position: absolute; 
+    top: 28vw; 
+    left: 35vw;
+}
+.pmed{
+    position: absolute; top: 24vw; left: 59vw; 
+}
+.pbot{
+    position: absolute; top: 35vw; left: 50vw;
+}
+.pback{
+    position: absolute; top: 25vw; left: 50vw;
+}
+.gadong{
+    position: absolute; top: 42vw; left: 25vw;
+}
+.sfxp{
+    position: absolute; top: 32vw; left: 25vw;
+}
+.starp{
+    position: absolute; top: 26vw; left: 28vw;
+}
+.p_origin{
+    color: #488167; 
+    font-size: 3vw; 
+    top: 70vw;
+}
+.prapai_use{
+    color: #488167; 
+    font-size: 3vw; 
+    top: 145vw;
+}
+.mun{
+    width:40%; 
+    position: absolute; 
+    top: 105vw; 
+    left: 28vw;
+}
+.baitong_normal1{
+    width:96%; 
+    position: absolute; 
+    left: 2vw; 
+    top: 80vw;
+}
+.prapai_belive{
+    width:96%; 
+    position: absolute; 
+    left: 2vw; 
+    top: -4vw;
+}
+.belive{
+    width:50%; 
+    position: absolute; 
+    left: 25vw; 
+    top: 47vw;
+}
+.married{
+    color: #488167; 
+    font-size: 3.5vw; 
+    top: 78vw;
+}
+
+/** ตำแหน่ง วัตถุดิบ **/
+.watudip{
+    color: #488167; 
+    font-size: 5vw; 
+    top: 130vw;
+}
+.tstickpang{
+    top: 130vw;
+}
+.stickpang{
+    width:20%; 
+    padding-top: 15vw; 
+    padding-bottom: 2vw;
+}
+.tjaopang{
+    top: 180vw;
+}
+.jaopang{
+    width:20%;  
+    padding-top: 12w; 
+    padding-bottom: 2vw;
+}
+.tbaitaey{
+    top: 200vw;
+}
+.baitaey{
+    width:20%;
+    padding-top: 12%; 
+    padding-bottom: 2vw;
+}
+.tpeanut{
+    top: 230vw;
+}
+.peanut{
+    width:20%; 
+    padding-top: 12%; 
+    padding-bottom: 2vw;
+}
+.tgati{
+    top: 260vw;
+}
+.gati{
+    width:20%; 
+    padding-top: 12%; 
+    padding-bottom: 2vw;
+}
+.tsugar{
+    top: 290vw;
+}
+.sugar{
+    width:20%;
+    padding-top: 12%; 
+    padding-bottom: 2vw;
+}
+/** ตำแหน่ง พระพาย ซึม **/
+.bg_psum{
+    width:200%; 
+    position: absolute; 
+    top: 80vw; 
+    right: 22.5vw;
+}
+.tongyod2{
+    width:35%; 
+    position: absolute; 
+    top: 58vw; 
+    left: 10vw;
+}
+.babin2-3{
+    width:90%;
+    position: absolute;
+    top: 165vw;
+    left: 5vw;
+}
+.baitong_sum{
+    width:100%; 
+    position: absolute; 
+    top: 300vw; 
+    left: 0vw;
+}
+.prapai_sum{
+    width:70%;
+    position: absolute;
+    top: 250vw; 
+    left: 20vw;
+}
+/** ตำแหน่ง พรพาย ปกติ **/
+.bg_normalp{
+    width:200%; 
+    position: absolute; 
+    top: 70vw; 
+    left: -45vw;
+}
+.tongyod1{
+    width:35%;
+    position: absolute;
+    top: 80vw;
+    left: 10vw;
+}
+.babin1_1{
+    width:70%; 
+    position: absolute;
+    top: 175vw;
+    left: 10vw;
+}
+.baitong_normal{
+    width:100%; 
+    position: absolute;
+    top: 310vw;
+    left: 0vw;
+}
+.prapai_normal{
+    width:70%; 
+    position: absolute; 
+    top: 260vw; 
+    left: 20vw;
+}
+/** ตำแหน่ง พระพาย หิน **/
+.bg_phin{
+    width:200%; 
+    position: absolute; 
+    top: 0vw; 
+    left: -45vw;
+}
+.tongyod3{
+    width:35%;
+    position: absolute; 
+    top: 50vw; 
+    left: 10vw;
+}
+.babin2{
+    width:90%; 
+    position: absolute; 
+    top: 130vw; 
+    left: 5vw;
+}
+
+/** ตำแหน่งข้างล่าง ใกล้กับ กรง**/
+.bg_blue{
+    width: 100%;
+    position: absolute; 
+    top: 40vw;
+}
+.baitong_hin{
+    width:100%; 
+    position: absolute; 
+    top: 250vw; 
+    left: 0vw;
+}
+.cage_pos{
+    top: 315vw;
+    left: 0vw;
+    width: 100%;
+    position: absolute;
+}
+.cage_pos1{
+    top: 365vw;
+    left: 70vw;
+    width: 22.5%;
+    position: absolute;
+}
+.cage_pos2{
+    top: 353vw;
+    left: 8vw;
+    width: 22.5%;
+    position: absolute;
+}
+.cage_pos3{
+    top: 335vw;
+    left: 42vw;
+    width: 15%;
+    position: absolute;
+    animation: prapai_low 2.75s infinite linear;
+}
+.cage_pos4{
+    top: 325vw;
+    left: 63vw;
+    width: 18%;
+    position: absolute;
+    animation: prapai_low 2.75s infinite linear;
+}
+.cage_pos5{
+    top: 325vw;
+    left: 17vw;
+    width: 20%;
+    position: absolute;
+    animation: prapai_low s infinite linear;
+}
+.whiteb_pos{
+    top: 270vw;
+    z-index: -1;
+    left: 0vw;
+    width: 100%;
+    position: absolute;
+}
+.prapai_hin{
+    width:50%; 
+    position: absolute; 
+    top: 220vw; 
+    left: 25vw;
+}
+/** หม้อตาล **/
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+    color: #6c90c4;
+}
+
+.mob_body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 360px;
+    max-width: 430px;
+}
+
+.mob_block{
+    position: relative;
+    width: 100%;
+    height: 1715vh; /**ขนาดความยาวเว็บ**/
+    top: 450vw;
+}
+
+.mob_text {
+    font-size: 4.75vw;
+}
+
+.el_pos {
+    position: absolute;
+}
+
+.middle_container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 207vw;
+    background-color: #ffe9b8;
+}
+
+.pot_pad{
+    animation-name: pot_open;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pot_open{
+    50% {transform: translateY(15vw);}
+}
+@keyframes ship_go{
+    50% {transform: translateX(-55vw);}
+}
+@keyframes large_tan{
+    50% {transform: scale(1.25);}
+}
+.ship{
+    animation-name: ship_go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes crab_go{
+    50% {transform: translateX(-2vw);}
+}
+@keyframes dukdik {
+    50% {transform: rotateZ(5deg);}
+}
+@keyframes flydown{
+    50% {transform: translateY(3vw);}
+}
+.crab{
+    animation-name: crab_go;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.tan_mini{
+    animation-name: dukdik;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.fly_tan{
+    animation-name: flydown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.big_tan{
+    animation-name: large_tan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* ข้อความบน */
+.mob_open_text {
+    top: 50vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 8.5vw;
+    color: #6c90c4;
+}
+
+
+h1 {
+    font-size: 1.35vw;
+}
+
+.text_color1 {
+    color: #488167;
+}
+
+.text_color2 {
+    color: #97a0ef;
+}
+
+.line {
+    position: absolute;
+    top: -1%;
+}
+
+/* element */
+.mobi_el1{
+    width: 50%;
+    left: 25vw;
+    top: 67vw;
+    z-index: 1;
+}
+
+.mobi_el2{
+    width: 12%;
+    left: 78vw;
+    top: 63vw;
+}
+
+.mobi_el3{
+    width: 12%;
+    left: 11vw;
+    top: 100vw;
+}
+
+.mobi_el4{
+    width: 85%;
+    left: 10vw;
+    top: 99vw;
+}
+
+.mobi_el5{
+    width: 85%;
+    left: 37.5vw;
+    top: 240vw;
+}
+
+.mobi_el6{
+    width: 46%;
+    left: 3.5vw;
+    top: 252.5vw;
+}
+
+.mobi_el7{
+    width: 48%;
+    left: 47vw;
+    top: 260vw;
+}
+
+.mobi_el8{
+    width: 100%;
+    left: 0vw;
+    top: 262vw;
+    z-index: -1;
+}
+.mobi_el9{
+    width: 100%;
+    left: 0vw;
+    top: 292.8vw;
+    z-index: -1;
+}
+
+.mobi_el10{
+    width: 17.5%;
+    left: 51vw;
+    top: 418.5vw;
+}
+
+.mobi_el11{
+    width: 14%;
+    left: 71vw;
+    top: 413vw;
+}
+.mobi_el12{
+    width: 65%;
+    left: 30vw;
+    top: 413vw;
+    z-index: -1;
+}
+
+.mobi_el12{
+    width: 65%;
+    left: 30vw;
+    top: 413vw;
+    z-index: -1;
+}
+
+.mobi_el13{
+    width: 19%;
+    left: -4.2vw;
+    top: 431vw;
+}
+
+.mobi_el14{
+    width: 15%;
+    left: 8vw;
+    top: 400vw;
+}
+
+.mobi_el15{
+    width: 78%;
+    left: 14vw;
+    top: 561vw;
+}
+
+.mobi_el16{
+    width: 77%;
+    left: 14vw;
+    top: 564.1vw;
+    z-index: -1;
+}
+
+.mobi_el17{
+    width: 18%;
+    left: 68vw;
+    top: 740vw;
+}
+
+.mobi_el18{
+    width: 100%;
+    left: 19vw;
+    top: 763vw;
+    z-index: -1;
+}
+
+.mobi_el19{
+    width: 15%;
+    left: 38vw;
+    top: 749vw;
+}
+
+.mobi_el20{
+    width: 20%;
+    left: 15vw;
+    top: 800vw;
+}
+
+.mobi_el21{
+    width: 50%;
+    left: 40vw;
+    top: 850vw;
+}
+
+.mobi_el22{
+    width: 20%;
+    left: 18vw;
+    top: 935vw;
+}
+
+.mobi_el23{
+    width: 15%;
+    left: 70vw;
+    top: 805vw;
+}
+
+.mobi_el24{
+    width: 100%;
+    left: -20vw;
+    top: 970vw;
+}
+
+.mobi_el25{
+    width: 35%;
+    left: 29vw;
+    top: 1040vw;
+}
+
+.mobi_el26{
+    width: 35%;
+    left: 32vw;
+    top: 1106vw;
+}
+
+.mobi_el27{
+    width: 45%;
+    left: 30vw;
+    top: 1167vw;
+}
+
+.mobi_el28{
+    width: 40%;
+    left: 30vw;
+    top: 1235vw;
+}
+
+.mobi_el29{
+    width: 40%;
+    left: 30vw;
+    top: 1307vw;
+}
+
+.mobi_el30{
+    width: 65%;
+    left: 20vw;
+    top: 1380vw;
+}
+
+.mobi_el31{
+    width: 12.5%;
+    left: 14vw;
+    top: 1450vw;
+}
+
+.mobi_el32{
+    width: 12.5%;
+    left: 44vw;
+    top: 1450vw;
+}
+
+.mobi_el33{
+    width: 12.5%;
+    left: 74vw;
+    top: 1450vw;
+}
+
+.mobi_el34{
+    width: 88%;
+    left: 8vw;
+    top: 1540vw;
+}
+
+.mobi_el35{
+    width: 100%;
+    left: 0vw;
+    top: 1532vw;
+    z-index: -1;
+}
+
+.mobi_el36{
+    width: 100%;
+    left: 51vw;
+    top: 1795vw;
+}
+
+.mobi_el37{
+    width: 17%;
+    left: 58vw;
+    top: 1816.5vw;
+}
+
+.mobi_el38{
+    width: 22%;
+    left: 68vw;
+    top: 1950vw;
+}
+
+
+.mobi_el39{
+    width: 40%;
+    left: 65vw;
+    top: 1968vw;
+    z-index: -1;
+}
+
+.mobi_el40{
+    width: 60%;
+    left: 18vw;
+    top: 1951vw;
+}
+
+.mobi_el41{
+    width: 185%;
+    left: -38vw;
+    top: 2020vw;
+    z-index: -1;
+}
+
+.mobi_el42{
+    width: 22%;
+    left: 35.5vw;
+    top:572vw;
+}
+
+.mobi_el43{
+    width: 22%;
+    left: 56vw;
+    top:571.8vw;
+}
+
+.mobi_el44{
+    width: 40%;
+    left: 37vw;
+    top:574.5vw;
+}
+
+.mobi_el45{
+    width: 10%;
+    left: 52vw;
+    top:572vw;
+}
+
+.mobi_el46{
+    width: 7%;
+    left: 27.5vw;
+    top: 576vw;
+}
+
+.mobi_el47{
+    width: 4%;
+    left: 20vw;
+    top: 582vw;
+}
+
+.mobi_el48{
+    width: 4%;
+    left: 79vw;
+    top: 603vw;
+    transform: rotate(-20deg);
+}
+
+.mobi_el49{
+    width: 4%;
+    left: 75vw;
+    top: 609.5vw;
+    transform: rotate(-24deg);
+}
+
+.mobi_el50{
+    width: 5%;
+    left: 68vw;
+    top: 614.5vw;
+}
+
+.mobi_el51{
+    width: 9%;
+    left: 21vw;
+    top: 570vw;
+    transform: rotate(-35deg);
+}
+
+.mobi_el52{
+    width: 5%;
+    left: 25vw;
+    top: 585vw;
+}
+
+.mobi_el53{
+    width: 20%;
+    left: 12vw;
+    top: 604vw;
+}
+
+.mobi_el54{
+    width: 20%;
+    left: 78vw;
+    top: 607.3vw;
+}
+
+.mobi_el55{
+    width: 4%;
+    left: 26vw;
+    top: 601.5vw;
+    transform: rotate(-20deg);
+}
+
+/* ทองและbg */
+.mobi_bg_el1{
+    width: 9%;
+    left: 6vw;
+    top: 490vw;
+    transform: rotate(-220deg);
+}
+
+.mobi_bg_el2{
+    width: 11%;
+    left: 14vw;
+    top: 500vw;
+    transform: rotate(-270deg);
+}
+
+.mobi_bg_el3{
+    width: 11%;
+    left: -5.5vw;
+    top: 505vw;
+    transform: rotate(-150deg);
+}
+
+.mobi_bg_el4{
+    width: 9%;
+    left: 8vw;
+    top: 522vw;
+    transform: rotate(-190deg);;
+}
+
+.mobi_bg_el5{
+    width: 7%;
+    left: 14vw;
+    top: 540vw;
+    transform: rotate(-300deg);
+}
+
+.mobi_bg_el6{
+    width: 7%;
+    left: 14vw;
+    top: 553vw;
+    transform: rotate(-170deg);
+}
+
+.mobi_bg_el7{
+    width:12%;
+    left: -3vw;
+    top: 560vw;
+    transform: rotate(-100deg);
+}
+
+.mobi_bg_el8{
+    width: 7%;
+    left: 90vw;
+    top: 479vw;
+    transform: rotate(-168deg);
+}
+
+.mobi_bg_el9{
+    width: 12%;
+    left: 75vw;
+    top: 488vw;
+    transform: rotate(-184deg);
+}
+
+.mobi_bg_el10{
+    width: 7%;
+    left: 89vw;
+    top: 503vw;
+    transform: rotate(-300deg);
+}
+
+.mobi_bg_el11{
+    width: 9%;
+    left: 82vw;
+    top: 515vw;
+    transform: rotate(-168deg);
+}
+
+.mobi_bg_el12{
+    width: 12%;
+    left: 95.5vw;
+    top: 511vw;
+    transform: rotate(-90deg);
+}
+
+.mobi_bg_el13{
+    width: 12%;
+    left: 84.8vw;
+    top: 532vw;
+    transform: rotate(-120deg);
+}
+
+.mobi_bg_el14{
+    width: 7%;
+    left: 82vw;
+    top: 551vw;
+    transform: rotate(-184deg);
+}
+
+.mobi_bg_el15{
+    width:12%;
+    left: 90vw;
+    top: 558vw;
+    transform: rotate(60deg);
+}
+
+.mobi_bg_el16{
+    width:7%;
+    left: 5vw;
+    top: 705vw;
+    top: 705vw;
+    transform: rotate(-184deg);
+}
+
+.mobi_bg_el17{
+    width:7%;
+    left: 16vw;
+    top: 720vw;
+    transform: rotate(65deg);
+}
+
+.mobi_bg_el18{
+    width:10%;
+    left: 8vw;
+    top: 750vw;
+    transform: rotate(120deg);
+}
+
+.mobi_bg_el19{
+    width:10%;
+    left: 80vw;
+    top: 720vw;
+    transform: rotate(-270deg);
+}
+
+.mobi_bg_el20{
+    width:100%;
+    height:33%;
+    left: 0vw;
+    top: 989vw;
+    z-index: -5;
+}
+
+/* ดาวเล็ก */
+.mobi_s_el1{
+    width:2.5%;
+    left: 85vw;
+    top: 800vw;
+}
+
+.mobi_s_el2{
+    width:2.5%;
+    left: 62vw;
+    top: 817vw;
+}
+
+.mobi_s_el4{
+    width:18%;
+    left: 8vw;
+    top: 892vw;
+}
+
+.mobi_s_el5{
+    width:2.5%;
+    left: 80vw;
+    top: 928vw;
+}
+
+.mobi_s_el6{
+    width:2.5%;
+    left: 85vw;
+    top: 948vw;
+}
+
+.mobi_s_el7{
+    width:2.5%;
+    left: 55vw;
+    top: 950vw;
+}
+
+
+
+/* พูด */
+.mobi_t1{
+    width:60%;
+    left: 10vw;
+    top: 774vw;
+}
+
+.mobi_in_t1{
+    left: 22vw;
+    top: 781vw;
+    font-size: 4.2vw;
+    text-align: center;
+    transform: rotateZ(-2deg)
+}
+
+.mobi_t2{
+    width:60%;
+    left: 27vw;
+    top: 825vw;
+}
+
+.mobi_in_t2{
+    left: 32vw;
+    top: 830vw;
+    font-size: 4.2vw;
+    text-align: center;
+    transform: rotateZ(-2deg)
+}
+
+.mobi_t3{
+    width:40%;
+    left: 20vw;
+    top: 915vw;
+}
+
+.mobi_in_t3{
+    left: 28.5vw;
+    top: 920vw;
+    font-size: 4.2vw;
+    text-align: center;
+    transform: rotateZ(-2deg)
+}
+
+.mobi_t4{
+    width:90%;
+    left: 5vw;
+    top: 1630vw;
+}
+
+
+.mobi_in_t4{
+    left: 25vw;
+    top: 1636vw;
+    font-size: 8vw;
+    text-align: center;
+    color: #6c90c4;
+}
+
+
+
+/* ข้อความ */
+.mobi_txt1{
+    font-size: 4.8vw;
+    left: 16vw;
+    top: 175vw;
+    text-align: center;
+}
+
+.mobi_txt2{
+    font-size: 4.8vw;
+    left: 16vw;
+    top: 340vw;
+    text-align: center;
+}
+
+.mobi_txt3{
+    font-size: 4.8vw;
+    left: 10vw;
+    top: 650vw;
+    text-align: center;
+}
+
+.mobi_txt4{
+    font-size: 7vw;
+    left: 35vw;
+    top: 1085vw;
+    text-align: center;
+}
+
+.mobi_txt5{
+    font-size: 7vw;
+    left: 38vw;
+    top: 1140vw;
+    text-align: center;
+}
+
+.mobi_txt6{
+    font-size: 7vw;
+    left: 38vw;
+    top: 1198vw;
+    text-align: center;
+}
+
+.mobi_txt7{
+    font-size: 7vw;
+    left: 37vw;
+    top: 1275vw;
+    text-align: center;
+}
+
+.mobi_txt8{
+    font-size: 7vw;
+    left: 48vw;
+    top: 1348vw;
+    text-align: center;
+}
+
+.mobi_txt9{
+    font-size: 7vw;
+    left: 32vw;
+    top: 1417vw;
+    text-align: center;
+}
+
+.mobi_txt10{
+    font-size: 7vw;
+    left: 32vw;
+    top: 1486vw;
+    text-align: center;
+}
+
+
+.mobi_txt11{
+    font-size: 4vw;
+    left: 10vw;
+    top: 1753vw;
+}
+
+.mobi_txt12{
+    font-size: 4vw;
+    left: 10vw;
+    top: 1895vw;
+}
+
+
+
+.mobi_txthead{
+    font-size: 7vw;
+    left: 28vw;
+    top: 515vw;
+    text-align: center;
+    color: #6c90c4;
+}
+
+.mobi_txthead2{
+    font-size: 7vw;
+    left: 35vw;
+    top: 1010vw;
+    text-align: center;
+}
+
+.mobi_txthead3{
+    font-size: 7vw;
+    left: 10vw;
+    top: 1725vw;
+}
+
+.mobi_txthead4{
+    font-size: 7vw;
+    left: 10vw;
+    top: 1880vw;
+}
+    /* CSS ช่วง 6 จบ */
+    .mb_bottom_container {
+        background-color: transparent;
+        width: 100vw;
+        text-align: center;
+        position: relative;
+    }
+    
+    .mb_door_mirror {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #488167;
+        top: -70vw;
+    
+    }
+    
+    .mb_mirrorbreak_door {
+        width: 200%;
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        z-index: 3;
+    
+    }
+    
+    .mb_mirrorback_door {
+        width: 100%;
+        position: absolute;
+        top: 15vw;
+        left: 0vw;
+        z-index: 3;
+        animation-name: mirrorback_fly;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    .mb_title_door {
+        font-size: 4.5vw;
+        position: absolute;
+        top: 23vw;
+        left: 20.5vw;
+        text-align: left;
+        z-index: 3;
+        color: #7194c5;
+    }
+    
+    .mb_door1 {
+        width: 10%;
+        position: absolute;
+        top: 36vw;
+        left: 17vw;
+        z-index: 3;
+    
+    }
+    
+    .mb_door2 {
+        width: 10%;
+        position: absolute;
+        top: 36vw;
+        left: 31vw;
+        z-index: 3;
+    
+    }
+    
+    .mb_door3 {
+        width: 10%;
+        position: absolute;
+        top: 36vw;
+        left: 45vw;
+        z-index: 3;
+    
+    }
+    
+    .mb_door4 {
+        width: 10%;
+        position: absolute;
+        top: 36vw;
+        right: 31vw;
+        z-index: 3;
+    
+    }
+    
+    .mb_door5 {
+        width: 10%;
+        position: absolute;
+        top: 36vw;
+        right: 17vw;
+        z-index: 3;
+    
+    }
+    @keyframes door_anime{
+        0% {transform:scale(1.00);}
+        100% {transform:scale(1.25);}
+    }
+    .door_all:hover{
+        animation-name: door_anime;
+        animation-duration: 1s;
+        transition-timing-function: ease-in-out;
+        border-radius: 50%;
+        transform:scale(1.25);
+        cursor: pointer;
+    }
+    @keyframes mirrorback_fly{
+        50%{transform: translateY(2vw);}
+    }
+/** animation พระพาย **/
+.boat_cover{
+    position: absolute; left: 40vw; top: 40vw;
+    animation-name: boat_xaxis;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+.boat_wrap{
+    animation-name: boat_yaxis;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+.babin_cover{
+    position: absolute; left: 56vw; top:8vw;
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.prapai_intro{
+    animation-name: dukdik;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.kradong{
+    animation-name: kradong_slide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.water_head{
+    position: absolute;
+    top : 53vw;
+    left: 0;
+    width: 100vw;
+}
+.char_ingre{
+    animation-name: flydown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/** keyframe พรพาย **/
+@keyframes boat_xaxis {
+    50% {transform: translateX(-30vw);}
+}
+@keyframes boat_yaxis {
+    0% {transform: translateY(0vw);}
+    50% {transform: translateY(1vw);}
+    100% {transform: translateY(0vw);}
+}
+@keyframes fly {
+    50% {transform: translateY(-5vw);}
+}
+@keyframes dukdik {
+    50% {transform: rotateZ(5deg);}
+}
+@keyframes kradong_slide {
+    50% {transform: translateX(-4vw) translateY(-2vw);}
+}
+@keyframes flydown{
+    50% {transform: translateY(3vw);}
+}
+@keyframes prapai_low{
+    50% {transform: translateY(2vw);}
+}
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f3f3e5;
+    color: #6c90c4;
+}
+@media only screen and (max-width: 430px) {
+  .mobile_ver {display: block;}
+}
+
+
+/** animation หม้อตาล **/
+.coin{
+    animation: coin_float 3s infinite linear;
+}
+
+.coin2{
+    position: absolute;
+    animation: coin_float2 3s infinite linear;
+}
+
+.oil{
+    position: absolute;
+    transform: scale(0.1);
+    animation: oil_drop 3s infinite linear;
+}
+
+.tan1{
+    position: absolute;
+    animation: dukdik 1s infinite;
+}
+.tan2{
+    position: absolute;
+    animation: dukdik 1s infinite;
+}
+.heart{
+    position: absolute;
+    animation: heart_beat 1s infinite linear;
+}
+
+/** keyframe หม้อตาล **/
+@keyframes coin_float{
+    50% {transform: translateY(-2vw);}
+}
+
+@keyframes coin_float2{
+    50% {transform: translateY(-1vw);}
+}
+
+@keyframes oil_drop{
+    0% {transform: translateY(0) scaleX(0) scaleY(0);}
+    50% {transform: translateY(24vw) scaleX(0.7) scaleY(1);}
+    100% {transform: translateY(0vw) scaleX(0) scaleY(0);}
+}
+
+@keyframes heart_beat {
+    50% {transform: scale(1.25);}
+}
