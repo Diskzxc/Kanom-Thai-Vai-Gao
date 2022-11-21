@@ -3,7 +3,10 @@
     background-color: #8bdcf1;
 
 }
-
+.desktop_ver{
+    letter-spacing: 0.075vw;
+    line-height : 2.25vw;
+}
 .cover_sukothai {
     width: 100vw;
     height: 100%;
@@ -174,7 +177,7 @@
 .text1_word_intro {
     font-size: 1vw;
     position: absolute;
-    top: 37.5vw;
+    top: 36vw;
     left: 35%;
     text-align: center;
     z-index: 2;
@@ -183,7 +186,7 @@
 .text2_word_intro {
     font-size: 1vw;
     position: absolute;
-    top: 62.5vw;
+    top: 61vw;
     left: 60%;
     text-align: center;
     z-index: 2;
@@ -416,7 +419,7 @@
 .text1_culture {
     font-size: 1.35vw;
     position: absolute;
-    top: 16vw;
+    top: 14.5vw;
     left: 60%;
     z-index: 2;
 }
@@ -424,7 +427,7 @@
 .text2_culture {
     font-size: 1vw;
     position: absolute;
-    top: 19vw;
+    top: 17vw;
     left: 60%;
     text-align: left;
     z-index: 2;
@@ -528,8 +531,8 @@
 .text1_ingre {
     font-size: 1vw;
     position: absolute;
-    top: 25vw;
-    left: 42.5%;
+    top: 23.75vw;
+    left: 42%;
     text-align: center;
     z-index: 2;
     color: #f3f3e5;
@@ -620,7 +623,7 @@
 .text2_ingre {
     font-size: 1vw;
     position: absolute;
-    top: 44vw;
+    top: 43.5vw;
     left: 36vw;
     text-align: center;
     z-index: 2;
@@ -645,7 +648,7 @@
 }
 
 .text3_ingre {
-    font-size: 1vw;
+    font-size: 0.9vw;
     position: absolute;
     top: 46.5vw;
     left: 76.5vw;
@@ -710,7 +713,7 @@
     font-size: 1vw;
     position: absolute;
     left: 26.5vw;
-    bottom: -6.5vw;
+    bottom: -7.5vw;
     z-index: 2;
     color: black;
 }
@@ -720,7 +723,7 @@
     font-size: 1vw;
     position: absolute;
     left: 26.5vw;
-    bottom: -8vw;
+    bottom: -9vw;
     z-index: 2;
 }
 
@@ -746,7 +749,7 @@
     font-size: 1vw;
     position: absolute;
     left: 70vw;
-    bottom: -6.5vw;
+    bottom: -7.5vw;
     z-index: 2;
     color: black;
 }
@@ -755,8 +758,8 @@
     color: grey;
     font-size: 1vw;
     position: absolute;
-    left: 69vw;
-    bottom: -8vw;
+    left: 68.5vw;
+    bottom: -9vw;
     z-index: 2;
 }
 
@@ -983,9 +986,9 @@
 }
 
 .text2_forget {
-    font-size: 1vw;
+    font-size: 0.85vw;
     position: absolute;
-    top: 24vw;
+    top: 23.75vw;
     left: 68.5vw;
     text-align: center;
     z-index: 2;
@@ -1001,9 +1004,9 @@
 }
 
 .text3_forget {
-    font-size: 1vw;
+    font-size: 0.9vw;
     position: absolute;
-    top: 24vw;
+    top: 23.5vw;
     left: 68.5vw;
     text-align: center;
     z-index: 2;
@@ -1024,7 +1027,7 @@
 .text4_forget {
     font-size: 1vw;
     position: absolute;
-    top: 23.5vw;
+    top: 23vw;
     left: 69.5vw;
     text-align: center;
     z-index: 2;
@@ -1044,7 +1047,7 @@
 .text7_forget {
     font-size: 1vw;
     position: absolute;
-    top: 24vw;
+    top: 23.5vw;
     left: 68.75vw;
     text-align: center;
     z-index: 2;
