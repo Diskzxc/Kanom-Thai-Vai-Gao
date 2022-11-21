@@ -57,199 +57,254 @@ body {
     top: 153vw;
 }
 
-@keyframes petal_dance{
-    50% {transform: scale(1.2) translateY(-1vw);}
+@keyframes petal_dance {
+    50% {
+        transform: scale(1.2) translateY(-1vw);
+    }
 }
-@keyframes mouth{
-    50% {transform: scaleY(0.75) scaleX(1.25);}
+
+@keyframes mouth {
+    50% {
+        transform: scaleY(0.75) scaleX(1.25);
+    }
 }
-@keyframes dukdik1{
-    50% {transform: rotateZ(10deg);}
+
+@keyframes dukdik1 {
+    50% {
+        transform: rotateZ(10deg);
+    }
 }
-@keyframes dukdik2{
-    50% {transform: rotateZ(-10deg);}
+
+@keyframes dukdik2 {
+    50% {
+        transform: rotateZ(-10deg);
+    }
 }
-@keyframes dukdik2{
-    50% {transform: rotateZ(-10deg);}
+
+@keyframes paper_fly1 {
+    50% {
+        transform: translateY(2vw);
+    }
 }
-@keyframes paper_fly1{
-    50% {transform: translateY(2vw);}
-}
+
 .petal {
     left: 25%;
     top: 13.5vw;
 }
+
 .petal2 {
     left: 35.25%;
     top: 20.5vw;
     animation: petal_dance 1s infinite linear;
 }
+
 .cho {
     left: 41.5%;
     top: 23.5vw;
 }
+
 .cho_mouth {
     left: 49.75%;
     top: 30vw;
     animation: mouth 1s infinite linear;
 }
+
 .pepper1 {
     left: 31.5%;
     top: 25.5vw;
     animation: dukdik1 1s infinite linear;
 }
+
 .pepper2 {
     left: 56.5%;
     top: 33.5vw;
     animation: dukdik2 1s infinite linear;
 }
+
 .pakshe1 {
     left: 31.5%;
     top: 33.5vw;
     animation: dukdik2 1s infinite linear;
 }
+
 .pakshe2 {
     left: 57.5%;
     top: 23.5vw;
     animation: dukdik2 1s infinite linear;
 }
+
 .pakshe3 {
     left: 63.25%;
     top: 29vw;
     animation: dukdik1 1s infinite linear;
 }
+
 .paper {
     left: 31.5%;
     top: 10.75vw;
     animation: paper_fly1 1s infinite linear;
 }
+
 @keyframes paper_fallY {
-    0% {transform: translateY(0vw);}
-    100% {transform: translateY(192.5vw);}
+    0% {
+        transform: translateY(0vw);
+    }
+
+    100% {
+        transform: translateY(192.5vw);
+    }
 }
+
 @keyframes paper_fallX {
-    50% {transform: translateX(-5vw);}
+    50% {
+        transform: translateX(-5vw);
+    }
 }
-.paper1_1_wrap{
+
+.paper1_1_wrap {
     animation: paper_fallX 2s infinite ease-in-out;
 }
+
 .paper1_1 {
     left: 0%;
     top: -12.5vw;
     animation: paper_fallY 20s infinite linear;
-    
+
 }
+
 .paper1_1_cop {
     left: 0%;
     top: -12.5vw;
     animation: paper_fallY 20s 10s infinite linear;
-    
+
 }
-.paper2_1_wrap{
+
+.paper2_1_wrap {
     animation: paper_fallX 2s 1s infinite ease-in-out;
 }
+
 .paper2_1 {
     left: 15%;
     top: -12.5vw;
     animation: paper_fallY 20s 10s infinite linear;
-    
+
 }
+
 .paper2_1_cop {
     left: 15%;
     top: -12.5vw;
     animation: paper_fallY 20s 20s infinite linear;
-    
+
 }
-.paper1_2_wrap{
+
+.paper1_2_wrap {
     animation: paper_fallX 2s 2s infinite ease-in-out;
 }
+
 .paper1_2 {
-    left:30%;
+    left: 30%;
     top: -12.5vw;
     animation: paper_fallY 20s 6s infinite linear;
-    
+
 }
+
 .paper1_2_cop {
-    left:30%;
+    left: 30%;
     top: -12.5vw;
     animation: paper_fallY 20s 16s infinite linear;
-    
+
 }
-.paper2_2_wrap{
+
+.paper2_2_wrap {
     animation: paper_fallX 2s 3s infinite ease-in-out;
 }
+
 .paper2_2 {
     left: 45%;
     top: -12.5vw;
     animation: paper_fallY 20s 2s infinite linear;
-    
+
 }
+
 .paper2_2_cop {
     left: 45%;
     top: -12.5vw;
     animation: paper_fallY 20s 12s infinite linear;
-    
+
 }
-.paper1_3_wrap{
+
+.paper1_3_wrap {
     animation: paper_fallX 2s 4s infinite ease-in-out;
 }
+
 .paper1_3 {
-    left:60%;
+    left: 60%;
     top: -12.5vw;
     animation: paper_fallY 20s 12s infinite linear;
-    
+
 }
+
 .paper1_3_cop {
-    left:60%;
+    left: 60%;
     top: -12.5vw;
     animation: paper_fallY 20s 22s infinite linear;
-    
+
 }
-.paper2_3_wrap{
+
+.paper2_3_wrap {
     animation: paper_fallX 2s 5s infinite ease-in-out;
 }
+
 .paper2_3 {
     left: 75%;
     top: -12.5vw;
     animation: paper_fallY 20s 8s infinite linear;
-    
+
 }
+
 .paper2_3_cop {
     left: 75%;
     top: -12.5vw;
     animation: paper_fallY 20s 18s infinite linear;
-    
+
 }
-.paper1_4_wrap{
+
+.paper1_4_wrap {
     animation: paper_fallX 2s 4s infinite ease-in-out;
 }
+
 .paper1_4 {
-    left:90%;
+    left: 90%;
     top: -12.5vw;
     animation: paper_fallY 20s 4s infinite linear;
-    
+
 }
+
 .paper1_4_cop {
-    left:90%;
+    left: 90%;
     top: -12.5vw;
     animation: paper_fallY 20s 14s infinite linear;
-    
+
 }
-.paper2_4_wrap{
+
+.paper2_4_wrap {
     animation: paper_fallX 2s 7s infinite ease-in-out;
 }
+
 .paper2_4 {
     left: 95%;
     top: -12.5vw;
     animation: paper_fallY 20s 14s infinite linear;
-    
+
 }
+
 .paper2_4_cop {
     left: 95%;
     top: -12.5vw;
     animation: paper_fallY 20s 24s infinite linear;
-    
+
 }
+
 .text_chormuang {
     font-size: 1.1vw;
 }
@@ -274,10 +329,16 @@ body {
     top: 113vw;
 }
 
-@keyframes cho_spin{
-    0%{transform: rotateZ(0deg);}
-    100% {transform: rotateZ(360deg);}
+@keyframes cho_spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
 }
+
 .prop2 {
     left: 32%;
     top: 60vw;
@@ -293,45 +354,63 @@ body {
     left: 30%;
     top: 123vw;
 }
+
 @keyframes pig_pop {
-    0% {transform: scale(0.5) translateY(0);}
-    50% {transform: scale(1) translateY(-2.5vw);}
-    100% {transform: scale(0.5) translateY(0);}
+    0% {
+        transform: scale(0.5) translateY(0);
+    }
+
+    50% {
+        transform: scale(1) translateY(-2.5vw);
+    }
+
+    100% {
+        transform: scale(0.5) translateY(0);
+    }
 }
+
 .book {
     left: 42.5%;
     top: 136vw;
-}.pig {
+}
+
+.pig {
     left: 46%;
     top: 132.5vw;
     animation: pig_pop 1s infinite linear;
 }
+
 .duck {
     left: 35.5%;
     top: 128.5vw;
     animation: dukdik2 1s infinite linear;
 }
+
 .goat {
     left: 58.5%;
     top: 129.75vw;
     animation: dukdik1 1s infinite linear;
 }
+
 .chick {
     left: 66.25%;
     top: 123vw;
     animation: dukdik1 1s infinite linear;
 }
+
 .fish {
     left: 30%;
     top: 123.5vw;
     animation: dukdik2 1s infinite linear;
 }
-.paksheg{
+
+.paksheg {
     left: 31%;
     top: 125.5vw;
     animation: paper_fly1 2s infinite linear;
 }
-.paperg{
+
+.paperg {
     left: 35.5%;
     top: 124.5vw;
     animation: paper_fly1 1s infinite linear;
@@ -370,14 +449,17 @@ body {
     background-position: 0 0;
     animation: flower_slide 5s linear infinite;
 }
+
 @keyframes flower_slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 100% 0;
-  }
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
 }
+
 .text_4 {
     left: 35%;
     top: 16%;
@@ -431,7 +513,7 @@ body {
 .text_14 {
     left: 34%;
     top: 54%;
-    
+
 
 }
 
@@ -464,12 +546,14 @@ body {
     animation-iteration-count: infinite;
     transition-timing-function: linear;
 }
-.prop7_wrap{
+
+.prop7_wrap {
     animation-name: boat_yaxis;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transition-timing-function: ease-in-out;
 }
+
 .prop8 {
     left: 25%;
     top: -8%;
@@ -490,44 +574,88 @@ body {
     left: 25%;
     top: 72%;
 }
-@keyframes jump1{
-    0% {transform: translateY(0vw);}
-    16.67% {transform: translateY(-3vw);}
-    33.34% {transform: translateY(0vw);}
-    100% {transform: translateY(0vw);}
+
+@keyframes jump1 {
+    0% {
+        transform: translateY(0vw);
+    }
+
+    16.67% {
+        transform: translateY(-3vw);
+    }
+
+    33.34% {
+        transform: translateY(0vw);
+    }
+
+    100% {
+        transform: translateY(0vw);
+    }
 }
-@keyframes jump2{
-    0% {transform: translateY(0vw);}
-    33.33% {transform: translateY(0vw);}
-    50.01% {transform: translateY(-3vw);}
-    66.68% {transform: translateY(0vw);}
-    100% {transform: translateY(0vw);}
+
+@keyframes jump2 {
+    0% {
+        transform: translateY(0vw);
+    }
+
+    33.33% {
+        transform: translateY(0vw);
+    }
+
+    50.01% {
+        transform: translateY(-3vw);
+    }
+
+    66.68% {
+        transform: translateY(0vw);
+    }
+
+    100% {
+        transform: translateY(0vw);
+    }
 }
-@keyframes jump3{
-    0% {transform: translateY(0vw);}
-    66.68% {transform: translateY(0vw);}
-    83.35% {transform: translateY(-3vw);}
-    100% {transform: translateY(0vw);}
+
+@keyframes jump3 {
+    0% {
+        transform: translateY(0vw);
+    }
+
+    66.68% {
+        transform: translateY(0vw);
+    }
+
+    83.35% {
+        transform: translateY(-3vw);
+    }
+
+    100% {
+        transform: translateY(0vw);
+    }
 }
+
 .table_new {
     left: 25%;
     top: 76%;
 }
+
 .blue_cho {
     left: 33%;
     top: 73.75%;
     animation: jump1 3s infinite ease-in-out;
 }
+
 .bird1 {
     left: 45%;
     top: 73%;
     animation: jump2 3s infinite ease-in-out;
 }
+
 .bird2 {
     left: 56.5%;
     top: 72%;
     animation: jump3 3s infinite ease-in-out;
 }
+
 /** block ที่ 3 **/
 
 .bot_container {
@@ -630,142 +758,199 @@ body {
     left: 26.5%;
     top: 130vw;
 }
+
 .typewriter h2 {
-position: absolute;
-  top: 82.5vw;
-  left: 65vw;
-  font-size: 2vw;
-  color: #fff;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 2s steps(30, end) infinite,
-    blink-caret .5s step-end infinite;
+    position: absolute;
+    top: 82.5vw;
+    left: 65vw;
+    font-size: 2vw;
+    color: #fff;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 2s steps(30, end) infinite,
+        blink-caret .5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 12.5% }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 12.5%
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
 }
 
-    @keyframes fly {
-        0% {transform:translateY(0);}
-        50% {transform:translateY(2.5vw);}
-        100% {transform:translateY(0);}
-    }
-    @keyframes boat_xaxis {
-        50% {transform: translateX(50vw);}
-    }
-    @keyframes boat_yaxis {
-        0% {transform: translateY(-2.6vw);}
-        50% {transform: translateY(-5.2vw);}
-        100% {transform: translateY(-2.6vw);}
+@keyframes fly {
+    0% {
+        transform: translateY(0);
     }
 
-    /* CSS ช่วง 6 จบ */
-    .bottom_container {
-        background-color: transparent; 
-        width: 100vw; 
-        text-align: center; 
-        height: 32.5vw;
+    50% {
+        transform: translateY(2.5vw);
     }
 
-    .door_mirror{
-        position: relative;
-        width: 100vw;
-        height: 100%;
-        color: #488167;
+    100% {
+        transform: translateY(0);
+    }
+}
 
+@keyframes boat_xaxis {
+    50% {
+        transform: translateX(50vw);
     }
-    .mirrorbreak_door{
-        width: 100%;
-        position: absolute;
+}
+
+@keyframes boat_yaxis {
+    0% {
+        transform: translateY(-2.6vw);
     }
-    .mirrorback_door{
-        width:50%; 
-        position: absolute;
-        top: 10vw; 
-        left:25vw;
-        z-index: 3;
-        animation-name: mirrorback_fly;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        
+
+    50% {
+        transform: translateY(-5.2vw);
     }
-    .title_door{
-        font-size: 1.5vw;
-        position: absolute;
-        top: 10vw; 
-        left:40vw;
-        text-align: left; 
-        z-index: 3;
-        color: #7194c5;
+
+    100% {
+        transform: translateY(-2.6vw);
     }
-    .door1{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:31vw;
-        z-index: 3;
-        
+}
+
+/* CSS ช่วง 6 จบ */
+.bottom_container {
+    background-color: transparent;
+    width: 100vw;
+    text-align: center;
+    height: 32.5vw;
+}
+
+.door_mirror {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    color: #488167;
+
+}
+
+.mirrorbreak_door {
+    width: 100%;
+    position: absolute;
+}
+
+.mirrorback_door {
+    width: 50%;
+    position: absolute;
+    top: 10vw;
+    left: 25vw;
+    z-index: 3;
+    animation-name: mirrorback_fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.title_door {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 10vw;
+    left: 40vw;
+    text-align: left;
+    z-index: 3;
+    color: #7194c5;
+}
+
+.door1 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 31vw;
+    z-index: 3;
+
+}
+
+.door2 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 38.5vw;
+    z-index: 3;
+
+}
+
+.door3 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 46vw;
+    z-index: 3;
+
+}
+
+.door4 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 53.5vw;
+    z-index: 3;
+
+}
+
+.door5 {
+    width: 5%;
+    position: absolute;
+    top: 17.5vw;
+    left: 61vw;
+    z-index: 3;
+
+}
+
+@keyframes door_anime {
+    0% {
+        transform: scale(1.00);
     }
-    .door2{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:38.5vw;
-        z-index: 3;
-        
+
+    100% {
+        transform: scale(1.25);
     }
-    .door3{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:46vw;
-        z-index: 3;
-        
+}
+
+.door_all:hover {
+    animation-name: door_anime;
+    animation-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 50%;
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+@keyframes mirrorback_fly {
+    50% {
+        transform: translateY(2vw);
     }
-    .door4{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:53.5vw;
-        z-index: 3;
-        
-    }
-    .door5{
-        width:5%; 
-        position: absolute;
-        top: 17.5vw; 
-        left:61vw;
-        z-index: 3;
-        
-    }
-    @keyframes door_anime{
-        0% {transform:scale(1.00);}
-        100% {transform:scale(1.25);}
-    }
-    .door_all:hover{
-        animation-name: door_anime;
-        animation-duration: 1s;
-        transition-timing-function: ease-in-out;
-        border-radius: 50%;
-        transform:scale(1.25);
-        cursor: pointer;
-    }
-    @keyframes mirrorback_fly{
-        50%{transform: translateY(2vw);}
-    }
+}
+
 /** Footer **/
 .footer_style {
     color: rgb(69, 125, 98);

@@ -68,12 +68,14 @@ body {
     width: 60vw;
     left: 20vw;
     top: 57vw;
+    animation: petal_dance 1s infinite linear;
 }
 
 .mb_el3 {
     width: 74vw;
     left: 14vw;
     top: 67vw;
+    animation: dukdik1 1s infinite linear;
 }
 
 .mb_el4 {
@@ -86,12 +88,14 @@ body {
     width: 2.5vw;
     left: 51vw;
     top: 77vw;
+    animation: mouth 1s infinite linear;
 }
 
 .mb_el6 {
     width: 76vw;
     left: 12vw;
     top: 40vw;
+    animation: paper_fly1 1s infinite linear;
 }
 
 .mb_L1 {
@@ -104,18 +108,7 @@ body {
     width: 56vw;
     left: 22vw;
     top: 170vw;
-}
-
-.mb_el8 {
-    width: 100vw;
-    left: 0vw;
-    top: 150vw;
-}
-
-.mb_el9 {
-    width: 100vw;
-    left: 0vw;
-    top: 210vw;
+    animation: cho_spin 10s infinite linear;
 }
 
 .mb_L2 {
@@ -132,22 +125,10 @@ body {
     top: 280vw;
 }
 
-.mb_el10 {
-    width: 100vw;
-    left: 0vw;
-    top: 305vw;
-}
-
 .mb_el11 {
     width: 60vw;
     left: 20vw;
     top: 340vw;
-}
-
-.mb_el12 {
-    width: 100vw;
-    left: 0vw;
-    top: 410vw;
 }
 
 .mb_L4 {
@@ -156,23 +137,12 @@ body {
     top: 440vw;
 }
 
-.mb_el13 {
-    width: 100vw;
-    left: 0vw;
-    top: 480vw;
-}
-
 .mb_L5 {
     text-align: center;
     left: 12vw;
     top: 520vw;
 }
 
-.mb_el14 {
-    width: 98vw;
-    left: 1vw;
-    top: 590vw;
-}
 
 .mb_L6 {
     left: 38vw;
@@ -189,16 +159,41 @@ body {
     background-size: cover;
 }
 
-.mb_el15 {
-    width: 60vw;
-    left: 20vw;
-    top: -10vw;
+.mb_el15_wrap {
+    animation-name: boat_yaxis;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
 }
 
-.mb_el16 {
-    width: 80vw;
-    left: 10vw;
-    top: -30vw;
+.mb_el15 {
+    width: 60vw;
+    left: -5vw;
+    top: -5vw;
+    animation-name: mb_boat_xaxis;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+@keyframes mb_boat_xaxis {
+    50% {
+        transform: translateX(50vw);
+    }
+}
+
+@keyframes mb_boat_yaxis {
+    0% {
+        transform: translateY(-2.6vw);
+    }
+
+    50% {
+        transform: translateY(-5.2vw);
+    }
+
+    100% {
+        transform: translateY(-2.6vw);
+    }
 }
 
 .mb_el17 {
@@ -238,12 +233,6 @@ body {
 .mb_L7 {
     left: 24vw;
     top: 370vw;
-}
-
-.mb_el19 {
-    width: 80vw;
-    left: 10vw;
-    top: 400vw;
 }
 
 .mb_L8 {
@@ -378,7 +367,7 @@ body {
     text-align: center;
     height: 32.5vw;
     position: absolute;
-    bottom: 33vw;
+    bottom: 28vw;
 }
 
 .mb_door_mirror {
@@ -451,7 +440,7 @@ body {
     width: 10%;
     position: absolute;
     top: 36vw;
-    right: 31vw;
+    left: 59vw;
     z-index: 3;
 
 }
@@ -460,7 +449,7 @@ body {
     width: 10%;
     position: absolute;
     top: 36vw;
-    right: 17vw;
+    left: 73vw;
     z-index: 3;
 
 }
@@ -468,5 +457,300 @@ body {
 @keyframes mirrorback_fly {
     50% {
         transform: translateY(2vw);
+    }
+}
+
+.mb_typewriter h4 {
+    position: absolute;
+    bottom: 122vw;
+    left: 75vw;
+    font-size: 4vw;
+    color: white;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 2s steps(30, end) infinite,
+        blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 25vw
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+.mb_table_new {
+    width: 80vw;
+    left: 10vw;
+    top: 74%;
+}
+
+.mb_blue_cho {
+    width: 22%;
+    left: 18%;
+    top: 72.5%;
+    animation: jump1 3s infinite ease-in-out;
+}
+
+.mb_bird1 {
+    width: 22%;
+    left: 41%;
+    top: 72%;
+    animation: jump2 3s infinite ease-in-out;
+}
+
+.mb_bird2 {
+    width: 22%;
+    left: 62%;
+    top: 71.5%;
+    animation: jump3 3s infinite ease-in-out;
+}
+
+
+
+
+
+.mb_book {
+    width: 40%;
+    left: 30%;
+    top: 87%;
+}
+
+.mb_pig {
+    width: 25%;
+    left: 37.5%;
+    top: 85%;
+    animation: pig_pop 1s infinite linear;
+}
+
+.mb_duck {
+    width: 13%;
+    left: 22%;
+    top: 83%;
+    animation: dukdik2 1s infinite linear;
+}
+
+.mb_goat {
+    width: 14%;
+    right: 22%;
+    top: 83%;
+    animation: dukdik1 1s infinite linear;
+}
+
+.mb_chick {
+    width: 11%;
+    right: 8%;
+    top: 80%;
+    animation: dukdik1 1s infinite linear;
+}
+
+.mb_fish {
+    width: 13%;
+    left: 11%;
+    top: 81%;
+    animation: dukdik2 1s infinite linear;
+}
+
+.mb_paksheg {
+    width: 90%;
+    left: 5%;
+    top: 83%;
+    animation: paper_fly1 2s infinite linear;
+}
+
+.mb_paperg {
+    width: 90%;
+    left: 5%;
+    top: 81%;
+    animation: paper_fly1 1s infinite linear;
+}
+
+
+
+
+.mb_paper1_1_wrap {
+    animation: mb_paper_fallX 2s infinite ease-in-out;
+}
+
+.mb_paper1_1 {
+    left: 0%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s infinite linear;
+
+}
+
+.mb_paper1_1_cop {
+    left: 0%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 10s infinite linear;
+
+}
+
+.mb_paper2_1_wrap {
+    animation: mb_paper_fallX 2s 1s infinite ease-in-out;
+}
+
+.mb_paper2_1 {
+    left: 15%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 10s infinite linear;
+
+}
+
+.mb_paper2_1_cop {
+    left: 15%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 20s infinite linear;
+
+}
+
+.mb_paper1_2_wrap {
+    animation: mb_paper_fallX 2s 2s infinite ease-in-out;
+}
+
+.mb_paper1_2 {
+    left: 30%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 6s infinite linear;
+
+}
+
+.mb_paper1_2_cop {
+    left: 30%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 16s infinite linear;
+
+}
+
+.mb_paper2_2_wrap {
+    animation: mb_paper_fallX 2s 3s infinite ease-in-out;
+}
+
+.mb_paper2_2 {
+    left: 45%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 2s infinite linear;
+
+}
+
+.mb_paper2_2_cop {
+    left: 45%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 12s infinite linear;
+
+}
+
+.mb_paper1_3_wrap {
+    animation: mb_paper_fallX 2s 4s infinite ease-in-out;
+}
+
+.mb_paper1_3 {
+    left: 60%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 12s infinite linear;
+
+}
+
+.mb_paper1_3_cop {
+    left: 60%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 22s infinite linear;
+
+}
+
+.mb_paper2_3_wrap {
+    animation: mb_paper_fallX 2s 5s infinite ease-in-out;
+}
+
+.mb_paper2_3 {
+    left: 75%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 8s infinite linear;
+
+}
+
+.mb_paper2_3_cop {
+    left: 75%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 18s infinite linear;
+
+}
+
+.mb_paper1_4_wrap {
+    animation: mb_paper_fallX 2s 4s infinite ease-in-out;
+}
+
+.mb_paper1_4 {
+    left: 90%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 4s infinite linear;
+
+}
+
+.mb_paper1_4_cop {
+    left: 90%;
+    top: -20vw;
+    animation: mb_mb_paper_fallY 20s 14s infinite linear;
+
+}
+
+.mb_paper2_4_wrap {
+    animation: mb_paper_fallX 2s 7s infinite ease-in-out;
+}
+
+.mb_paper2_4 {
+    left: 95%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 14s infinite linear;
+
+}
+
+.mb_paper2_4_cop {
+    left: 95%;
+    top: -20vw;
+    animation: mb_paper_fallY 20s 24s infinite linear;
+
+}
+
+
+@keyframes mb_paper_fallY {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(740vw);
+    }
+}
+
+@keyframes mb_paper_fallX {
+    50% {
+        transform: translateX(-5vw);
     }
 }
