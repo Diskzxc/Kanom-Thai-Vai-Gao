@@ -372,7 +372,7 @@ body {
 
 /** Door **/
 
-.bottom_container {
+.mb_bottom_container {
     background-color: transparent;
     width: 100vw;
     text-align: center;
@@ -381,7 +381,7 @@ body {
     bottom: 33vw;
 }
 
-.door_mirror {
+.mb_door_mirror {
     position: relative;
     width: 100%;
     height: 100%;
@@ -389,7 +389,7 @@ body {
 
 }
 
-.mirrorbreak_door {
+.mb_mirrorbreak_door {
     width: 200%;
     position: absolute;
     top: 0vw;
@@ -398,7 +398,7 @@ body {
 
 }
 
-.mirrorback_door {
+.mb_mirrorback_door {
     width: 100%;
     position: absolute;
     top: 15vw;
@@ -410,7 +410,7 @@ body {
 
 }
 
-.title_door {
+.mb_title_door {
     font-size: 4.5vw;
     position: absolute;
     top: 23vw;
@@ -420,7 +420,7 @@ body {
     color: #7194c5;
 }
 
-.door1 {
+.mb_door1 {
     width: 10%;
     position: absolute;
     top: 36vw;
@@ -429,7 +429,7 @@ body {
 
 }
 
-.door2 {
+.mb_door2 {
     width: 10%;
     position: absolute;
     top: 36vw;
@@ -438,7 +438,7 @@ body {
 
 }
 
-.door3 {
+.mb_door3 {
     width: 10%;
     position: absolute;
     top: 36vw;
@@ -447,7 +447,7 @@ body {
 
 }
 
-.door4 {
+.mb_door4 {
     width: 10%;
     position: absolute;
     top: 36vw;
@@ -456,7 +456,7 @@ body {
 
 }
 
-.door5 {
+.mb_door5 {
     width: 10%;
     position: absolute;
     top: 36vw;
