@@ -10,7 +10,10 @@ body {
 .el_pos {
     position: absolute;
 }
-
+.desktop_ver{
+    letter-spacing: 0.1vw;
+    line-height : 2.35vw;
+}
 /** Block ที่ 1 **/
 
 .top_container {
@@ -35,7 +38,7 @@ body {
 
 .text5 {
     font-size: 1.8vw;
-    left: 39.5%;
+    left: 39%;
     top: 294.5vw;
 }
 
@@ -57,7 +60,7 @@ body {
 }
 
 .text3 {
-    left: 55%;
+    left: 54.5%;
     top: 66.8vw;
 }
 
@@ -67,8 +70,8 @@ body {
 }
 
 .text2 {
-    left: 33.5%;
-    top: 37vw;
+    left: 33%;
+    top: 36.75vw;
 }
 
 .text_box4 {
@@ -87,7 +90,7 @@ body {
 }
 
 .text0 {
-    left: 30%;
+    left: 29.5%;
     top: 16vw;
 }
 
@@ -359,6 +362,7 @@ body {
     top: 165vw;
     font-size: 3vw;
     text-align: center;
+    line-height: 5vw;
 }
 
 .text_prapai {
@@ -366,6 +370,7 @@ body {
     top: 165vw;
     font-size: 3vw;
     text-align: center;
+    line-height: 5vw;
 }
 
 .text_brownpot {
@@ -373,6 +378,7 @@ body {
     top: 165vw;
     font-size: 3vw;
     text-align: center;
+    line-height: 5vw;
 }
 
 .text_bulan {
@@ -380,6 +386,7 @@ body {
     top: 165vw;
     font-size: 3vw;
     text-align: center;
+    line-height: 5vw;
 }
 
 .text_purplebranch {
@@ -387,6 +394,7 @@ body {
     top: 165vw;
     font-size: 3vw;
     text-align: center;
+    line-height: 5vw;
 }
 /** CSS Menubar**/
 #menubar  {
