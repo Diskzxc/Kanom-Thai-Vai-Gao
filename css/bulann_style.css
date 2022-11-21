@@ -86,6 +86,48 @@
             top: 9vw;
         }
         
+        #bulann_star1 {
+            position: absolute;
+            width: 17vw;
+            top: 110vw;
+            left: 1vw;
+        }
+        
+        #bulann_star2 {
+            position: absolute;
+            width: 17vw;
+            top: 105vw;
+            left: 77vw;
+        }
+        
+        #bulann_star3 {
+            position: absolute;
+            width: 18vw;
+            top: 140vw;
+            left: 1vw;
+        }
+        
+        #bulann_star4 {
+            position: absolute;
+            width: 13vw;
+            top: 135vw;
+            left: 81vw;
+        }
+        
+        #bulann_star5 {
+            position: absolute;
+            width: 15vw;
+            top: 165vw;
+            left: 1vw;
+        }
+        
+        #bulann_star6 {
+            position: absolute;
+            width: 10vw;
+            top: 160vw;
+            left: 81vw;
+        }
+        
         #bulann_text1 {
             position: absolute;
             color: #7698c8;
