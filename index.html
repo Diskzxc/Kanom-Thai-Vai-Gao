@@ -191,55 +191,57 @@
             เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์หลักสูตรนิเทศศิลป์คณะสถาปัตยกรรมศาสตร์<br> และ การโปรแกรมและสื่อประสมแขนงวิชาพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ<br> สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 2022
         </div>
     </footer> 
-    <img class="menu" onclick="menu()" id="home_but" onclick="menu()" src="img/forall/pc/png/HAM@2x.png">
+    <img class="menu" id="home_but" onclick="menu()" src="img/forall/pc/png/HAM@2x.png">
 </div>
 <div class="mobile_ver">
     <div class="container-fluid mob_body">
         <!-- ช่วงร้าน mobile -->
+        <img class="mb_speed" style=""  src="img/open/pc/png/เส้น_speed.png">
         <div class="mob_block1">
             <h2 class="mob_head_text el_pos">
                 ณ ร้านขายของชำชื่อดังระดับประเทศ<br>บนชั้นวางของที่กำลังจะถูกโละทิ้ง
             </h2>
-            <div class="mb_next" onclick="next()">
+            <h1 id="mb_scroll_down" class="mb_scroll_down">Scroll Down</h1>
+            <div class="mb_next" onclick="mb_next()">
                 <img width="100%" src="img/open/pc/png/play.png">
             </div>
-            <div class="mb_back" onclick="back()">
+            <div class="mb_back" onclick="mb_back()">
                 <img width="100%" src="img/open/pc/png/play.png">
             </div>
-            <img class="el_pos mob_el1" src="img/open/mobile/png/ทองหยอด_head@2x.png">
+            <img id="mb_tongyod" class="mob_el1" src="img/open/mobile/png/ทองหยอด_head@2x.png">
             <div>
-                <img id="chat_1" class="el_pos mob_L1" src="img/open/mobile/svg/L1.svg">
-                <h2 id="chat_text_1" class="el_pos mob_text mob_in_L1">
+                <img id="mb_chat_1" class="el_pos mob_L1" src="img/open/mobile/svg/L1.svg">
+                <h2 id="mb_chat_text_1" class="el_pos mob_text mob_in_L1">
                     ชีวิตช่วงนี้ช่างน่าเศร้า
                 </h2>
             </div>
             <div>
-                <img id="chat_2" class="el_pos mob_L2" src="img/open/mobile/svg/L2.svg">
-                <h2 id="chat_text_2" class="el_pos mob_text mob_in_L2">
+                <img id="mb_chat_2" class="el_pos mob_L2" src="img/open/mobile/svg/L2.svg">
+                <h2 id="mb_chat_text_2" class="el_pos mob_text mob_in_L2">
                     คิดถึงวันวานเมื่อวัน<br>ที่เรายังขายดีจัง
                 </h2>
             </div>
             <div>
-                <img id="chat_3" class="el_pos mob_L3" src="img/open/mobile/svg/L3.svg">
-                <h2 id="chat_text_3" class="el_pos mob_text mob_in_L3">
+                <img id="mb_chat_3" class="el_pos mob_L3" src="img/open/mobile/svg/L3.svg">
+                <h2 id="mb_chat_text_3" class="el_pos mob_text mob_in_L3">
                     นี่ขนาดเป็นชาววัง<br>มาก่อนนะเนี่ยเรตติ้ง<br>เรายังไม่เท่าขนมชาวบ้าน<br>ในสมัยนี้เลย
                 </h2>
             </div>
             <div>
-                <img id="chat_4" class="el_pos mob_L4" src="img/open/mobile/svg/L4.svg">
-                <h2 id="chat_text_4" class="el_pos mob_text mob_in_L4">
+                <img id="mb_chat_4" class="el_pos mob_L4" src="img/open/mobile/svg/L4.svg">
+                <h2 id="mb_chat_text_4" class="el_pos mob_text mob_in_L4">
                     ทองหยอดเศร้าใจ<br>รักเรามันเก่าแล้ว
                 </h2>
             </div>
             <div>
-                <img id="chat_5" class="el_pos mob_L5" src="img/open/mobile/svg/L5.svg">
-                <h2 class="el_pos mob_text mob_in_L5">
+                <img id="mb_chat_5" class="el_pos mob_L5" src="img/open/mobile/svg/L5.svg">
+                <h2 id="mb_chat_text_5" class="el_pos mob_text mob_in_L5">
                     งั้นอยากย้อนอดีต<br>หน่อยมั้ยล่ะ
                 </h2>
             </div>
             <div>
-                <img id="chat_6" class="el_pos mob_L6" src="img/open/mobile/svg/L6.svg">
-                <h2 id="chat_text_6" class="el_pos mob_text mob_in_L6">
+                <img id="mb_chat_6" class="el_pos mob_L6" src="img/open/mobile/svg/L6.svg">
+                <h2 id="mb_chat_text_6" class="el_pos mob_text mob_in_L6">
                     ต้องอยากย้อนสิ!
                 </h2>
             </div>
@@ -247,8 +249,7 @@
 
         <!-- ช่วงกลาง mobile -->
         <div class="mob_block2">
-            <img class="el_pos mob_el2" src="img/open/mobile/png/Speed@2x.png">
-            <img class="el_pos mob_el3" src="img/open/mobile/png/ทองหยอด_head@2x.png">
+            <img id="mb_tong_phase1" class="el_pos mob_el3" src="img/open/mobile/png/ทองหยอด_head@2x.png">
             <div>
                 <img class="el_pos mob_L7" src="img/open/mobile/svg/L7.svg">
                 <h2 class="el_pos mob_text mob_in_L7">
@@ -256,8 +257,8 @@
                 </h2>
             </div>
             <div>
-                <img data-aos="fade-down-left" class="el_pos mob_L8" src="img/open/mobile/svg/L8.svg">
-                <h2 data-aos="fade-down-left" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L8">
+                <img data-aos="fade-right" class="el_pos mob_L8" src="img/open/mobile/svg/L8.svg">
+                <h2 data-aos="fade-right" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L8">
                     เดี๋ยวเห้ย! เอางี้เลยหรอ
                 </h2>
             </div>
@@ -267,29 +268,24 @@
             <h2 data-aos="zoom-in-up" class="el_pos mob_title_text">
                 พาไปรู้จัก 5 ขนมไทย<br>ตั้งแต่จุดเริ่มต้นชีวิตตราบ<br>จนไฟแทบมอดดับ
             </h2>
-            <img class="el_pos mob_el7" src="img/open/mobile/png/Speed@2x.png">
-            <img class="el_pos mob_el8" src="img/open/mobile/png/ทองหบอด_L10-11@2x.png">
+            <img id="mb_tong_phase2" class="el_pos mob_el8" src="img/open/mobile/png/ทองหบอด_L10-11@2x.png">
             <div>
-                <img data-aos="fade-down-left" class="el_pos mob_L9" src="img/open/mobile/svg/L9.svg">
-                <h2 data-aos="fade-down-left" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L9">
+                <img data-aos="fade-right" class="el_pos mob_L9" src="img/open/mobile/svg/L9.svg">
+                <h2 data-aos="fade-right" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L9">
                     ขึ้นอินโทรงี้เลยหรอ
                 </h2>
             </div>
             <img class="el_pos mob_el9" src="img/open/mobile/png/ดาวยาว@2x.png">
-            <img class="el_pos mob_el10" src="img/open/mobile/png/บ้าบิ่นตรงเส้นๆ@2x.png">
-            <img class="el_pos mob_el11" src="img/open/mobile/png/Speed@2x.png">
-            <img class="el_pos mob_el12" src="img/open/mobile/png/ทองหบอด_L10-11@2x.png">
+            <img data-aos="fade-left" class="el_pos mob_el10" src="img/open/mobile/png/บ้าบิ่นตรงเส้นๆ@2x.png">
             <div>
-                <img data-aos="fade-down-left" class="el_pos mob_L10" src="img/open/mobile/svg/L10.svg">
-                <h2 data-aos="fade-down-left" style="transform: rotateZ(4.5deg);" class="el_pos mob_text mob_in_L10">
+                <img data-aos="fade-right" class="el_pos mob_L10" src="img/open/mobile/svg/L10.svg">
+                <h2 data-aos="fade-right" style="transform: rotateZ(4.5deg);" class="el_pos mob_text mob_in_L10">
                     โอ้มายก็อดอยู่ดีๆก็มีนางฟ้า
                 </h2>
             </div>
-            <img class="el_pos mob_el13" src="img/open/mobile/png/Speed@2x.png">
-            <img class="el_pos mob_el14" src="img/open/mobile/png/ทองหยอด_head@2x.png">
             <div>
-                <img data-aos="fade-down-left" class="el_pos mob_L11" src="img/open/mobile/svg/L11.svg">
-                <h2 data-aos="fade-down-left" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L11">
+                <img data-aos="fade-right" class="el_pos mob_L11" src="img/open/mobile/svg/L11.svg">
+                <h2 data-aos="fade-right" style="transform: rotateZ(3deg);" class="el_pos mob_text mob_in_L11">
                     ไม่น้าาาาาาา
                 </h2>
             </div>
@@ -302,35 +298,41 @@
             <img class="el_pos mob_el17" src="img/open/mobile/png/กระจกมิติหลัง@2x.png">
             <img class="el_pos mob_el20" src="img/open/mobile/png/ดาวตรงเส้นเรียงๆ@2x.png">
             <img class="el_pos mob_el19" src="img/open/mobile/png/กระจกมิติซ้าย@2x.png">
-            <img class="el_pos mob_el21" src="img/open/mobile/png/ทองหยอดกระจกด้านล่าง@2x.png">
-            <img class="el_pos mob_el22" src="img/open/mobile/png/บ้าบิ่นกระจกด้านล่าง@2x.png">
+            <img id="mb_tong_bot" class="el_pos mob_el21" src="img/open/mobile/png/ทองหยอดกระจกด้านล่าง@2x.png">
+            <img id="mb_babin" class="el_pos mob_el22" src="img/open/mobile/png/บ้าบิ่นกระจกด้านล่าง@2x.png">
             <img class="el_pos mob_el23" src="img/open/mobile/png/กระจกมิติขวา@2x.png">
             <img class="el_pos mob_el24" src="img/open/mobile/png/ดาวกระจกด้านล่าง@2x.png">
             <div>
-                <img class="el_pos mob_L12" src="img/open/mobile/svg/L12.svg">
-                <h2 class="el_pos mob_text mob_in_L12">
+                <img id="mb_chat_bottom_1" class="el_pos mob_L12" src="img/open/mobile/svg/L12.svg">
+                <h2 id="mb_chat_bottom_text_1" class="el_pos mob_text mob_in_L12">
                     สวัสดีฉันนางฟ้าขนมบ้าบิ่น<br>ที่แมสแบบไม่ลืมหูลืมตา<br>วันนี้ฉันจะพาไปย้อนอดีต
                 </h2>
             </div>
             <div>
-                <img class="el_pos mob_L13" src="img/open/mobile/svg/L13.svg">
-                <h2 class="el_pos mob_text mob_in_L13">
+                <img id="mb_chat_bottom_2" id="chat_bottom_2" class="el_pos mob_L13" src="img/open/mobile/svg/L13.svg">
+                <h2 id="mb_chat_bottom_text_2" class="el_pos mob_text mob_in_L13">
                     มันคืออดีตรากเหง้าของ<br>บรรพบุรุษที่ถูกลืมหายขึ้นทุกวัน
                 </h2>
             </div>
             <div>
-                <img class="el_pos mob_L14" src="img/open/mobile/svg/L14.svg">
-                <h2 class="el_pos mob_text mob_in_L14">
+                <img  id="mb_chat_bottom_3"  class="el_pos mob_L14" src="img/open/mobile/svg/L14.svg">
+                <h2 id="mb_chat_bottom_text_3" class="el_pos mob_text mob_in_L14">
                     วงจรตั้งแต่พื้นเพความหลัง<br>ยันสาเหตุในการลืมเลือน</h1>
                 </h2>
             </div>
             <div>
-                <img class="el_pos mob_L15" src="img/open/mobile/svg/L15.svg">
-                <h2 class="el_pos mob_text mob_in_L15">
+                <img id="mb_chat_bottom_4" class="el_pos mob_L15" src="img/open/mobile/svg/L15.svg">
+                <h2 id="mb_chat_bottom_text_4" class="el_pos mob_text mob_in_L15">
                     ฉันว่าเธอน่าจะได้รับบทเรียน<br>ยามว่างมากขึ้นเป็นอย่างไร<br>มารีวิวด้วยน่ะ
                 </h2>
             </div>
-            <div class="mob_start_bot">
+            <div class="mb_next_bot" onclick="mb_next_bot()">
+                    <img width="100%" src="img/open/pc/png/play.png">
+                </div>
+                <div class="mb_back_bot" onclick="mb_back_bot()">
+                    <img width="100%" src="img/open/pc/png/play.png">
+                </div>
+            <div class="mob_start_bot" onclick="mb_roll_back()">
                 <img class="el_pos mob_el25" src="img/open/mobile/png/start_our journey@2x.png">
                 <h2 class="el_pos mob_start_text">
                     Start our journey !
@@ -343,7 +345,16 @@
                 </h2>
             </div>
         </div>
-        <a href="mobile_index.html"><img class="mob_menu" src="img/forall/pc/png/HAM@2x.png"></a>
+        <!-- html menubar -->
+        <div id="mb_menubar">
+            <h1 class="mb_text_menu mb_menu1">หน้าแรก</h1>
+            <h1 class="mb_text_menu mb_menu2">ยุคสุโขทัย</h1>
+            <h1 class="mb_text_menu mb_menu3">ยุคอยุธยา</h1>
+            <h1 class="mb_text_menu mb_menu4">ยุครัตนโกสินทร์</h1>
+            <h1 class="mb_text_menu mb_menu5">หน้าปิด</h1>
+            <img onclick="mb_menu_back()" id="mb_back_but" class="mb_back_arrow" src="img/forall/pc/png/arrow.png">
+        </div>
+        <img class="mob_menu" id="mb_home_but" onclick="mb_menu()" src="img/forall/pc/png/HAM@2x.png">
     </div>
 </div>
     <script>
@@ -364,6 +375,15 @@
         function roll_back() {
           var img_tong = document.getElementById("tong_bot");
           var img_babin = document.getElementById("babin");
+          img_tong.style.animation = "roll 1s"
+          img_babin.style.animation = "rolldown 1s"
+          setTimeout(function () {
+            window.location.href = "EatFourCup.html"; 
+            }, 1000);
+        }
+        function mb_roll_back() {
+          var img_tong = document.getElementById("mb_tong_bot");
+          var img_babin = document.getElementById("mb_babin");
           img_tong.style.animation = "roll 1s"
           img_babin.style.animation = "rolldown 1s"
           setTimeout(function () {
@@ -534,6 +554,170 @@
                 }, 1000);
             }
         }
+    function mb_next() {
+          var mb_chat_1 = document.getElementById("mb_chat_1");
+          var mb_chat_2 = document.getElementById("mb_chat_2");
+          var mb_chat_3 = document.getElementById("mb_chat_3");
+          var mb_chat_4 = document.getElementById("mb_chat_4");
+          var mb_chat_5 = document.getElementById("mb_chat_5");
+          var mb_chat_6 = document.getElementById("mb_chat_6");
+          var mb_chat_text_1 = document.getElementById("mb_chat_text_1");
+          var mb_chat_text_2 = document.getElementById("mb_chat_text_2");
+          var mb_chat_text_3 = document.getElementById("mb_chat_text_3");
+          var mb_chat_text_4 = document.getElementById("mb_chat_text_4");
+          var mb_chat_text_5 = document.getElementById("mb_chat_text_5");
+          var mb_chat_text_6 = document.getElementById("mb_chat_text_6");
+          var mb_scroll = document.getElementById("mb_scroll_down");
+          if (state == 1){
+                mb_chat_2.style.visibility = "visible" ;
+                mb_chat_2.style.animation = "pop_text 1s 1";
+                mb_chat_text_2.style.visibility = "visible";
+                mb_chat_text_2.style.animation = "pop_text2 1s 1";
+                mb_chat_1.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_1.style.animation = "pop_down_text1 1s 1";
+                state = 2;
+                setTimeout(function () {
+                    mb_chat_1.style.visibility = "hidden" ;
+                    mb_chat_text_1.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 2){
+                mb_chat_3.style.visibility = "visible" ;
+                mb_chat_3.style.animation = "pop_text 1s 1";
+                mb_chat_text_3.style.visibility = "visible";
+                mb_chat_text_3.style.animation = "pop_text3 1s 1";
+                mb_chat_2.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_2.style.animation = "pop_down_text2 1s 1";
+                state = 3;
+                setTimeout(function () {
+                    mb_chat_2.style.visibility = "hidden" ;
+                    mb_chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 3){
+                mb_chat_4.style.visibility = "visible" ;
+                mb_chat_4.style.animation = "pop_text 1s 1";
+                mb_chat_text_4.style.visibility = "visible";
+                mb_chat_text_4.style.animation = "pop_text4 1s 1";
+                mb_chat_3.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_3.style.animation = "pop_down_text3 1s 1";
+                state = 4;
+                setTimeout(function () {
+                    mb_chat_3.style.visibility = "hidden" ;
+                    mb_chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 4){
+                mb_chat_5.style.visibility = "visible" ;
+                mb_chat_5.style.animation = "pop_text5 1s 1";
+                mb_chat_text_5.style.visibility = "visible";
+                mb_chat_text_5.style.animation = "pop_text5 1s 1";
+                mb_chat_4.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_4.style.animation = "pop_down_text4 1s 1";
+                state = 5;
+                setTimeout(function () {
+                    mb_chat_4.style.visibility = "hidden" ;
+                    mb_chat_text_4.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 5){
+                mb_chat_6.style.visibility = "visible" ;
+                mb_chat_6.style.animation = "pop_text 1s 1";
+                mb_chat_text_6.style.visibility = "visible";
+                mb_chat_text_6.style.animation = "pop_text6 1s 1";
+                mb_chat_5.style.animation = "pop_down_text5 1s 1";
+                mb_chat_text_5.style.animation = "pop_down_text5 1s 1";
+                state = 6;
+                setTimeout(function () {
+                    mb_chat_5.style.visibility = "hidden" ;
+                    mb_chat_text_5.style.visibility = "hidden";
+                    mb_scroll.style.visibility = "visible" ;
+                    mb_scroll.style.animation = "pop_text 1s 1";
+                }, 1000);
+            }
+        }
+        function mb_back() {
+          var mb_chat_1 = document.getElementById("mb_chat_1");
+          var mb_chat_2 = document.getElementById("mb_chat_2");
+          var mb_chat_3 = document.getElementById("mb_chat_3");
+          var mb_chat_4 = document.getElementById("mb_chat_4");
+          var mb_chat_5 = document.getElementById("mb_chat_5");
+          var mb_chat_6 = document.getElementById("mb_chat_6");
+          var mb_chat_text_1 = document.getElementById("mb_chat_text_1");
+          var mb_chat_text_2 = document.getElementById("mb_chat_text_2");
+          var mb_chat_text_3 = document.getElementById("mb_chat_text_3");
+          var mb_chat_text_4 = document.getElementById("mb_chat_text_4");
+          var mb_chat_text_5 = document.getElementById("mb_chat_text_5");
+          var mb_chat_text_6 = document.getElementById("mb_chat_text_6");
+          var mb_scroll = document.getElementById("mb_scroll_down");
+          if (state == 6){
+                mb_chat_5.style.visibility = "visible" ;
+                mb_chat_5.style.animation = "pop_text5 1s 1";
+                mb_chat_text_5.style.visibility = "visible";
+                mb_chat_text_5.style.animation = "pop_text5 1s 1";
+                mb_chat_6.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_6.style.animation = "pop_down_text6 1s 1";
+                mb_scroll.style.animation = "pop_down_text 1s 1";
+                state = 5;
+                setTimeout(function () {
+                    mb_chat_6.style.visibility = "hidden" ;
+                    mb_chat_text_6.style.visibility = "hidden";
+                    mb_scroll.style.visibility = "hidden" ;
+                }, 1000);
+            }
+            else if(state == 5){
+                mb_chat_4.style.visibility = "visible" ;
+                mb_chat_4.style.animation = "pop_text 1s 1";
+                mb_chat_text_4.style.visibility = "visible";
+                mb_chat_text_4.style.animation = "pop_text4 1s 1";
+                mb_chat_5.style.animation = "pop_down_text5 1s 1";
+                mb_chat_text_5.style.animation = "pop_down_text5 1s 1";
+                state = 4;
+                setTimeout(function () {
+                    mb_chat_5.style.visibility = "hidden" ;
+                    mb_chat_text_5.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 4){
+                mb_chat_3.style.visibility = "visible" ;
+                mb_chat_3.style.animation = "pop_text 1s 1";
+                mb_chat_text_3.style.visibility = "visible";
+                mb_chat_text_3.style.animation = "pop_text3 1s 1";
+                mb_chat_4.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_4.style.animation = "pop_down_text4 1s 1";
+                state = 3;
+                setTimeout(function () {
+                    mb_chat_4.style.visibility = "hidden" ;
+                    mb_chat_text_4.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 3){
+                mb_chat_2.style.visibility = "visible" ;
+                mb_chat_2.style.animation = "pop_text 1s 1";
+                mb_chat_text_2.style.visibility = "visible";
+                mb_chat_text_2.style.animation = "pop_text2 1s 1";
+                mb_chat_3.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_3.style.animation = "pop_down_text3 1s 1";
+                state = 2;
+                setTimeout(function () {
+                    mb_chat_3.style.visibility = "hidden" ;
+                    mb_chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if(state == 2){
+                mb_chat_1.style.visibility = "visible" ;
+                mb_chat_1.style.animation = "pop_text 1s 1";
+                mb_chat_text_1.style.visibility = "visible";
+                mb_chat_text_1.style.animation = "pop_text1 1s 1";
+                mb_chat_2.style.animation = "pop_down_text 1s 1";
+                mb_chat_text_2.style.animation = "pop_down_text2 1s 1";
+                state = 1;
+                setTimeout(function () {
+                    mb_chat_2.style.visibility = "hidden" ;
+                    mb_chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+        }
         function next_bot() {
           var chat_1 = document.getElementById("chat_bottom_1");
           var chat_2 = document.getElementById("chat_bottom_2");
@@ -634,6 +818,106 @@
             }
             
         }
+        function mb_next_bot() {
+          var chat_1 = document.getElementById("mb_chat_bottom_1");
+          var chat_2 = document.getElementById("mb_chat_bottom_2");
+          var chat_3 = document.getElementById("mb_chat_bottom_3");
+          var chat_4 = document.getElementById("mb_chat_bottom_4");
+          var chat_text_1 = document.getElementById("mb_chat_bottom_text_1");
+          var chat_text_2 = document.getElementById("mb_chat_bottom_text_2");
+          var chat_text_3 = document.getElementById("mb_chat_bottom_text_3");
+          var chat_text_4 = document.getElementById("mb_chat_bottom_text_4");
+          if (state_bot == 1){
+                chat_2.style.visibility = "visible" ;
+                chat_2.style.animation = "pop_text 1s 1";
+                chat_text_2.style.visibility = "visible";
+                chat_text_2.style.animation = "pop_text_bot2 1s 1";
+                chat_1.style.animation = "pop_down_text 1s 1";
+                chat_text_1.style.animation = "pop_down_text_bot1 1s 1";
+                state_bot = 2;
+                setTimeout(function () {
+                    chat_1.style.visibility = "hidden" ;
+                    chat_text_1.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state_bot == 2){
+                chat_3.style.visibility = "visible" ;
+                chat_3.style.animation = "pop_text 1s 1";
+                chat_text_3.style.visibility = "visible";
+                chat_text_3.style.animation = "pop_text_bot2 1s 1";
+                chat_2.style.animation = "pop_down_text 1s 1";
+                chat_text_2.style.animation = "pop_down_text_bot2 1s 1";
+                state_bot = 3;
+                setTimeout(function () {
+                    chat_2.style.visibility = "hidden" ;
+                    chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state_bot == 3){
+                chat_4.style.visibility = "visible" ;
+                chat_4.style.animation = "pop_text 1s 1";
+                chat_text_4.style.visibility = "visible";
+                chat_text_4.style.animation = "pop_text_bot1 1s 1";
+                chat_3.style.animation = "pop_down_text 1s 1";
+                chat_text_3.style.animation = "pop_down_text_bot2 1s 1";
+                state_bot = 4;
+                setTimeout(function () {
+                    chat_3.style.visibility = "hidden" ;
+                    chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            
+        }
+        function mb_back_bot() {
+          var chat_1 = document.getElementById("mb_chat_bottom_1");
+          var chat_2 = document.getElementById("mb_chat_bottom_2");
+          var chat_3 = document.getElementById("mb_chat_bottom_3");
+          var chat_4 = document.getElementById("mb_chat_bottom_4");
+          var chat_text_1 = document.getElementById("mb_chat_bottom_text_1");
+          var chat_text_2 = document.getElementById("mb_chat_bottom_text_2");
+          var chat_text_3 = document.getElementById("mb_chat_bottom_text_3");
+          var chat_text_4 = document.getElementById("mb_chat_bottom_text_4");
+          if (state_bot == 4){
+                chat_3.style.visibility = "visible" ;
+                chat_3.style.animation = "pop_text 1s 1";
+                chat_text_3.style.visibility = "visible";
+                chat_text_3.style.animation = "pop_text_bot2 1s 1";
+                chat_4.style.animation = "pop_down_text 1s 1";
+                chat_text_4.style.animation = "pop_down_text_bot1 1s 1";
+                state_bot = 3;
+                setTimeout(function () {
+                    chat_4.style.visibility = "hidden" ;
+                    chat_text_4.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state_bot == 3){
+                chat_2.style.visibility = "visible" ;
+                chat_2.style.animation = "pop_text 1s 1";
+                chat_text_2.style.visibility = "visible";
+                chat_text_2.style.animation = "pop_text_bot2 1s 1";
+                chat_3.style.animation = "pop_down_text 1s 1";
+                chat_text_3.style.animation = "pop_down_text_bot2 1s 1";
+                state_bot = 2;
+                setTimeout(function () {
+                    chat_3.style.visibility = "hidden" ;
+                    chat_text_3.style.visibility = "hidden";
+                }, 1000);
+            }
+            else if (state_bot == 2){
+                chat_1.style.visibility = "visible" ;
+                chat_1.style.animation = "pop_text 1s 1";
+                chat_text_1.style.visibility = "visible";
+                chat_text_1.style.animation = "pop_text_bot1 1s 1";
+                chat_2.style.animation = "pop_down_text 1s 1";
+                chat_text_2.style.animation = "pop_down_text_bot2 1s 1";
+                state_bot = 1;
+                setTimeout(function () {
+                    chat_2.style.visibility = "hidden" ;
+                    chat_text_2.style.visibility = "hidden";
+                }, 1000);
+            }
+            
+        }
         setInterval(function(){ 
             if (getOffset(tongyod).top >= getOffset(tong_phase2).top){
                 var img_tong = document.getElementById("tongyod");
@@ -652,7 +936,25 @@
             }
 
         }, 1);
-        /** script menubar **/
+        setInterval(function(){ 
+            if (getOffset(mb_tongyod).top >= getOffset(mb_tong_phase2).top){
+                var img_tong = document.getElementById("mb_tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L9-10-11.png';  
+            }
+            else if (getOffset(mb_tongyod).top >= getOffset(mb_tong_phase2).top){
+                var img_tong = document.getElementById("mb_tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L9-10-11.png';  
+            }else if (getOffset(mb_tongyod).top >= getOffset(mb_tong_phase1).top){
+                var img_tong = document.getElementById("mb_tongyod");
+                img_tong.src = 'img/open/pc/png/ทองหยอด_L8.png';
+
+            }else{
+                var img_tong = document.getElementById("mb_tongyod");
+                img_tong.src = 'img/open/pc/png/2x/head_ทองหยอด@2x.png';
+            }
+
+        }, 1);
+    /** script menubar **/
         function menu(){
             var menu = document.getElementById("menubar");
             var home = document.getElementById("home_but");
@@ -671,6 +973,28 @@
             setTimeout(function () {
                 menu.style.transform = "translateX(20vw)";
                 home.style.visibility = "visible"
+
+            }, 1000);
+            
+        } 
+        function mb_menu(){
+            var mb_menu = document.getElementById("mb_menubar");
+            var mb_home = document.getElementById("mb_home_but");
+            mb_menu.style.animation = "mb_menu_slide 1s 1 linear";
+            setTimeout(function () {
+                mb_menu.style.transform = "translateX(0vw)";
+                mb_home.style.visibility = "hidden"
+
+            }, 1000);
+            
+        } 
+        function mb_menu_back(){
+            var mb_menu = document.getElementById("mb_menubar");
+            var mb_home = document.getElementById("mb_home_but");
+            mb_menu.style.animation = "mb_menu_back 1s 1 linear";
+            setTimeout(function () {
+                mb_menu.style.transform = "translateX(50vw)";
+                mb_home.style.visibility = "visible"
 
             }, 1000);
             
