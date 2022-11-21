@@ -1,5 +1,7 @@
     
-
+.mobile_ver{
+    display: none;
+}
 /** พรพาย **/
 .mob_menu {
     position: fixed;
@@ -29,6 +31,8 @@
     height: 350vw;
     position: relative;
     top: 1.2vw;
+    min-width: 360px;
+    max-width: 430px;
 }
 .mob_top_title {
     width: 100vw;
@@ -565,20 +569,14 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     min-width: 360px;
-    max-width: 360px;
+    max-width: 430px;
 }
 
 .mob_block{
     position: relative;
     width: 100%;
-    height: 1432.5vh; /**ขนาดความยาวเว็บ**/
+    height: 1715vh; /**ขนาดความยาวเว็บ**/
     top: 450vw;
-}
-
-
-.box1 {
-    width: 100vw;
-    height: 100%;
 }
 
 .mob_text {
@@ -647,7 +645,7 @@ body {
 }
 
 /* ข้อความบน */
-.open_text {
+.mob_open_text {
     top: 50vw;
     position: absolute;
     width: 100%;
@@ -932,7 +930,7 @@ h1 {
 .mobi_el41{
     width: 185%;
     left: -38vw;
-    top: 1985vw;
+    top: 2020vw;
     z-index: -1;
 }
 
@@ -1284,14 +1282,14 @@ h1 {
     top: 1880vw;
 }
     /* CSS ช่วง 6 จบ */
-    .bottom_container {
+    .mb_bottom_container {
         background-color: transparent;
         width: 100vw;
         text-align: center;
         position: relative;
     }
     
-    .door_mirror {
+    .mb_door_mirror {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -1300,7 +1298,7 @@ h1 {
     
     }
     
-    .mirrorbreak_door {
+    .mb_mirrorbreak_door {
         width: 200%;
         position: absolute;
         top: 0vw;
@@ -1309,7 +1307,7 @@ h1 {
     
     }
     
-    .mirrorback_door {
+    .mb_mirrorback_door {
         width: 100%;
         position: absolute;
         top: 15vw;
@@ -1321,7 +1319,7 @@ h1 {
     
     }
     
-    .title_door {
+    .mb_title_door {
         font-size: 4.5vw;
         position: absolute;
         top: 23vw;
@@ -1331,7 +1329,7 @@ h1 {
         color: #7194c5;
     }
     
-    .door1 {
+    .mb_door1 {
         width: 10%;
         position: absolute;
         top: 36vw;
@@ -1340,7 +1338,7 @@ h1 {
     
     }
     
-    .door2 {
+    .mb_door2 {
         width: 10%;
         position: absolute;
         top: 36vw;
@@ -1349,7 +1347,7 @@ h1 {
     
     }
     
-    .door3 {
+    .mb_door3 {
         width: 10%;
         position: absolute;
         top: 36vw;
@@ -1358,7 +1356,7 @@ h1 {
     
     }
     
-    .door4 {
+    .mb_door4 {
         width: 10%;
         position: absolute;
         top: 36vw;
@@ -1367,7 +1365,7 @@ h1 {
     
     }
     
-    .door5 {
+    .mb_door5 {
         width: 10%;
         position: absolute;
         top: 36vw;
@@ -1463,5 +1461,7 @@ body {
     background-color: #f3f3e5;
     color: #6c90c4;
 }
-
+@media only screen and (max-width: 430px) {
+  .mobile_ver {display: block;}
+}
 

@@ -1237,6 +1237,11 @@ h2 {
     @keyframes mirrorback_fly{
         50%{transform: translateY(2vw);}
     }
+@media only screen and (max-width: 430px) {
+    .desktop_ver {
+        display: none;
+    }
+}
 /** CSS Menubar**/
 #menubar  {
     position: fixed;
