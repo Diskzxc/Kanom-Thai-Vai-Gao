@@ -883,10 +883,15 @@ h1{
     font-size: 1.5vw;
     position: absolute;
     top: 10vw;
-    left: 40vw;
+    left: 41vw;
     text-align: left;
     z-index: 3;
     color: #7194c5;
+}
+
+.title_door:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .door1 {
@@ -970,7 +975,7 @@ h1{
 
 .footer_tbox {
     position: absolute;
-    top: 2vw;
+    top: 0.8vw;
     left: 18vw;
     font-size: 1vw;
 }
@@ -978,4 +983,11 @@ h1{
 .logo_footer {
     width: 5vw;
     position: absolute;
+}
+
+.text_door {
+    font-size: 1.5vw;
+    z-index: 10;
+    bottom: 2.5vw;
+    left: 52%;
 }

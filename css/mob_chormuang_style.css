@@ -402,8 +402,8 @@ body {
 .mb_title_door {
     font-size: 4.5vw;
     position: absolute;
-    top: 23vw;
-    left: 20.5vw;
+    top: 25vw;
+    left: 26vw;
     text-align: left;
     z-index: 3;
     color: #7194c5;
@@ -753,4 +753,10 @@ body {
     50% {
         transform: translateX(-5vw);
     }
+}
+
+.mb_text_door {
+    font-size: 3vw;
+    bottom: -28vw;
+    left: 59%;
 }
