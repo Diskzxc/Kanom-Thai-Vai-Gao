@@ -760,3 +760,33 @@ body {
     bottom: -28vw;
     left: 59%;
 }
+
+.mb_text_box0 {
+    width: 40%;
+    left: 29%;
+    top: 20vw;
+}
+
+.mb_text_in_0 {
+    left: 33%;
+    top: 27vw;
+    text-align: center;
+    color: #5b8d75;
+    font-size: 3vw;
+    transform: rotateZ(-2deg);
+}
+
+.mb_text_box1 {
+    width: 50%;
+    right: 30%;
+    top: 65vw;
+}
+
+.mb_text_in_1 {
+    right: 36%;
+    top: 73vw;
+    text-align: center;
+    color: #5b8d75;
+    font-size: 3vw;
+    transform: rotateZ(-2deg);
+}
