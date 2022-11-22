@@ -599,11 +599,11 @@ body {
 }
 
 .mb_pot_pad{
-    animation-name: pot_open;
+    animation-name: mb_pot_open;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-@keyframes pot_open{
+@keyframes mb_pot_open{
     50% {transform: translateY(35vw);}
 }
 @keyframes ship_go{
